@@ -1,0 +1,57 @@
+.espacio {
+  height: 40px;
+}
+
+.form {
+  margin: 25px;
+}
+
+.table-container {
+  overflow-x: auto;
+  max-height: 700px; /* Ajusta la altura máxima de la tabla según sea necesario */
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+}
+
+/* tbody tr:first-child td {
+  font-weight: bold;
+} */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd; /* Línea en el lado derecho de las celdas */
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Estilos adicionales para resaltar la primera fila, si lo deseas */
+/* tbody tr:first-child {
+  font-weight: bold;
+} */
+
+/* Estilos adicionales para resaltar celdas específicas, si lo deseas */
+tbody tr td:nth-child(2),
+tbody tr td:nth-child(4),
+tbody tr td:nth-child(6) {
+  font-style: italic;
+  color: #888;
+}
