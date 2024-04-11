@@ -10,6 +10,7 @@ import { Registro } from '../interfaces/registro.interface';
 @Injectable({
   providedIn: 'root'
 })
+
 export class HorasService {
 
   jsonDatos = "https://horas-7a288-default-rtdb.europe-west1.firebasedatabase.app/registro.json";
