@@ -10,6 +10,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { HorasComponent } from './pages/horas/horas.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HorasService } from './services/horas.service';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { HorasService } from './services/horas.service';
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [HorasService],
   bootstrap: [AppComponent]

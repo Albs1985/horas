@@ -2,13 +2,52 @@
   height: 40px;
 }
 
+.imagenSCS {
+  width: 200px;
+  margin-top: 80px;
+}
+
 .form {
   margin: 25px;
 }
 
+.buttonYtext {
+  justify-content: space-between;
+  display: flex;
+}
+
+.deshabilitado {
+  background-color: rgb(149, 0, 0);
+  border-color: rgb(149, 0, 0);
+}
+
+.borde {
+  border-color: rgb(200, 200, 200);
+}
+
+.margen {
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.totalesYForm {
+  display: flex;
+  margin: 25px;
+  border: #888;
+  border-radius: 15px 0px;
+  background-color: #cccccc;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.tablaTotales {
+  /* width: 100%; */
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 .table-container {
   overflow-x: auto;
-  max-height: 700px; /* Ajusta la altura máxima de la tabla según sea necesario */
+  max-height: 800px; /* Ajusta la altura máxima de la tabla según sea necesario */
 }
 
 th {
@@ -21,16 +60,18 @@ th {
   font-weight: bold;
 } */
 
-table {
-  width: 100%;
+.tablaDatos {
+  margin: 25px;
+  width: 97%;
   border-collapse: collapse;
   border-spacing: 0;
+  cursor: pointer;
 }
 
 th,
 td {
   padding: 8px;
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid #ddd;
   border-right: 1px solid #ddd; /* Línea en el lado derecho de las celdas */
 }

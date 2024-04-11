@@ -1,82 +1,103 @@
 <div class="table-container">
 
-  <table>
-    <thead>
-      <tr>
-        <th>Colaborador</th>
-        <th>Horas Compensación</th>
-        <th>Horas Compensadas</th>
-        <th>Pendientes</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let dato of horasTotalesPorColaborador | keyvalue">
-        <td>{{ dato.key }}</td>
-        <td>{{ dato.value.horasCompensacion }}</td>
-        <td>{{ dato.value.horasCompensadas }}</td>
-        <td>{{ dato.value.horasCompensacion - dato.value.horasCompensadas }}</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="totalesYForm">
+    <table class="tablaTotales">
+      <thead>
+        <tr>
+          <th>Colaborador</th>
+          <th>Horas Compensación</th>
+          <th>Horas Compensadas</th>
+          <th>Pendientes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let dato of horasTotalesPorColaborador | keyvalue">
+          <td><b>{{ dato.key }}</b></td>
+          <td>{{ dato.value.horasCompensacion }}</td>
+          <td>{{ dato.value.horasCompensadas }}</td>
+          <td><b>{{ dato.value.horasCompensacion - dato.value.horasCompensadas }}</b></td>
+        </tr>
+      </tbody>
+    </table>
 
-  <div class="espacio"></div>
-  <div class="form">
-    <form formGroup="formulario" (ngSubmit)="onSubmit()">
-      <div class="row">
-        <div class="col">
-          <label for="fecha">Fecha</label>
-          <input type="text" formControlName="fecha" id="fecha" class="form-control" placeholder="Fecha">
+    <!-- <div class="espacio"></div> -->
+
+    <div class="form">
+      <form [formGroup]="formulario">
+        <div class="row">
+          <div class="col">
+            <label for="fecha">Fecha*</label>
+            <input type="date" formControlName="fecha" id="fecha" class="form-control" (blur)="calcularHorasCompensacion()" placeholder="Fecha">
+          </div>
+          <div class="col">
+            <label for="horario">Horario</label>
+            <input type="text" formControlName="horario" id="horario" class="form-control" placeholder="Horario">
+          </div>
+          <div class="col">
+            <label for="colaborador">Colaborador*</label>
+            <select formControlName="colaborador" id="colaborador" class="form-control">
+              <option disabled>Colaborador</option>
+              <option *ngFor="let usuario of usuarios" [value]="usuario">{{ usuario }}</option>
+            </select>
+          </div>
+          <div class="col">
+            <label for="horasRealizadas">Horas Realizadas*</label>
+            <input type="text" formControlName="horasRealizadas" id="horasRealizadas" class="form-control" (blur)="calcularHorasCompensacion()" placeholder="Horas Realizadas">
+          </div>
         </div>
-        <div class="col">
-          <label for="horario">Horario</label>
-          <input type="text" formControlName="horario" id="horario" class="form-control" placeholder="Horario">
+        <div class="row mt-3">
+          <div class="col">
+            <label for="horasCompensacion">Horas Compensación</label>
+            <input type="text" formControlName="horasCompensacion" id="horasCompensacion" class="form-control" placeholder="Compensación">
+          </div>
+          <div class="col">
+            <label for="horasCompensadas">Horas Compensadas</label>
+            <input type="text" formControlName="horasCompensadas" id="horasCompensadas" class="form-control" placeholder="Compensadas">
+          </div>
+          <div class="col">
+            <label for="diaDisfrutado">Día Disfrutado</label>
+            <input type="text" formControlName="diaDisfrutado" id="diaDisfrutado" class="form-control" placeholder="Día Disfrutado">
+          </div>
+          <div class="col">
+            <label for="compensada">Compensada</label>
+            <select formControlName="compensada" id="compensada" class="form-control">
+              <option>NO</option>
+              <option>SI</option>
+            </select>
+          </div>
         </div>
-        <div class="col">
-          <label for="colaborador">Colaborador</label>
-          <input type="text" formControlName="colaborador" id="colaborador" class="form-control" placeholder="Colaborador">
+        <div class="row mt-3">
+          <div class="col">
+            <label for="tarea">Tarea*</label>
+            <input type="text" formControlName="tarea" id="tarea" class="form-control" placeholder="Tarea">
+          </div>
+          <div class="col">
+            <label for="comentario">Comentario</label>
+            <input type="text" formControlName="comentario" id="comentario" class="form-control" placeholder="Comentario">
+          </div>
         </div>
-        <div class="col">
-          <label for="horasRealizadas">Horas Realizadas</label>
-          <input type="text" formControlName="horasRealizadas" id="horasRealizadas" class="form-control" placeholder="Horas Realizadas">
+        <div class="buttonYtext">
+          <button type="submit" [ngClass]="{'deshabilitado': formulario.invalid}" [disabled]="formulario.invalid" class="btn btn-success mt-3" (click)="onSubmit()">Enviar</button>
+          <div>
+            <button type="reset" class="btn btn-info mt-3  borde" (click)="cleanForm()">Limpiar</button>
+            <button *ngIf="this.horasService.registroSeleccionado != null && this.horasService.registroSeleccionado != undefined" type="reset" class="btn btn-warning mt-3 ml-5 borde" (click)="cleanForm()">Borrar</button>
+            <label for="textoObliga" class="margen">*Obligatorio</label>
+          </div>
         </div>
-      </div>
-      <div class="row mt-3">
-        <div class="col">
-          <label for="tarea">Tarea</label>
-          <input type="text" formControlName="tarea" id="tarea" class="form-control" placeholder="Tarea">
-        </div>
-        <div class="col">
-          <label for="horasCompensacion">Horas Compensación</label>
-          <input type="text" formControlName="horasCompensacion" id="horasCompensacion" class="form-control" placeholder="Horas Compensación">
-        </div>
-        <div class="col">
-          <label for="horasCompensadas">Horas Compensadas</label>
-          <input type="text" formControlName="horasCompensadas" id="horasCompensadas" class="form-control" placeholder="Horas Compensadas">
-        </div>
-        <div class="col">
-          <label for="compensada">Compensada</label>
-          <input type="text" formControlName="compensada" id="compensada" class="form-control" placeholder="Compensada">
-        </div>
-      </div>
-      <div class="row mt-3">
-        <div class="col">
-          <label for="diaDisfrutado">Día Disfrutado</label>
-          <input type="text" formControlName="diaDisfrutado" id="diaDisfrutado" class="form-control" placeholder="Día Disfrutado">
-        </div>
-        <div class="col">
-          <label for="comentario">Comentario</label>
-          <input type="text" formControlName="comentario" id="comentario" class="form-control" placeholder="Comentario">
-        </div>
-      </div>
-      <button type="submit" class="btn btn-primary mt-3">Enviar</button>
-    </form>
+      </form>
+    </div>
+
+    <div>
+      <img class="imagenSCS" src="assets/images/SCS.png" alt="">
+      <!-- <img class="imagenSCS" src="assets/images/ANGULAR.png" alt=""> -->
+    </div>
   </div>
 
 
   <div class="espacio"></div>
 
 
-  <table>
+  <table class="tablaDatos">
     <thead>
       <tr>
         <th>Fecha</th>
@@ -92,7 +113,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let item of datos">
+      <tr *ngFor="let item of datos" (click)="seleccionarRegistro(item)">
         <td>{{ item.fecha }}</td>
         <td>{{ item.horario }}</td>
         <td>{{ item.colaborador }}</td>
@@ -105,14 +126,13 @@
         <td>{{ item.comentario }}</td>
       </tr>
     </tbody>
+
     <!-- Resumen de la tabla -->
     <tfoot>
       <tr>
         <td colspan="5">Totales</td>
         <td>{{ totales.horasCompensacionTotal }}</td>
         <td>{{ totales.horasCompensadasTotal }}</td>
-        <!-- <td>{{ totales.pendientes }}</td> -->
-        <!-- Colocar celdas adicionales si hay más columnas en la tabla -->
       </tr>
     </tfoot>
   </table>

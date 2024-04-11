@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup } from '@angular/forms';
+import { FormControl, FormGroup, ValidationErrors, Validators } from '@angular/forms';
 import { BehaviorSubject } from 'rxjs';
 import { Registro } from 'src/app/interfaces/registro.interface';
 import { HorasService } from 'src/app/services/horas.service';
@@ -14,16 +14,32 @@ export class HorasComponent implements OnInit {
   datos: Registro[] = [];
   totales: any = {};
   horasTotalesPorColaborador = new Map<string, { horasCompensacion: number, horasCompensadas: number }>();
-  formulario: FormGroup | undefined;
+  formulario: FormGroup;
+  usuarios = ['AIE', 'ARB', 'ASE', 'JRG', 'RDM', 'SGP'];
 
 
-  constructor(private horasService: HorasService) {
-
+  constructor(public horasService: HorasService) {
+    this.formulario = new FormGroup({
+      fecha: new FormControl(null, [Validators.required, Validators.pattern(/[\S]/), Validators.maxLength(15)]),
+      horario: new FormControl(''),
+      colaborador: new FormControl('Colaborador',[Validators.required, Validators.pattern(/^(?!Colaborador$).*/), Validators.maxLength(15)]),
+      horasRealizadas: new FormControl(null,[Validators.required, Validators.pattern(/[\S]/), Validators.maxLength(15)]),
+      tarea: new FormControl(null,[Validators.required, Validators.pattern(/[\S]/), Validators.maxLength(200)]),
+      horasCompensacion: new FormControl([Validators.required, Validators.pattern(/[\S]/), Validators.maxLength(15)]), //{ value: null, disabled: true }
+      horasCompensadas: new FormControl(''),
+      compensada: new FormControl('NO'),
+      diaDisfrutado: new FormControl(''),
+      comentario: new FormControl('', [Validators.maxLength(255)])
+    });
   }
 
   ngOnInit(): void {
+    this.cargaDatos();
+  }
+
+  cargaDatos(){
     this.horasService.cargarDatos().subscribe((res: any[]) => {
-      console.log(res);
+      // console.log(res);
       this.datos = res.map(item => ({
         fecha: item.FECHA,
         horario: item.HORARIO,
@@ -36,21 +52,12 @@ export class HorasComponent implements OnInit {
         diaDisfrutado: item['DIA DISFRUTADO'],
         comentario: item.COMENTARIO
       }));
+
       this.datos.reverse();
+      this.horasService.numRegistros = this.datos.length;
+
       this.calcularTotales();
       this.calculaHorasColaboradores();
-    });
-    this.formulario = new FormGroup({
-      fecha: new FormControl(''),
-      horario: new FormControl(''),
-      colaborador: new FormControl(''),
-      horasRealizadas: new FormControl(''),
-      tarea: new FormControl(''),
-      horasCompensacion: new FormControl(''),
-      horasCompensadas: new FormControl(''),
-      compensada: new FormControl(''),
-      diaDisfrutado: new FormControl(''),
-      comentario: new FormControl('')
     });
   }
 
@@ -61,6 +68,8 @@ export class HorasComponent implements OnInit {
   }
 
   calculaHorasColaboradores(){
+
+    this.horasTotalesPorColaborador.clear();
 
     // Calcular las horas totales por colaborador
     this.datos.forEach(item => {
@@ -81,19 +90,74 @@ export class HorasComponent implements OnInit {
     });
 
     // Aquí tienes tu mapa con las horas totales por colaborador
-    console.log(this.horasTotalesPorColaborador);
+    // console.log(this.horasTotalesPorColaborador);
 
 
   }
 
   onSubmit() {
     const datosFormulario = this.formulario!.value;
-    this.horasService.guardarDatos(datosFormulario).subscribe(respuesta => {
-      console.log('Datos guardados correctamente:', respuesta);
+    const formInvalid = this.formulario!.invalid;
+    debugger
+    if (!formInvalid){
+      this.horasService.guardarDatos(datosFormulario).then(() => {
+        console.log('Datos guardados correctamente');
+        this.cargaDatos();
+        this.formulario!.reset();
+      });
+    }
 
-      this.formulario!.reset();
+  }
+
+  calcularHorasCompensacion() {
+    const horasRealizadas = this.formulario?.get('horasRealizadas')?.value;
+    if (horasRealizadas != null){
+      const fechaForm = this.formulario?.get('fecha')?.value;
+      const fecha = new Date(fechaForm);
+
+      let compensacionExtra = false;
+      if (fecha.getDay() === 0) {
+        console.log('La fecha es domingo.');
+        compensacionExtra =true;
+      }
+
+      if (compensacionExtra){
+        this.formulario.get('horasCompensacion')?.setValue(parseInt(horasRealizadas)*2);
+      }else{
+        this.formulario.get('horasCompensacion')?.setValue(horasRealizadas);
+      }
+    }
+
+  }
+
+  cleanForm(){
+    this.formulario!.reset();
+    this.horasService.registroSeleccionado = undefined;
+  }
+
+
+  seleccionarRegistro(item: Registro) {
+
+    const partesFecha = item.fecha.split('/');
+    const fechaFormateada = partesFecha[2] + '-' + partesFecha[1] + '-' + partesFecha[0];
+
+    const datosAlReves = [...this.datos];//Creamos una copia
+    this.horasService.registroSeleccionado = ''+datosAlReves.reverse().indexOf(item);
+    debugger
+    this.formulario.patchValue({
+      fecha: fechaFormateada,
+      horario: item.horario,
+      colaborador: item.colaborador,
+      horasRealizadas: item.horasRealizadas,
+      tarea: item.tarea,
+      horasCompensacion: item.horasCompensacion,
+      horasCompensadas: item.horasCompensadas,
+      compensada: item.compensada || 'NO',
+      diaDisfrutado: item.diaDisfrutado,
+      comentario: item.comentario
     });
   }
+
 
 
 }
