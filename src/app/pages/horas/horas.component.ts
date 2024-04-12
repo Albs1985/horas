@@ -14,7 +14,6 @@ export class HorasComponent implements OnInit {
   datos: Registro[] = [];
   datosFiltrado: Registro[] = [];
   totales: any = {};
-  horasTotalesPorColaborador = new Map<string, { horasCompensacion: number, horasCompensadas: number }>();
   formulario: FormGroup;
   formularioFiltrado: FormGroup;
   usuarios = ['AIE', 'ARB', 'ASE', 'JRG', 'RDM', 'SGP'];
@@ -85,15 +84,15 @@ export class HorasComponent implements OnInit {
 
   calculaHorasColaboradores(){
 
-    this.horasTotalesPorColaborador.clear();
+    this.horasService.horasTotalesPorColaborador.clear();
 
     // Calcular las horas totales por colaborador
     this.datosFiltrado.forEach(item => {
       const colaborador = item.colaborador;
-      if (!this.horasTotalesPorColaborador.has(colaborador) && colaborador!= undefined) {
-        this.horasTotalesPorColaborador.set(colaborador, { horasCompensacion: 0, horasCompensadas: 0 });
+      if (!this.horasService.horasTotalesPorColaborador.has(colaborador) && colaborador!= undefined) {
+        this.horasService.horasTotalesPorColaborador.set(colaborador, { horasCompensacion: 0, horasCompensadas: 0 });
       }
-      const horasColaborador = this.horasTotalesPorColaborador.get(colaborador);
+      const horasColaborador = this.horasService.horasTotalesPorColaborador.get(colaborador);
       if (horasColaborador){
         if (item.horasCompensacion != undefined && item.horasCompensacion != null && item.horasCompensacion != ''){
           horasColaborador.horasCompensacion += parseInt(item.horasCompensacion);

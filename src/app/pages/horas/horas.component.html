@@ -11,7 +11,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let dato of horasTotalesPorColaborador | keyvalue" [ngClass]="{'tienesHoras': dato.value.horasCompensacion - dato.value.horasCompensadas > 0}">
+        <tr *ngFor="let dato of horasService.horasTotalesPorColaborador | keyvalue" [ngClass]="{'tienesHoras': dato.value.horasCompensacion - dato.value.horasCompensadas > 0}">
           <td><b>{{ dato.key }}</b></td>
           <td>{{ dato.value.horasCompensacion }}</td>
           <td>{{ dato.value.horasCompensadas }}</td>
@@ -88,8 +88,8 @@
     </div>
 
     <div>
-      <img class="imagenSCS" src="assets/images/SCS.png" alt="">
-      <!-- <img class="imagenSCS" src="assets/images/ANGULAR.png" alt=""> -->
+      <a target="_blank" href="https://www.salesforce.com/"><img class="imagenSCS" src="assets/images/SCS.png" alt=""></a>
+      <img class="imagenSCS" src="assets/images/grafica-de-barras.png" alt="" routerLink="/grafica">
     </div>
   </div>
 

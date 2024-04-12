@@ -19,6 +19,7 @@ export class HorasService {
   numRegistros : number = 0;
   registroSeleccionado : string | undefined;
   tablaRegistro = 'https://horas-7a288-default-rtdb.europe-west1.firebasedatabase.app/registro/';
+  horasTotalesPorColaborador = new Map<string, { horasCompensacion: number, horasCompensadas: number }>();
 
   constructor(private http: HttpClient) { }
 

@@ -11,6 +11,7 @@ import { HorasComponent } from './pages/horas/horas.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HorasService } from './services/horas.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { GraficaComponent } from './pages/grafica/grafica.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    HorasComponent
+    HorasComponent,
+    GraficaComponent
   ],
   imports: [
     BrowserModule,

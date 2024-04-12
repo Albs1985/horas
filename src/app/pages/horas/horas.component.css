@@ -5,6 +5,7 @@
 .imagenSCS {
   width: 200px;
   margin-top: 80px;
+  cursor: pointer;
 }
 
 .form {
