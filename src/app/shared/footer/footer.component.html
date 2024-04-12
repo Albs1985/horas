@@ -19,18 +19,18 @@
             Navigation
           </h4>
           <ul>
-            <li [ngClass]="{'active': selec === 'home'}">
-              <a (click)="cambiaSelec('home')" routerLink="/home">
+            <li [ngClass]="{'active': commonService.selecPag === 'Home'}">
+              <a (click)="cambiaSelec('Home')" routerLink="/home">
                 Home
               </a>
             </li>
-            <li [ngClass]="{'active': selec === 'about'}">
-              <a (click)="cambiaSelec('about')" routerLink="/about">
+            <li [ngClass]="{'active': commonService.selecPag === 'About'}">
+              <a (click)="cambiaSelec('About')" routerLink="/about">
                 About
               </a>
             </li>
-            <li [ngClass]="{'active': selec === 'horas'}">
-              <a (click)="cambiaSelec('horas')" routerLink="/horas">
+            <li [ngClass]="{'active': commonService.selecPag === 'Horas'}">
+              <a (click)="cambiaSelec('Horas')" routerLink="/horas">
                 Horas
               </a>
             </li>

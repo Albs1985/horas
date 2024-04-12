@@ -1,8 +1,8 @@
 .chart-container {
   width: 100%;
-  height: auto;
-  padding-left: 140px;
-  padding-right: 140px;
+  height: 700px;
+  padding-left: 25px;
+  padding-right: 25px;
   padding-top: 50px;
   display: flex;
   align-content: center;

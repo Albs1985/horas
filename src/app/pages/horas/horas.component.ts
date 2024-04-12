@@ -35,9 +35,9 @@ export class HorasComponent implements OnInit {
     });
     this.formularioFiltrado = new FormGroup({
       fechaFiltrado: new FormControl(''),
-      colaboradorFiltrado: new FormControl('Colaborador'),
+      colaboradorFiltrado: new FormControl('--Vacío--'),
       tareaFiltrado: new FormControl(''),
-      compensadaFiltrado: new FormControl('NO'),
+      compensadaFiltrado: new FormControl('--Vacío--'),
       comentarioFiltrado: new FormControl('')
     });
   }
@@ -128,9 +128,9 @@ export class HorasComponent implements OnInit {
   }
 
   filtrar() {
-    const fechaFiltrado = this.formularioFiltrado.controls['fechaFiltrado'].value;
+    let fechaFiltrado = this.formularioFiltrado.controls['fechaFiltrado'].value;
     let colaboradorFiltrado = this.formularioFiltrado.controls['colaboradorFiltrado'].value;
-    const compensadaFiltrado = this.formularioFiltrado.controls['compensadaFiltrado'].value;
+    let compensadaFiltrado = this.formularioFiltrado.controls['compensadaFiltrado'].value;
     let tareaFiltrado = this.formularioFiltrado.controls['tareaFiltrado'].value;
     let comentarioFiltrado = this.formularioFiltrado.controls['comentarioFiltrado'].value;
 
@@ -140,8 +140,16 @@ export class HorasComponent implements OnInit {
     if (comentarioFiltrado){
       comentarioFiltrado = comentarioFiltrado.toUpperCase()
     }
-    if (colaboradorFiltrado == 'Colaborador'){
+    if (colaboradorFiltrado != null && colaboradorFiltrado == '--Vacío--'){
       colaboradorFiltrado = '';
+    }
+    if (fechaFiltrado != null && fechaFiltrado != ''){
+      if (fechaFiltrado.includes('-')){
+        fechaFiltrado = new Date(fechaFiltrado).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' });
+      }
+    }
+    if (compensadaFiltrado != null && compensadaFiltrado == '--Vacío--' ){
+      compensadaFiltrado = '';
     }
 
     this.cleanFormPrincipal();

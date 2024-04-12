@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class CommonService {
 
-  selecPag : string = 'home';
+  selecPag : string = 'Home';
 
   constructor() { }
 }

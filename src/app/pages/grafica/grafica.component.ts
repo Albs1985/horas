@@ -69,6 +69,23 @@ export class GraficaComponent implements OnInit {
       .range([height, 0])
       .domain([0, d3.max(this.data, d => d.horas)!]);
 
+    // Agregar un degradado al relleno de las barras
+    const defs = svg.append("defs");
+    const gradient = defs.append("linearGradient")
+      .attr("id", "bar-gradient")
+      .attr("x1", "0%").attr("y1", "0%")
+      .attr("x2", "0%").attr("y2", "100%");
+    gradient.append("stop").attr("offset", "0%").style("stop-color", "#a6c9f0");
+    gradient.append("stop").attr("offset", "100%").style("stop-color", "#4b93e0");
+
+    // Agregar un filtro para el sombreado
+    const filter = defs.append("filter").attr("id", "drop-shadow");
+    filter.append("feGaussianBlur").attr("in", "SourceAlpha").attr("stdDeviation", 4).attr("result", "blur");
+    filter.append("feOffset").attr("in", "blur").attr("dx", 2).attr("dy", 2).attr("result", "offsetBlur");
+    const feMerge = filter.append("feMerge");
+    feMerge.append("feMergeNode").attr("in", "offsetBlur");
+    feMerge.append("feMergeNode").attr("in", "SourceGraphic");
+
     svg.append("g")
       .attr("class", "y axis")
       .call(d3.axisLeft(y).ticks(10));
@@ -88,9 +105,10 @@ export class GraficaComponent implements OnInit {
       .attr("width", x.bandwidth())
       .attr("y", d => y(d.horas))
       .attr("height", d => height - y(d.horas))
-      .style("fill", (d, i) => color(''+i)); // Asigna el color basado en el índice
+      .style("fill", "url(#bar-gradient)") // Aplicar el degradado al relleno de las barras
+      .style("filter", "url(#drop-shadow)"); // Aplicar el sombreado a las barras
 
-    // Agregar los nombres de los países dentro de las barras
+    // Agregar los nombres de los colaboradores dentro de las barras
     svg.selectAll(".text")
       .data(this.data)
       .enter().append("text")
@@ -104,6 +122,7 @@ export class GraficaComponent implements OnInit {
       .text(d => d.colaborador);
 
 }
+
 
 
   // crearChartBurbujas(){

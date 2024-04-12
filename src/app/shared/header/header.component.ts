@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CommonService } from 'src/app/services/common.service';
 
 @Component({
   selector: 'app-header',
@@ -9,11 +10,10 @@ export class HeaderComponent {
 
   selec : string = 'Home';
 
-  constructor(){  }
-
+  constructor(public commonService : CommonService){  }
 
   cambiaSelec(opcion : string){
-    this.selec = opcion;
+    this.commonService.selecPag = opcion;
   }
 
 }

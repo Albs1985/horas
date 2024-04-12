@@ -10,12 +10,12 @@ export class FooterComponent {
 
   selec : string = 'home';
 
-  constructor(commonService : CommonService){
-    // this.commonService.selecPag = opcion;
+  constructor(public commonService : CommonService){
+
   }
 
   cambiaSelec(opcion : string){
-    // this.commonService.selecPag = opcion;
+    this.commonService.selecPag = opcion;
   }
 
 }
