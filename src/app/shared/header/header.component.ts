@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  selec : string = 'Home';
+
+  constructor(){  }
+
+
+  cambiaSelec(opcion : string){
+    this.selec = opcion;
+  }
+
 }

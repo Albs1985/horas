@@ -14,14 +14,14 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
         <ul class="navbar-nav  ">
-          <li class="nav-item active">
-            <a class="nav-link" routerLink="/"> Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item" [ngClass]="{'active': selec === 'Home'}">
+            <a class="nav-link" routerLink="/" (click)="cambiaSelec('Home')"> Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/about"> About </a>
+          <li class="nav-item " [ngClass]="{'active': selec === 'About'}">
+            <a class="nav-link" routerLink="/about" (click)="cambiaSelec('About')"> About </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/horas"> Horas </a>
+          <li class="nav-item " [ngClass]="{'active': selec === 'Horas'}">
+            <a class="nav-link" routerLink="/horas" (click)="cambiaSelec('Horas')"> Horas </a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact us</a>
