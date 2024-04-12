@@ -49,7 +49,7 @@ export class HorasComponent implements OnInit {
 
   cargaDatos(){
     this.horasService.cargarDatos().subscribe((res: any[]) => {
-      console.log(res);
+      // console.log(res);
       this.datosFiltrado = res
       .filter(item => item != null)//para cuando borramos datos, no se vuelvan a añadir
       .map((item, index) => ({
@@ -67,7 +67,7 @@ export class HorasComponent implements OnInit {
       }));
 
       this.datos = this.datosFiltrado;
-      console.log(this.datosFiltrado)
+      // console.log(this.datosFiltrado)
 
       this.datosFiltrado.reverse();
       this.horasService.numRegistros = this.datosFiltrado.length;
