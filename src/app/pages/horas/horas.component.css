@@ -11,6 +11,10 @@
   margin: 25px;
 }
 
+.tienesHoras {
+  background-color: rgb(168, 207, 159);
+}
+
 .formFiltrado {
   margin: 25px;
   border: #888;

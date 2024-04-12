@@ -11,7 +11,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let dato of horasTotalesPorColaborador | keyvalue">
+        <tr *ngFor="let dato of horasTotalesPorColaborador | keyvalue" [ngClass]="{'tienesHoras': dato.value.horasCompensacion - dato.value.horasCompensadas > 0}">
           <td><b>{{ dato.key }}</b></td>
           <td>{{ dato.value.horasCompensacion }}</td>
           <td>{{ dato.value.horasCompensadas }}</td>
