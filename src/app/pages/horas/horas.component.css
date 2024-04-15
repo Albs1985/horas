@@ -8,6 +8,26 @@
   cursor: pointer;
 }
 
+.errorHoras {
+  margin-top: 1.5rem;
+  color: red;
+  font-size: x-small;
+}
+
+.grafica {
+  width: 100%; /* Hacer que el div ocupe todo el ancho disponible */
+  height: 100%; /* Hacer que el div ocupe todo el alto disponible */
+  display: flex; /* Utilizar flexbox para alinear el contenido */
+  align-items: center; /* Centrar verticalmente el contenido */
+  justify-content: center; /* Centrar horizontalmente el contenido */
+  overflow: hidden;
+}
+
+.grafica > app-grafica {
+  width: 100%; /* Hacer que la app-grafica ocupe todo el ancho disponible */
+  height: 100%; /* Hacer que la app-grafica ocupe todo el alto disponible */
+}
+
 .form {
   margin: 25px;
 }
@@ -16,6 +36,9 @@
   background-color: rgb(168, 207, 159);
 }
 
+.horasPendientes {
+  color: red !important;
+}
 .formFiltrado {
   margin: 25px;
   border: #888;
@@ -37,6 +60,7 @@
 .boton {
   border-color: black;
   margin-right: 15px;
+  cursor: pointer;
 }
 
 .filaSeleccionada {
@@ -101,6 +125,7 @@ td {
   text-align: center;
   border-bottom: 1px solid #ddd;
   border-right: 1px solid #ddd; /* Línea en el lado derecho de las celdas */
+  cursor: pointer;
 }
 
 th {
@@ -109,6 +134,7 @@ th {
 
 tr:hover {
   background-color: #a9a9a9;
+  cursor: pointer;
 }
 
 /* Estilos adicionales para resaltar la primera fila, si lo deseas */
@@ -143,13 +169,13 @@ tbody tr td:nth-child(6) {
   .tablaDatos,
   .totalesYForm,
   .form {
-    font-size: 0.4rem; /* Reducir el tamaño del texto en pantallas pequeñas */
+    font-size: 0.4rem;
   }
   .form-control {
-    font-size: 0.5rem; /* Reducir el tamaño del texto en pantallas pequeñas */
+    font-size: 0.5rem;
   }
 
   .form-group {
-    margin-bottom: 0.2rem; /* Reducir el margen inferior en pantallas pequeñas */
+    margin-bottom: 0.2rem;
   }
 }

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, ValidationErrors, Validators } from '@angular/forms';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, Subject } from 'rxjs';
 import { Registro } from 'src/app/interfaces/registro.interface';
 import { HorasService } from 'src/app/services/horas.service';
 
@@ -18,6 +18,7 @@ export class HorasComponent implements OnInit {
   formularioFiltrado: FormGroup;
   usuarios = ['AIE', 'ARB', 'ASE', 'JRG', 'RDM', 'SGP'];
   filaSelec : number = -1;
+  horasCalculadas: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
 
 
   constructor(public horasService: HorasService) {
@@ -25,10 +26,10 @@ export class HorasComponent implements OnInit {
       fecha: new FormControl(null, [Validators.required, Validators.pattern(/[\S]/), Validators.maxLength(15)]),
       horario: new FormControl(''),
       colaborador: new FormControl('Colaborador',[Validators.required, Validators.pattern(/^(?!Colaborador$).*/), Validators.maxLength(15)]),
-      horasRealizadas: new FormControl(null,[Validators.required, Validators.pattern(/[\S]/), Validators.maxLength(15)]),
+      horasRealizadas: new FormControl(null,[Validators.required, Validators.pattern(/^\d*\.?\d{0,1}$/)]),
       tarea: new FormControl(null,[Validators.required, Validators.pattern(/[\S]/), Validators.maxLength(200)]),
       horasCompensacion: new FormControl({ value: null, disabled: true }),
-      horasCompensadas: new FormControl(''),
+      horasCompensadas: new FormControl(null, [Validators.pattern(/^\d*\.?\d{0,1}$/)]),
       compensada: new FormControl('NO'),
       diaDisfrutado: new FormControl(''),
       comentario: new FormControl('', [Validators.maxLength(255)])
@@ -52,27 +53,31 @@ export class HorasComponent implements OnInit {
       this.datosFiltrado = res
       .filter(item => item != null)//para cuando borramos datos, no se vuelvan a añadir
       .map((item, index) => ({
-        id: index,
-        fecha: item.FECHA,
+        id: item.ID,
+        fecha: new Date(item.FECHA).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' }),
         horario: item.HORARIO,
         colaborador: item.COLABORADOR,
-        horasRealizadas: item['HORAS REALIZADAS'],
+        horasRealizadas: item.HORAS_REALIZADAS,
         tarea: item.TAREA,
-        horasCompensacion: item['HORAS DE COMPENSACIÓN'],
-        horasCompensadas: item['HORAS COMPENSADAS'],
-        compensada: item['¿COMPENSADAS?'],
-        diaDisfrutado: item['DIA DISFRUTADO'],
+        horasCompensacion: item.HORAS_COMPENSACION,
+        horasCompensadas: item.HORAS_COMPENSADAS,
+        compensada: item.COMPENSADAS,
+        diaDisfrutado: item.DIAS_DISFRUTADOS,
         comentario: item.COMENTARIO
       }));
 
       this.datos = this.datosFiltrado;
-      // console.log(this.datosFiltrado)
+      console.log(this.datosFiltrado)
+
+      this.horasService.lastIdRegistro = this.datosFiltrado[this.datosFiltrado.length-1].id;
+      console.log(this.horasService.lastIdRegistro)
 
       this.datosFiltrado.reverse();
-      this.horasService.numRegistros = this.datosFiltrado.length;
 
+      this.calculaHorasColaboradores().subscribe(()=>{
+        this.horasCalculadas.next(true);
+      });
       this.calcularTotales();
-      this.calculaHorasColaboradores();
     });
   }
 
@@ -82,32 +87,32 @@ export class HorasComponent implements OnInit {
     this.totales.pendientes = this.totales.horasCompensacionTotal - this.totales.horasCompensadasTotal;
   }
 
-  calculaHorasColaboradores(){
+  calculaHorasColaboradores(): BehaviorSubject<boolean>{
 
     this.horasService.horasTotalesPorColaborador.clear();
 
     // Calcular las horas totales por colaborador
     this.datosFiltrado.forEach(item => {
+
       const colaborador = item.colaborador;
       if (!this.horasService.horasTotalesPorColaborador.has(colaborador) && colaborador!= undefined) {
         this.horasService.horasTotalesPorColaborador.set(colaborador, { horasCompensacion: 0, horasCompensadas: 0 });
       }
       const horasColaborador = this.horasService.horasTotalesPorColaborador.get(colaborador);
+
       if (horasColaborador){
         if (item.horasCompensacion != undefined && item.horasCompensacion != null && item.horasCompensacion != ''){
-          horasColaborador.horasCompensacion += parseInt(item.horasCompensacion);
+          horasColaborador.horasCompensacion += parseFloat(item.horasCompensacion);
         }
         if (item.horasCompensadas != undefined && item.horasCompensadas != null && item.horasCompensadas != ''){
-          horasColaborador.horasCompensadas += parseInt(item.horasCompensadas);
+          horasColaborador.horasCompensadas += parseFloat(item.horasCompensadas);
         }
       }
 
     });
 
-    // Aquí tienes tu mapa con las horas totales por colaborador
-    // console.log(this.horasTotalesPorColaborador);
-
-
+    const finCalculo = new BehaviorSubject<boolean>(true);
+    return finCalculo;
   }
 
   onSubmit() {
@@ -116,7 +121,8 @@ export class HorasComponent implements OnInit {
 
     //Añadimos este a mano ya que al estar disabled no se añade al form.
     datosFormulario.horasCompensacion = this.formulario.controls['horasCompensacion'].value;
-    debugger
+    datosFormulario.id = this.filaSelec;
+
     if (!formInvalid){
       this.horasService.guardarDatos(datosFormulario).then(() => {
         console.log('Datos guardados correctamente');
@@ -192,19 +198,6 @@ export class HorasComponent implements OnInit {
   }
 
 
-  limpiarFiltros(){
-    this.formularioFiltrado.reset();
-    this.cleanFormPrincipal();
-    this.datosFiltrado = this.datos;
-  }
-
-  limpiaRegistroSelec(){
-    this.horasService.registroSeleccionado = undefined;
-    this.filaSelec = -1;
-  }
-
-
-
   calcularHorasCompensacion() {
     const horasRealizadas = this.formulario?.get('horasRealizadas')?.value;
     if (horasRealizadas != null){
@@ -229,14 +222,14 @@ export class HorasComponent implements OnInit {
   validarHorasCompensadas(){
     const horasCompensacion = this.formulario?.get('horasCompensacion')?.value;
     const horasCompensadas = this.formulario?.get('horasCompensadas')?.value;
-
+debugger
     if (horasCompensadas > horasCompensacion){
       this.formulario.get('horasCompensadas')?.setValue(horasCompensacion);
     }
     if (horasCompensadas >= horasCompensacion){
       this.formulario.get('compensada')?.setValue('SI');
     }
-    if (horasCompensadas == null ||  horasCompensadas === ''){
+    if (horasCompensadas == null ||  horasCompensadas == '' || horasCompensadas == 0){
       this.formulario.get('compensada')?.setValue('NO');
     }
 
@@ -244,12 +237,27 @@ export class HorasComponent implements OnInit {
 
   cleanFormPrincipal(){
     this.formulario!.reset();
+    this.formulario!.controls['colaborador'].setValue('Colaborador');
+    this.formulario!.controls['compensada'].setValue('NO');
     this.limpiaRegistroSelec();
   }
 
+  limpiarFiltros(){
+    this.formularioFiltrado.reset();
+    this.formularioFiltrado.controls['colaboradorFiltrado'].setValue('--Vacío--');
+    this.formularioFiltrado.controls['compensadaFiltrado'].setValue('--Vacío--');
+    this.cleanFormPrincipal();
+    this.datosFiltrado = this.datos;
+  }
+
+  limpiaRegistroSelec(){
+    // this.horasService.registroSeleccionado = undefined;
+    this.filaSelec = -1;
+  }
+
   borraReg(){
-    if (this.horasService.registroSeleccionado != undefined){
-      this.horasService.borrarDatos(''+this.horasService.registroSeleccionado).then(() => {
+    if (this.filaSelec != undefined && this.filaSelec != -1){
+      this.horasService.borrarDatos(''+this.filaSelec).then(() => {
         console.log('Dato eliminado correctamente');
         this.limpiarFiltros();
         this.cargaDatos();
@@ -263,11 +271,10 @@ export class HorasComponent implements OnInit {
     const partesFecha = item.fecha.split('/');
     const fechaFormateada = partesFecha[2] + '-' + partesFecha[1] + '-' + partesFecha[0];
 
-    // const datosAlReves = [...this.datosFiltrado];//Creamos una copia
-    this.horasService.registroSeleccionado = ''+item.id;
-    this.filaSelec = this.datosFiltrado.indexOf(item);
-
+    this.filaSelec = item.id;
+    console.log(this.filaSelec)
     this.formulario.patchValue({
+      id: item.id,
       fecha: fechaFormateada,
       horario: item.horario,
       colaborador: item.colaborador,
@@ -279,6 +286,7 @@ export class HorasComponent implements OnInit {
       diaDisfrutado: item.diaDisfrutado,
       comentario: item.comentario
     });
+    console.log(this.formulario.value)
   }
 
 

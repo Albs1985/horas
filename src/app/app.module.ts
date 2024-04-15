@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HorasService } from './services/horas.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { GraficaComponent } from './pages/grafica/grafica.component';
+import { DatePipe } from '@angular/common';
 
 
 @NgModule({
@@ -31,7 +32,7 @@ import { GraficaComponent } from './pages/grafica/grafica.component';
     ReactiveFormsModule,
     FormsModule
   ],
-  providers: [HorasService],
+  providers: [HorasService, DatePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

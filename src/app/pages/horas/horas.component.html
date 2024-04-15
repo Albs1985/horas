@@ -15,7 +15,7 @@
           <td><b>{{ dato.key }}</b></td>
           <td>{{ dato.value.horasCompensacion }}</td>
           <td>{{ dato.value.horasCompensadas }}</td>
-          <td><b>{{ dato.value.horasCompensacion - dato.value.horasCompensadas }}</b></td>
+          <td><b [ngClass]="{'horasPendientes': (dato.value.horasCompensacion - dato.value.horasCompensadas) > 0}">{{ dato.value.horasCompensacion - dato.value.horasCompensadas }}</b></td>
         </tr>
       </tbody>
     </table>
@@ -36,7 +36,7 @@
           <div class="col">
             <label for="colaborador">Colaborador*</label>
             <select formControlName="colaborador" id="colaborador" class="form-control">
-              <option disabled>Colaborador</option>
+              <option>Colaborador</option>
               <option *ngFor="let usuario of usuarios" [value]="usuario">{{ usuario }}</option>
             </select>
           </div>
@@ -55,8 +55,8 @@
             <input type="text" formControlName="horasCompensadas" id="horasCompensadas" class="form-control" (blur)="validarHorasCompensadas()" placeholder="Compensadas">
           </div>
           <div class="col">
-            <label for="diaDisfrutado">Día Disfrutado</label>
-            <input type="text" formControlName="diaDisfrutado" id="diaDisfrutado" class="form-control" placeholder="Día Disfrutado">
+            <label for="diaDisfrutado">Día/s Disfrutado/s</label>
+            <input type="text" formControlName="diaDisfrutado" id="diaDisfrutado" class="form-control" placeholder="Día/s Disfrutado/s">
           </div>
           <div class="col">
             <label for="compensada">Compensada</label>
@@ -78,18 +78,21 @@
         </div>
         <div class="buttonYtext">
           <button type="submit" [ngClass]="{'deshabilitado': formulario.invalid}" [disabled]="formulario.invalid" class="btn btn-success mt-3 boton" (click)="onSubmit()">Guardar</button>
+          <p *ngIf="formulario.controls['horasCompensadas'].invalid || formulario.controls['horasCompensacion'].invalid || formulario.controls['horasRealizadas'].invalid" class="errorHoras">*Las horas deben ser numéricas y con solo un decimal</p>
           <div>
             <button type="reset" class="btn btn-info mt-3 boton" (click)="cleanFormPrincipal()">Limpiar</button>
-            <button *ngIf="this.horasService.registroSeleccionado != null && this.horasService.registroSeleccionado != undefined" type="reset" class="btn btn-warning mt-3 ml-5 boton" (click)="borraReg()">Borrar</button>
+            <button *ngIf="filaSelec != null && filaSelec != undefined && filaSelec != -1" type="reset" class="btn btn-warning mt-3 ml-5 boton" (click)="borraReg()">Borrar</button>
             <label for="textoObliga" class="margen">*Obligatorio</label>
           </div>
         </div>
       </form>
     </div>
 
-    <div>
+    <!-- <div *ngIf="(horasCalculadas | async) === true" class="grafica"> -->
       <!-- <a target="_blank" href="https://www.salesforce.com/"><img class="imagenSCS" src="assets/images/SCS.png" alt=""></a> -->
+    <div>
       <img class="imagenSCS" src="assets/images/grafica-de-barras.png" alt="" routerLink="/grafica">
+      <!-- <app-grafica></app-grafica> -->
     </div>
   </div>
 

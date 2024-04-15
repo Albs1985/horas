@@ -16,6 +16,7 @@ export class GraficaComponent implements OnInit {
 
   constructor(public horasService: HorasService){
 
+
     this.horasService.horasTotalesPorColaborador.forEach((value, key) => {
       // Para cada entrada del mapa, creamos un objeto con la estructura requerida y lo añadimos al array 'data'
       this.data.push({
