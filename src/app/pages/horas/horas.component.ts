@@ -211,7 +211,7 @@ export class HorasComponent implements OnInit {
       }
 
       if (compensacionExtra){
-        this.formulario.get('horasCompensacion')?.setValue(parseInt(horasRealizadas)*2);
+        this.formulario.get('horasCompensacion')?.setValue(parseFloat(horasRealizadas)*2);
       }else{
         this.formulario.get('horasCompensacion')?.setValue(horasRealizadas);
       }
@@ -222,7 +222,7 @@ export class HorasComponent implements OnInit {
   validarHorasCompensadas(){
     const horasCompensacion = this.formulario?.get('horasCompensacion')?.value;
     const horasCompensadas = this.formulario?.get('horasCompensadas')?.value;
-debugger
+
     if (horasCompensadas > horasCompensacion){
       this.formulario.get('horasCompensadas')?.setValue(horasCompensacion);
     }
