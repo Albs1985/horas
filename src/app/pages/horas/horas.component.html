@@ -5,6 +5,7 @@
       <thead>
         <tr>
           <th>Colaborador</th>
+          <th *ngIf="(verNocturnidad |async) === true">Nocturnidad en {{mesSeleccionado}}</th>
           <th>Horas Compensación</th>
           <th>Horas Compensadas</th>
           <th>Pendientes</th>
@@ -13,6 +14,7 @@
       <tbody>
         <tr *ngFor="let dato of horasService.horasTotalesPorColaborador | keyvalue" [ngClass]="{'tienesHoras': dato.value.horasCompensacion - dato.value.horasCompensadas > 0}">
           <td><b>{{ dato.key }}</b></td>
+          <td *ngIf="(verNocturnidad |async) === true"><b>{{ horasNocturnasPorColaborador.get(dato.key) }}</b></td>
           <td>{{ dato.value.horasCompensacion }}</td>
           <td>{{ dato.value.horasCompensadas }}</td>
           <td><b [ngClass]="{'horasPendientes': (dato.value.horasCompensacion - dato.value.horasCompensadas) > 0}">{{ dato.value.horasCompensacion - dato.value.horasCompensadas }}</b></td>
@@ -27,11 +29,13 @@
         <div class="row">
           <div class="col">
             <label for="fecha">Fecha*</label>
+            <input type="checkbox" formControlName="esFestivo" id="esFestivo" class="form-check-input checkFestivo" (change)="calcularHorasCompensacion()">
+            <label for="esFestivo" class="form-check-label labelFestivo"><b style="color: blue">Festivo</b></label>
             <input type="date" formControlName="fecha" id="fecha" class="form-control" (blur)="calcularHorasCompensacion()" placeholder="Fecha">
           </div>
           <div class="col">
             <label for="horario">Horario</label>
-            <input type="text" formControlName="horario" id="horario" class="form-control" placeholder="Horario">
+            <input type="text" formControlName="horario" id="horario" class="form-control" (blur)="calcularHorasRealizadas()" placeholder="Horario">
           </div>
           <div class="col">
             <label for="colaborador">Colaborador*</label>
@@ -81,7 +85,7 @@
           <p *ngIf="formulario.controls['horasCompensadas'].invalid || formulario.controls['horasCompensacion'].invalid || formulario.controls['horasRealizadas'].invalid" class="errorHoras">*Las horas deben ser numéricas y con solo un decimal</p>
           <div>
             <button type="reset" class="btn btn-info mt-3 boton" (click)="cleanFormPrincipal()">Limpiar</button>
-            <button *ngIf="filaSelec != null && filaSelec != undefined && filaSelec != -1" type="reset" class="btn btn-warning mt-3 ml-5 boton" (click)="borraReg()">Borrar</button>
+            <button *ngIf="datoSelec != null && datoSelec != undefined && datoSelec != -1" type="reset" class="btn btn-warning mt-3 ml-5 boton" (click)="confirmarBorrado()">Borrar</button>
             <label for="textoObliga" class="margen">*Obligatorio</label>
           </div>
         </div>
@@ -92,6 +96,13 @@
       <!-- <a target="_blank" href="https://www.salesforce.com/"><img class="imagenSCS" src="assets/images/SCS.png" alt=""></a> -->
     <div>
       <img class="imagenSCS" src="assets/images/grafica-de-barras.png" alt="" routerLink="/grafica">
+      <div class="nocturnidad">
+        <button type="submit" class="btn btn-success mt-3 boton" (click)="extraerNocturnidades()">Extraer Nocturnidad</button>
+        <div class="espacio"></div>
+        <select id="selectMeses" class="form-control" [(ngModel)]="mesSeleccionado" (change)="seleccionarMes($event)">
+          <option *ngFor="let mes of mesesNom" [value]="mes">{{ mes }}</option>
+        </select>
+      </div>
       <!-- <app-grafica></app-grafica> -->
     </div>
   </div>
@@ -153,7 +164,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let item of datosFiltrado; let i = index" [ngClass]="{'filaSeleccionada': i === filaSelec}" (click)="seleccionarRegistro(item)">
+      <tr *ngFor="let item of datosFiltrado; let i = index" [ngClass]="{'filaSeleccionada': i === filaSeleccionada}" (click)="seleccionarRegistro(item)">
         <td>{{ item.fecha }}</td>
         <td>{{ item.horario }}</td>
         <td>{{ item.colaborador }}</td>
@@ -181,4 +192,24 @@
 
 
 
+</div>
+
+<div class="modal fade" id="confirmacionBorrado" tabindex="-1" role="dialog" aria-labelledby="confirmacionBorradoLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="confirmacionBorradoLabel">Confirmar Borrado</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ¿Estás seguro de que quieres borrar este registro?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="cancelaBorrado()" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-danger" (click)="borraReg()">Borrar</button>
+      </div>
+    </div>
+  </div>
 </div>
