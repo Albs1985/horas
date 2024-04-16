@@ -34,7 +34,7 @@
             <input type="date" formControlName="fecha" id="fecha" class="form-control" (blur)="calcularHorasCompensacion()" placeholder="Fecha">
           </div>
           <div class="col">
-            <label for="horario">Horario</label>
+            <label for="horario">Horario (ej: 21:30-23:00)</label>
             <input type="text" formControlName="horario" id="horario" class="form-control" (blur)="calcularHorasRealizadas()" placeholder="Horario">
           </div>
           <div class="col">
@@ -115,7 +115,7 @@
       <div class="row">
         <div class="col ml-3 mb-3 mt-3">
           <label for="fechaFiltrado">Fecha</label>
-          <input type="date" formControlName="fechaFiltrado" id="fechaFiltrado" class="form-control" (blur)="calcularHorasCompensacion()" placeholder="Fecha">
+          <input type="date" formControlName="fechaFiltrado" id="fechaFiltrado" class="form-control" placeholder="Fecha">
         </div>
         <div class="col ml-3 mb-3 mt-3">
           <label for="colaboradorFiltrado">Colaborador</label>
@@ -165,16 +165,16 @@
     </thead>
     <tbody>
       <tr *ngFor="let item of datosFiltrado; let i = index" [ngClass]="{'filaSeleccionada': i === filaSeleccionada}" (click)="seleccionarRegistro(item)">
-        <td>{{ item.fecha }}</td>
-        <td>{{ item.horario }}</td>
-        <td>{{ item.colaborador }}</td>
-        <td>{{ item.horasRealizadas }}</td>
-        <td>{{ item.tarea }}</td>
-        <td>{{ item.horasCompensacion }}</td>
-        <td>{{ item.horasCompensadas }}</td>
-        <td>{{ item.compensada }}</td>
-        <td>{{ item.diaDisfrutado }}</td>
-        <td>{{ item.comentario }}</td>
+        <td>{{ item.FECHA }}</td>
+        <td>{{ item.HORARIO }}</td>
+        <td>{{ item.COLABORADOR }}</td>
+        <td>{{ item.HORAS_REALIZADAS }}</td>
+        <td>{{ item.TAREA }}</td>
+        <td>{{ item.HORAS_COMPENSACION }}</td>
+        <td>{{ item.HORAS_COMPENSADAS }}</td>
+        <td>{{ item.COMPENSADA }}</td>
+        <td>{{ item.DIAS_DISFRUTADOS }}</td>
+        <td>{{ item.COMENTARIO }}</td>
       </tr>
     </tbody>
 

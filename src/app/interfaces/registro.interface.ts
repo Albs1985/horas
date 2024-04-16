@@ -1,14 +1,14 @@
 export interface Registro{
-    id: number;
-    fecha: string;
-    horario: string,
-    colaborador: string;
-    horasRealizadas: string;
-    tarea: string;
-    horasCompensacion: string;
-    horasCompensadas: string;
-    compensada: string;
-    diaDisfrutado: string;
-    comentario: string;
+    ID: number;
+    FECHA: string;
+    HORARIO: string,
+    COLABORADOR: string;
+    HORAS_REALIZADAS: string;
+    TAREA: string;
+    HORAS_COMPENSACION: string;
+    HORAS_COMPENSADAS: string;
+    COMPENSADA: string;
+    DIAS_DISFRUTADOS: string;
+    COMENTARIO: string;
 
 }

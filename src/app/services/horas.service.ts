@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { getDatabase, ref, set } from "firebase/database";
 
@@ -16,67 +16,103 @@ import { DatePipe } from '@angular/common';
 
 export class HorasService {
 
-  jsonDatos = "https://horas-7a288-default-rtdb.europe-west1.firebasedatabase.app/registro.json";
+  //BBDD EN FIREBASE:
+  // jsonDatos = "https://horas-7a288-default-rtdb.europe-west1.firebasedatabase.app/registro.json";
+  // tablaRegistro = 'https://horas-7a288-default-rtdb.europe-west1.firebasedatabase.app/registro/';
+
+  //BBDD EN LOCAL
+  jsonDatos = "assets/data/Horas.json";
+
+  // BBDD EN NODE SERVER:
+  // rutaApi = "http://localhost:3000/nodeServer/api/";
+  rutaApi = "http://iv1io0003.itg.mercadona.com:3000/nodeServer/api/";
+  getRegistros = "registros";
+  tabla = "registro";
   lastIdRegistro : number = 0;
-  // registroSeleccionado : string | undefined;
-  tablaRegistro = 'https://horas-7a288-default-rtdb.europe-west1.firebasedatabase.app/registro/';
+
   horasTotalesPorColaborador = new Map<string, { horasCompensacion: number, horasCompensadas: number }>();
 
   constructor(private http: HttpClient, private datePipe: DatePipe) { }
 
   public cargarDatos(): Observable<Registro[]>{
 
-    return this.http.get<Registro[]>(this.jsonDatos);
+    return this.http.get<any[]>(this.rutaApi+this.getRegistros);
 
   }
 
-  public guardarDatos(dato: Registro): Promise<void> {
+  public guardarDatos(dato: any): Promise<any> {
 
-    let fecha = dato.fecha;
+    let reg : Registro = {
+      ID: dato.id,
+      FECHA: dato.fecha,
+      HORARIO: dato.horario,
+      COLABORADOR: dato.colaborador,
+      HORAS_REALIZADAS: dato.horasRealizadas,
+      TAREA: dato.tarea,
+      HORAS_COMPENSACION: dato.horasCompensacion,
+      HORAS_COMPENSADAS: dato.horasCompensadas,
+      COMPENSADA: dato.compensada,
+      DIAS_DISFRUTADOS: dato.diaDisfrutado,
+      COMENTARIO: dato.comentario
+    }
+
+    let fecha = reg.FECHA;
     if (fecha.includes('-')){
       fecha = this.datePipe.transform(fecha, 'MM/dd/yyyy')!;
       // fecha = new Date(fecha).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' });
     }
-
-    let idReg = dato.id;
+    let insertar = false;
+    let idReg = reg.ID;
     if (idReg == undefined || idReg == null ||idReg == -1){
       idReg = ++this.lastIdRegistro;
+      insertar = true;
     }
 
     const datoMapeado = {
       "ID": idReg,
       "FECHA": fecha,
-      "HORARIO": dato.horario,
-      "COLABORADOR": dato.colaborador,
-      "HORAS_REALIZADAS": dato.horasRealizadas,
-      "HORAS_COMPENSACION": dato.horasCompensacion,
-      "HORAS_COMPENSADAS": dato.horasCompensadas,
-      "COMPENSADAS": dato.compensada,
-      "DIAS_DISFRUTADOS": dato.diaDisfrutado,
-      "TAREA": dato.tarea,
-      "COMENTARIO": dato.comentario
+      "HORARIO": reg.HORARIO,
+      "COLABORADOR": reg.COLABORADOR,
+      "HORAS_REALIZADAS": reg.HORAS_REALIZADAS,
+      "HORAS_COMPENSACION": reg.HORAS_COMPENSACION,
+      "HORAS_COMPENSADAS": reg.HORAS_COMPENSADAS,
+      "COMPENSADAS": reg.COMPENSADA,
+      "DIAS_DISFRUTADOS": reg.DIAS_DISFRUTADOS,
+      "TAREA": reg.TAREA,
+      "COMENTARIO": reg.COMENTARIO
     }
 
-    //Para actualizar los datos
-    const url = this.tablaRegistro+idReg+'.json';
-    return this.http.put(url, datoMapeado).toPromise()
+    const headers = new HttpHeaders({ 'Content-Type': 'application/json'});
+    if (insertar){
+
+      return this.http.post(this.rutaApi+this.tabla, datoMapeado, { headers }).toPromise()
       .then(() => {
         console.log('Datos guardados exitosamente');
       })
       .catch(error => console.error('Error al guardar datos:', error));
+
+    }else{//ACTUALIZAR
+
+      return this.http.put(this.rutaApi+this.tabla+'/'+idReg, datoMapeado, { headers }).toPromise()
+      .then(() => {
+        console.log('Datos guardados exitosamente');
+      })
+      .catch(error => console.error('Error al guardar datos:', error));
+
+    }
+
+
   }
 
 
   public borrarDatos(id: string): Promise<void> {
-    const url = this.tablaRegistro + id + '.json';
+    const url = this.rutaApi+this.tabla+'/'+id;
     return this.http.delete(url).toPromise()
       .then(() => {
         console.log('Dato borrado exitosamente');
       })
       .catch(error => console.error('Error al borrar dato:', error));
   }
-
-
 
 
 }

@@ -55,28 +55,28 @@ export class HorasComponent implements OnInit {
   }
 
   cargaDatos(){
-    this.horasService.cargarDatos().subscribe((res: any[]) => {
-      // console.log(res);
-      this.datosFiltrado = res
+    this.horasService.cargarDatos().subscribe((res: any) => {
+      console.log(res);
+      this.datosFiltrado = (res.registro as Registro[])
       .filter(item => item != null)//para cuando borramos datos, no se vuelvan a añadir
       .map((item, index) => ({
-        id: item.ID,
-        fecha: new Date(item.FECHA).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' }),
-        horario: item.HORARIO,
-        colaborador: item.COLABORADOR,
-        horasRealizadas: item.HORAS_REALIZADAS,
-        tarea: item.TAREA,
-        horasCompensacion: item.HORAS_COMPENSACION,
-        horasCompensadas: item.HORAS_COMPENSADAS,
-        compensada: item.COMPENSADAS,
-        diaDisfrutado: item.DIAS_DISFRUTADOS,
-        comentario: item.COMENTARIO
+        ID: item.ID,
+        FECHA: new Date(item.FECHA).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' }),
+        HORARIO: item.HORARIO,
+        COLABORADOR: item.COLABORADOR,
+        HORAS_REALIZADAS: item.HORAS_REALIZADAS,
+        TAREA: item.TAREA,
+        HORAS_COMPENSACION: item.HORAS_COMPENSACION,
+        HORAS_COMPENSADAS: item.HORAS_COMPENSADAS,
+        COMPENSADA: item.COMPENSADA,
+        DIAS_DISFRUTADOS: item.DIAS_DISFRUTADOS,
+        COMENTARIO: item.COMENTARIO
       }));
 
       this.datos = this.datosFiltrado;
       // console.log(this.datosFiltrado)
 
-      this.horasService.lastIdRegistro = this.datosFiltrado[this.datosFiltrado.length-1].id;
+      this.horasService.lastIdRegistro = this.datosFiltrado[this.datosFiltrado.length-1].ID;
       // console.log(this.horasService.lastIdRegistro)
 
       this.datosFiltrado.reverse();
@@ -89,8 +89,8 @@ export class HorasComponent implements OnInit {
   }
 
   calcularTotales() {
-    this.totales.horasCompensacionTotal = this.datosFiltrado.reduce((acc, curr) => acc + (parseFloat(curr.horasCompensacion) || 0), 0);
-    this.totales.horasCompensadasTotal = this.datosFiltrado.reduce((acc, curr) => acc + (parseFloat(curr.horasCompensadas) || 0), 0);
+    this.totales.horasCompensacionTotal = this.datosFiltrado.reduce((acc, curr) => acc + (parseFloat(curr.HORAS_COMPENSACION) || 0), 0);
+    this.totales.horasCompensadasTotal = this.datosFiltrado.reduce((acc, curr) => acc + (parseFloat(curr.HORAS_COMPENSADAS) || 0), 0);
     this.totales.pendientes = this.totales.horasCompensacionTotal - this.totales.horasCompensadasTotal;
   }
 
@@ -101,18 +101,18 @@ export class HorasComponent implements OnInit {
     // Calcular las horas totales por colaborador
     this.datosFiltrado.forEach(item => {
 
-      const colaborador = item.colaborador;
+      const colaborador = item.COLABORADOR;
       if (!this.horasService.horasTotalesPorColaborador.has(colaborador) && colaborador!= undefined) {
         this.horasService.horasTotalesPorColaborador.set(colaborador, { horasCompensacion: 0, horasCompensadas: 0 });
       }
       const horasColaborador = this.horasService.horasTotalesPorColaborador.get(colaborador);
 
       if (horasColaborador){
-        if (item.horasCompensacion != undefined && item.horasCompensacion != null && item.horasCompensacion != ''){
-          horasColaborador.horasCompensacion += parseFloat(item.horasCompensacion);
+        if (item.HORAS_COMPENSACION != undefined && item.HORAS_COMPENSACION != null && item.HORAS_COMPENSACION != ''){
+          horasColaborador.horasCompensacion += parseFloat(item.HORAS_COMPENSACION);
         }
-        if (item.horasCompensadas != undefined && item.horasCompensadas != null && item.horasCompensadas != ''){
-          horasColaborador.horasCompensadas += parseFloat(item.horasCompensadas);
+        if (item.HORAS_COMPENSADAS != undefined && item.HORAS_COMPENSADAS != null && item.HORAS_COMPENSADAS != ''){
+          horasColaborador.horasCompensadas += parseFloat(item.HORAS_COMPENSADAS);
         }
       }
 
@@ -175,29 +175,29 @@ export class HorasComponent implements OnInit {
         let comentarioOK = true;
 
         if (fechaFiltrado !== null && fechaFiltrado !== '') {
-            fechaOK = (registro.fecha!=null && registro.fecha!=undefined && registro.fecha!='' && registro.fecha == fechaFiltrado);
+            fechaOK = (registro.FECHA!=null && registro.FECHA!=undefined && registro.FECHA!='' && registro.FECHA == fechaFiltrado);
         }
 
         if (colaboradorFiltrado !== null && colaboradorFiltrado !== '') {
-            colaboradorOK = (registro.colaborador!=null && registro.colaborador!=undefined && registro.colaborador!='' &&  registro.colaborador == colaboradorFiltrado);
+            colaboradorOK = (registro.COLABORADOR!=null && registro.COLABORADOR!=undefined && registro.COLABORADOR!='' &&  registro.COLABORADOR == colaboradorFiltrado);
         }
 
         if (compensadaFiltrado !== null && compensadaFiltrado !== '') {
           if (compensadaFiltrado == 'NO'){
             compensadaOK = false;
-            compensadaOK = (registro.compensada==null || registro.compensada==undefined || registro.compensada=='' || registro.compensada == compensadaFiltrado);
+            compensadaOK = (registro.COMPENSADA==null || registro.COMPENSADA==undefined || registro.COMPENSADA=='' || registro.COMPENSADA == compensadaFiltrado);
           }else{//SI
-            compensadaOK = (registro.compensada!=null && registro.compensada!=undefined && registro.compensada!='' && registro.compensada == compensadaFiltrado);
+            compensadaOK = (registro.COMPENSADA!=null && registro.COMPENSADA!=undefined && registro.COMPENSADA!='' && registro.COMPENSADA == compensadaFiltrado);
           }
 
         }
 
         if (tareaFiltrado !== null && tareaFiltrado !== '') {
-            tareaOK = (registro.tarea!=null && registro.tarea!=undefined && registro.tarea!='' && registro.tarea.toUpperCase().includes(tareaFiltrado));
+            tareaOK = (registro.TAREA!=null && registro.TAREA!=undefined && registro.TAREA!='' && registro.TAREA.toUpperCase().includes(tareaFiltrado));
         }
 
         if (comentarioFiltrado !== null && comentarioFiltrado !== '') {
-            comentarioOK = (registro.comentario!=null && registro.comentario!=undefined && registro.comentario!='' && registro.comentario.toUpperCase().includes(comentarioFiltrado));
+            comentarioOK = (registro.COMENTARIO!=null && registro.COMENTARIO!=undefined && registro.COMENTARIO!='' && registro.COMENTARIO.toUpperCase().includes(comentarioFiltrado));
         }
 
         return fechaOK && colaboradorOK && compensadaOK && tareaOK && comentarioOK;
@@ -207,7 +207,7 @@ export class HorasComponent implements OnInit {
 
   calcularHorasCompensacion() {
     const horasRealizadas = this.formulario?.get('horasRealizadas')?.value;
-    debugger
+
     if (horasRealizadas != null){
       const fechaForm = this.formulario?.get('fecha')?.value;
       const fecha = new Date(fechaForm);
@@ -250,22 +250,28 @@ export class HorasComponent implements OnInit {
       if (diferenciaHoras > 0){
         this.formulario?.get('horasRealizadas')?.setValue(diferenciaHoras);
         this.calcularHorasCompensacion();
+      }else{
+        if (diferenciaHoras < 0 && diferenciaHoras > -25){//Para cuando pasamos de día haciendo horas
+          this.formulario?.get('horasRealizadas')?.setValue(diferenciaHoras+24);
+          this.calcularHorasCompensacion();
+        }
       }
 
     }
   }
 
   validarHorasCompensadas(){
+    debugger
     const horasCompensacion = this.formulario?.get('horasCompensacion')?.value;
     const horasCompensadas = this.formulario?.get('horasCompensadas')?.value;
 
-    if (horasCompensadas > horasCompensacion){
+    if (parseFloat(horasCompensadas) > parseFloat(horasCompensacion)){
       this.formulario.get('horasCompensadas')?.setValue(horasCompensacion);
     }
-    if (horasCompensadas >= horasCompensacion){
+    if (parseFloat(horasCompensadas) >= parseFloat(horasCompensacion)){
       this.formulario.get('compensada')?.setValue('SI');
     }
-    if (horasCompensadas == null ||  horasCompensadas == '' || horasCompensadas == 0){
+    if (horasCompensadas == null ||  horasCompensadas == '' || parseFloat(horasCompensadas) == 0){
       this.formulario.get('compensada')?.setValue('NO');
     }
 
@@ -316,28 +322,28 @@ export class HorasComponent implements OnInit {
 
   seleccionarRegistro(item: Registro) {
 
-    const partesFecha = item.fecha.split('/');
+    const partesFecha = item.FECHA.split('/');
     const fechaFormateada = partesFecha[2] + '-' + partesFecha[1] + '-' + partesFecha[0];
 
     const obtenerFila = [...this.datosFiltrado];
     this.filaSeleccionada = obtenerFila.indexOf(item);
 
-    this.datoSelec = item.id;
+    this.datoSelec = item.ID;
     // console.log(this.filaSeleccionada);
     // console.log(this.datoSelec);
 
     this.formulario.patchValue({
-      id: item.id,
+      id: item.ID,
       fecha: fechaFormateada,
-      horario: item.horario,
-      colaborador: item.colaborador,
-      horasRealizadas: item.horasRealizadas,
-      tarea: item.tarea,
-      horasCompensacion: item.horasCompensacion,
-      horasCompensadas: item.horasCompensadas,
-      compensada: item.compensada || 'NO',
-      diaDisfrutado: item.diaDisfrutado,
-      comentario: item.comentario
+      horario: item.HORARIO,
+      colaborador: item.COLABORADOR,
+      horasRealizadas: item.HORAS_REALIZADAS,
+      tarea: item.TAREA,
+      horasCompensacion: item.HORAS_COMPENSACION,
+      horasCompensadas: item.HORAS_COMPENSADAS,
+      compensada: item.COMPENSADA || 'NO',
+      diaDisfrutado: item.DIAS_DISFRUTADOS,
+      comentario: item.COMENTARIO
     });
     console.log(this.formulario.value)
   }
@@ -353,23 +359,24 @@ export class HorasComponent implements OnInit {
 
   extraerNocturnidades(): void {
     this.verNocturnidad.next(true);
+    this.horasNocturnasPorColaborador.clear();
 
     // Filtrar los datos del mes en concreto
     const datosFiltrados = this.datos.filter(dato => {
 
-      const partes = dato.fecha.split('/');
+      const partes = dato.FECHA.split('/');
       const fecha = new Date(parseInt(partes[2]), parseInt(partes[1]) - 1, parseInt(partes[0]));
-      return fecha.getMonth() === this.mesesNom.indexOf(this.mesSeleccionado); // Meses en JavaScript van de 0 a 11
+      return fecha.getMonth() === this.mesesNom.indexOf(this.mesSeleccionado);
     });
 
     datosFiltrados.forEach(dato => {
 
-      const horario = dato.horario;
-      const horasRealizadas = dato.horasRealizadas;
+      const horario = dato.HORARIO;
+      const horasRealizadas = dato.HORAS_REALIZADAS;
 
       if (this.esHorarioNocturno(horario)) {
 
-        const colaborador = dato.colaborador;
+        const colaborador = dato.COLABORADOR;
         const horasNocturnas = this.horasNocturnasPorColaborador.get(colaborador) || 0;
         this.horasNocturnasPorColaborador.set(colaborador, parseFloat(horasNocturnas+horasRealizadas));
       }

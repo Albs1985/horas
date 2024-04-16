@@ -1,3834 +1,756 @@
-[
- {
-  "FECHA": "01\/09\/2022",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "05\/05\/2023"
- },
- {
-  "FECHA": "02\/13\/2022",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (13\/02\/23 al 19\/02\/23)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "05\/12\/2023"
- },
- {
-  "FECHA": "03\/27\/2022",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (27\/03\/23 al 02\/04\/23)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "05\/19\/2023"
- },
- {
-  "FECHA": "04\/02\/2022",
-  "HORARIO": "09:00 - 13:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 4,
-  "TAREA": "Intervención PM InboundEmail",
-  "HORAS DE COMPENSACIÓN": 4,
-  "HORAS COMPENSADAS": 4,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "28\/06\/2022 2h"
- },
- {
-  "DIA DISFRUTADO": "06\/07\/2022 2h"
- },
- {
-  "FECHA": "05\/08\/2022",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PeM de cambio de número de teléfono al 800",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "05\/20\/2022",
-  "COMENTARIO": "Tarde libre del viernes"
- },
- {
-  "FECHA": "05\/08\/2022",
-  "HORARIO": "23:00 - 0:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v15.5",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/07\/2022 2h"
- },
- {
-  "FECHA": "05\/08\/2022",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v15.5",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "13\/07\/2022 2h"
- },
- {
-  "FECHA": "05\/14\/2022",
-  "HORARIO": "23:30 - 00:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Cambio Certificados BIG",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/01\/2022",
-  "COMENTARIO": "Disfrutadas en viernes tarde"
- },
- {
-  "FECHA": "05\/23\/2022",
-  "HORARIO": "17:00 - 18:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Migración entorno MIG",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08\/01\/2022"
- },
- {
-  "DIA DISFRUTADO": "08\/02\/2022"
- },
- {
-  "FECHA": "05\/27\/2022",
-  "HORARIO": "00:30 - 01:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Guardia",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08\/02\/2022"
- },
- {
-  "FECHA": "05\/28\/2022",
-  "HORARIO": "10:30 - 11:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Guardia",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08\/02\/2022"
- },
- {
-  "DIA DISFRUTADO": "08\/03\/2022"
- },
- {
-  "FECHA": "06\/11\/2022",
-  "HORARIO": "7:00 - 10:30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 3.5,
-  "TAREA": "Sábado Summer 22",
-  "HORAS DE COMPENSACIÓN": 3.5,
-  "HORAS COMPENSADAS": 3.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/08\/2022 1h"
- },
- {
-  "DIA DISFRUTADO": "23\/08\/2022 1h"
- },
- {
-  "DIA DISFRUTADO": "01\/09\/2022 1,5 h"
- },
- {
-  "FECHA": "06\/13\/2022",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Guardia ARB",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/09\/2022 0,5 h"
- },
- {
-  "DIA DISFRUTADO": "05\/09\/2022 1,5 h"
- },
- {
-  "FECHA": "06\/15\/2022",
-  "HORARIO": "17:00 - 18:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Validación Migración BLR",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08\/03\/2022"
- },
- {
-  "FECHA": "06\/25\/2022",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PeM inicial de Migración a SCS",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/29\/2022",
-  "COMENTARIO": "Tarde del viernes"
- },
- {
-  "FECHA": "06\/25\/2022",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PeM inicial de Migración a SCS",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/15\/2022"
- },
- {
-  "FECHA": "06\/25\/2022",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PeM inicial de Migración a SCS",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/06\/2022"
- },
- {
-  "FECHA": "06\/25\/2022",
-  "HORARIO": "23:00 - 3:30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 4.5,
-  "TAREA": "PM Facturas (previa al arranque)",
-  "HORAS DE COMPENSACIÓN": 8,
-  "HORAS COMPENSADAS": 8,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "05\/09\/2022 2h"
- },
- {
-  "DIA DISFRUTADO": "08\/09\/2022 2h"
- },
- {
-  "DIA DISFRUTADO": "08\/09\/2022 3h"
- },
- {
-  "DIA DISFRUTADO": "09\/09\/2022 1h"
- },
- {
-  "FECHA": "06\/26\/2022",
-  "HORARIO": "00:00 - 03:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 3.5,
-  "TAREA": "PeM inicial de Migración a SCS",
-  "HORAS DE COMPENSACIÓN": 7,
-  "HORAS COMPENSADAS": 7,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "04\/07\/2022 y 05\/07\/2022.",
-  "COMENTARIO": "Una hora cada día, por enfermedad del niño."
- },
- {
-  "DIA DISFRUTADO": "08\/07\/2022.",
-  "COMENTARIO": "Tarde del viernes"
- },
- {
-  "DIA DISFRUTADO": "07\/29\/2022",
-  "COMENTARIO": "Tarde del viernes"
- },
- {
-  "DIA DISFRUTADO": "08\/12\/2022"
- },
- {
-  "FECHA": "06\/26\/2022",
-  "HORARIO": "00:00 - 03:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 3.5,
-  "TAREA": "PeM inicial de Migración a SCS",
-  "HORAS DE COMPENSACIÓN": 7,
-  "HORAS COMPENSADAS": 7,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "15\/07\/2022 1h"
- },
- {
-  "DIA DISFRUTADO": "22\/07\/2022 2h"
- },
- {
-  "DIA DISFRUTADO": "18\/08\/2022 2.5h"
- },
- {
-  "DIA DISFRUTADO": "24\/08\/2022 1.5h"
- },
- {
-  "FECHA": "06\/26\/2022",
-  "HORARIO": "00:00 - 03:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 3.5,
-  "TAREA": "PeM inicial de Migración a SCS",
-  "HORAS DE COMPENSACIÓN": 7,
-  "HORAS COMPENSADAS": 7,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/06\/2022"
- },
- {
-  "DIA DISFRUTADO": "07\/07\/2022"
- },
- {
-  "DIA DISFRUTADO": "07\/28\/2022"
- },
- {
-  "DIA DISFRUTADO": "08\/01\/2022"
- },
- {
-  "FECHA": "06\/26\/2022",
-  "HORARIO": "8:00 - 10:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Intervención guardia arreglo jefes post PM v16.0 ",
-  "HORAS DE COMPENSACIÓN": 4,
-  "HORAS COMPENSADAS": 4,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/09\/2022 2h"
- },
- {
-  "DIA DISFRUTADO": "14\/09\/2022 2h"
- },
- {
-  "FECHA": "06\/27\/2022",
-  "HORARIO": "23:30 - 1:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Pruebas comunicaciones facturas",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "09\/09\/2022 0,5h"
- },
- {
-  "DIA DISFRUTADO": "15\/09\/2022 1h"
- },
- {
-  "FECHA": "06\/28\/2022",
-  "HORARIO": "23:30 - 1:30",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Pruebas AFyC PRO",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "19\/07\/2022 2h"
- },
- {
-  "FECHA": "06\/28\/2022",
-  "HORARIO": "23:30 - 1:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Pruebas AFyC PRO",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08\/02\/2022",
-  "COMENTARIO": "Lunes noche."
- },
- {
-  "COMENTARIO": "Días de agosto 2,3,4 - media hora de salida antes"
- },
- {
-  "FECHA": "06\/28\/2022",
-  "HORARIO": "23:30 - 0:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Lanzamiento mig adjuntos",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/08\/2022 y 12\/09\/2022"
- },
- {
-  "FECHA": "07\/02\/2022",
-  "HORARIO": "22:30-0:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM FyC",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "24\/08\/2022 0.5h"
- },
- {
-  "DIA DISFRUTADO": "02\/09\/2022 1h"
- },
- {
-  "FECHA": "07\/02\/2022",
-  "HORARIO": "22:30 - 00:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM Facturas",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "09\/12\/2022"
- },
- {
-  "FECHA": "07\/02\/2022",
-  "HORARIO": "22:30 - 00:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM Facturas",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "27\/07\/2022 1.5h"
- },
- {
-  "FECHA": "07\/02\/2022",
-  "HORARIO": "22:30 - 00:00",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM Facturas",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08\/05\/2022",
-  "COMENTARIO": "Días de agosto 5, 8, 9 - media hora de salida antes. "
- },
- {
-  "FECHA": "07\/02\/2022",
-  "HORARIO": "22:00 - 4:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 6,
-  "TAREA": "PM Facturas PRO",
-  "HORAS DE COMPENSACIÓN": 10,
-  "HORAS COMPENSADAS": 10,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "19\/09\/2022 3h",
-  "COMENTARIO": "0,5 horas Previsto 28\/10"
- },
- {
-  "DIA DISFRUTADO": "20\/09\/2022 2 h"
- },
- {
-  "DIA DISFRUTADO": "04\/10\/2022 3 h"
- },
- {
-  "DIA DISFRUTADO": "14\/10\/2022 1.5h"
- },
- {
-  "DIA DISFRUTADO": "28\/10\/2022 0.5h"
- },
- {
-  "FECHA": "07\/02\/2022",
-  "HORARIO": "18:00 - 19:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Dudas PF",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "15\/09\/2022 2h"
- },
- {
-  "FECHA": "07\/03\/2022",
-  "HORARIO": "0:00-1:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM FyC",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "30\/09\/2022 2h"
- },
- {
-  "DIA DISFRUTADO": "19\/10\/2022 1h"
- },
- {
-  "FECHA": "07\/03\/2022",
-  "HORARIO": "8:00-10:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Soporte post PM FyC",
-  "HORAS DE COMPENSACIÓN": 4,
-  "HORAS COMPENSADAS": 4,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "19\/10\/2022 1h"
- },
- {
-  "DIA DISFRUTADO": "11\/11\/2022 2h"
- },
- {
-  "DIA DISFRUTADO": "15\/11\/2022 1h"
- },
- {
-  "FECHA": "07\/03\/2022",
-  "HORARIO": "21:00-21:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Soporte post PM FyC",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/09\/2022 1h"
- },
- {
-  "FECHA": "07\/03\/2022",
-  "HORARIO": "00:00 - 08:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 8,
-  "TAREA": "PM Facturas",
-  "HORAS DE COMPENSACIÓN": 16,
-  "HORAS COMPENSADAS": 16,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/09\/2022, 16\/09\/2022, 28\/09\/2022, 27\/10\/2022, 04\/11\/2022, 09\/11\/2022, 24\/11\/2022"
- },
- {
-  "FECHA": "07\/03\/2022",
-  "HORARIO": "23:30 - 00:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Sacar listado EIS",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "11\/24\/2022"
- },
- {
-  "FECHA": "07\/03\/2022",
-  "HORARIO": "00:00 - 04:00",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 4,
-  "TAREA": "PM Facturas",
-  "HORAS DE COMPENSACIÓN": 8,
-  "HORAS COMPENSADAS": 8,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "09\/01\/2022",
-  "COMENTARIO": "0,5 h por llevar al niño con los abuelos. 0,5 para llevar a Mateu a la guarde (martes, miércoles)"
- },
- {
-  "DIA DISFRUTADO": "09\/06\/2022",
-  "COMENTARIO": "Día 14\/09, salir media hora antes (Eurobasket)"
- },
- {
-  "DIA DISFRUTADO": "09\/07\/2022",
-  "COMENTARIO": "19\/09, salir media hora antes para que me lleve Rubén, por coche en taller"
- },
- {
-  "DIA DISFRUTADO": "09\/14\/2022",
-  "COMENTARIO": "21\/10  Coger la tarde del viernes para ir a Madrid (2,5h)"
- },
- {
-  "DIA DISFRUTADO": "09\/19\/2022",
-  "COMENTARIO": "04\/11 Comida (2,5h)"
- },
- {
-  "DIA DISFRUTADO": "10\/21\/2022"
- },
- {
-  "DIA DISFRUTADO": "11\/04\/2022"
- },
- {
-  "FECHA": "07\/03\/2022",
-  "HORARIO": "00:00 - 04:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 4,
-  "TAREA": "PM Facturas",
-  "HORAS DE COMPENSACIÓN": 8,
-  "HORAS COMPENSADAS": 8,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "27\/07\/2022 0.5h"
- },
- {
-  "DIA DISFRUTADO": "02\/08\/2022 2h"
- },
- {
-  "DIA DISFRUTADO": "05\/08\/2022 2h"
- },
- {
-  "DIA DISFRUTADO": "10\/08\/2022 2h"
- },
- {
-  "DIA DISFRUTADO": "17\/08\/2022 1.5h"
- },
- {
-  "FECHA": "07\/03\/2022",
-  "HORARIO": "07:00 - 10:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "PM Facturas",
-  "HORAS DE COMPENSACIÓN": 6,
-  "HORAS COMPENSADAS": 6,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "17\/08\/2022 0.5h"
- },
- {
-  "DIA DISFRUTADO": "14\/09\/2022 2 h"
- },
- {
-  "DIA DISFRUTADO": "27\/09\/2022 2h"
- },
- {
-  "DIA DISFRUTADO": "24\/10\/2022 1.5h"
- },
- {
-  "FECHA": "07\/04\/2022",
-  "HORARIO": "00:00 - 01:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Sacar listado EIS",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "24\/11\/2022, 20\/12\/2022"
- },
- {
-  "FECHA": "07\/04\/2022",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Guardia ARB",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "28\/10\/2022 2 h",
-  "COMENTARIO": "Previsto 28\/10"
- },
- {
-  "FECHA": "07\/21\/2022",
-  "HORARIO": "15:30 - 17:30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "R con SALESFORCE por chat en vacaciones",
-  "HORAS DE COMPENSACIÓN": 4,
-  "HORAS COMPENSADAS": 4,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "28\/10\/2022 4h",
-  "COMENTARIO": "Previsto 28\/10"
- },
- {
-  "FECHA": "08\/06\/2022",
-  "HORARIO": "00:45 - 1:15",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Intervención guardia etiquetado llamadas",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "24\/10\/2022 0.5h"
- },
- {
-  "FECHA": "08\/08\/2022",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Guardia ARB",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "28\/10\/2022 2 h",
-  "COMENTARIO": "Previsto 28\/10"
- },
- {
-  "FECHA": "08\/21\/2022",
-  "HORARIO": "3:00 - 5:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Intervención guardia proceso sac_borrado Contact",
-  "HORAS DE COMPENSACIÓN": 4,
-  "HORAS COMPENSADAS": 4,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "22\/11\/22 2h"
- },
- {
-  "DIA DISFRUTADO": "24\/11\/22 2h"
- },
- {
-  "FECHA": "09\/12\/2022",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Guardia ARB",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "28\/10\/2022 0,5 h",
-  "COMENTARIO": "0,5 horas 28\/10"
- },
- {
-  "COMENTARIO": "1,5 horas el 03\/11"
- },
- {
-  "FECHA": "09\/17\/2022",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM V17 + Renovación Certificados",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/20\/2022"
- },
- {
-  "FECHA": "09\/17\/2022",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM V17 + Renovación Certificados",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "09\/11\/22 1h"
- },
- {
-  "FECHA": "09\/29\/2022",
-  "HORARIO": "01:00 - 02:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Guardia",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "19\/12\/2022, 20\/12\/2022"
- },
- {
-  "FECHA": "10\/10\/2022",
-  "HORARIO": "17:00 - 18:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Enseñar Input Wiki L900 en Tavernes",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "11\/15\/2022"
- },
- {
-  "FECHA": "10\/15\/2022",
-  "HORARIO": "1:00 - 2:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Intervención guardia proceso scs_run_proveedores_salesforce",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/12\/2023"
- },
- {
-  "FECHA": "10\/15\/2022",
-  "HORARIO": "07.00 - 10.00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Supervisión Winter'23 Tavernes",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "11\/25\/2022"
- },
- {
-  "FECHA": "10\/17\/2022",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Guardia ARB",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "09\/11\/22 2h"
- },
- {
-  "FECHA": "10\/21\/2022",
-  "HORARIO": "02.00 - 3.00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia centros",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "1 hora 2\/12\/2022"
- },
- {
-  "FECHA": "10\/22\/2022",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Salesforce v18.0.3",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "11\/25\/2022"
- },
- {
-  "FECHA": "10\/23\/2022",
-  "HORARIO": "3.00 - 3.30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia productos detalles",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "0,5 horas 1\/12\/2022"
- },
- {
-  "DIA DISFRUTADO": "0,5 horas 2\/12\/2022"
- },
- {
-  "FECHA": "10\/24\/2022",
-  "HORARIO": "Guardia",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Tarde por guardia",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "11\/24\/2022"
- },
- {
-  "FECHA": "10\/27\/2022",
-  "HORARIO": "6:30 - 8:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Migración bot",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "1 hora 1\/12\/2022"
- },
- {
-  "DIA DISFRUTADO": "0,5 horas 20\/12\/2022"
- },
- {
-  "FECHA": "11\/02\/2022",
-  "HORARIO": "08:30-10:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": -2,
-  "TAREA": "Asistencia médica de mi hijo",
-  "HORAS DE COMPENSACIÓN": -2,
-  "HORAS COMPENSADAS": -2,
-  "¿COMPENSADAS?": "SI",
-  "COMENTARIO": "02\/11\/2022 - 0,5 salir más tarde"
- },
- {
-  "COMENTARIO": "07\/11\/2022 - 0,5 salir más tarde"
- },
- {
-  "COMENTARIO": "08\/11\/2022 - 0,5 salir más tarde"
- },
- {
-  "COMENTARIO": "09\/11\/2022 - 0,5 salir más tarde"
- },
- {
-  "FECHA": "11\/15\/2022",
-  "HORARIO": "08:30-10:00",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": -1.5,
-  "TAREA": "Asistencia médica de mi hijo",
-  "HORAS DE COMPENSACIÓN": -1.5,
-  "HORAS COMPENSADAS": -1.5,
-  "¿COMPENSADAS?": "SI",
-  "COMENTARIO": "14\/11\/2022 - 1 salir más tarde"
- },
- {
-  "COMENTARIO": "16\/11\/2022 - 0,5 salir más tarde"
- },
- {
-  "FECHA": "11\/18\/2022",
-  "HORARIO": "3:50 - 4:50",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Intervención guardia proceso scs_run_productoscentrosstock_sa",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/12\/2023"
- },
- {
-  "FECHA": "11\/18\/2022",
-  "HORARIO": "3:50 - 4:50",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Intervención guardia proceso scs_run_productoscentrosstock_sa",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/02\/2022"
- },
- {
-  "FECHA": "11\/19\/2022",
-  "HORARIO": "23:00 - 1:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM Conector",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/12\/2022 2h- 16\/12\/2022 1h"
- },
- {
-  "FECHA": "11\/19\/2022",
-  "HORARIO": "23:00 - 1:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM Conector",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "25\/11\/2022 - 1h"
- },
- {
-  "DIA DISFRUTADO": "16\/12\/2022 - 2h"
- },
- {
-  "FECHA": "11\/19\/2022",
-  "HORARIO": "23:00 - 1:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM Conector",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "20\/12\/2022, 04\/01\/2023"
- },
- {
-  "FECHA": "11\/19\/2022",
-  "HORARIO": "23:00 - 1:00",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM Conector",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "11\/21\/2022",
-  "COMENTARIO": "21\/11\/2022 - 1h de Fisio"
- },
- {
-  "DIA DISFRUTADO": "01\/24\/2023",
-  "COMENTARIO": "24\/01\/2023 - 0,5 Conocer resultados análisis médicos"
- },
- {
-  "DIA DISFRUTADO": "02\/24\/2023",
-  "COMENTARIO": "24\/02\/2023 - 1,5h tarde libre para ir al pueblo"
- },
- {
-  "FECHA": "11\/23\/2022",
-  "HORARIO": "23:00 - 0:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Bloque logistico",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "04\/01\/2023, 13\/01\/2023"
- },
- {
-  "FECHA": "11\/23\/2022",
-  "HORARIO": "23:00 - 0:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Bloque logistico",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "1 hora 20\/12\/2022"
- },
- {
-  "FECHA": "11\/23\/2022",
-  "HORARIO": "23:00 - 0:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Bloque logistico",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/16\/2022"
- },
- {
-  "FECHA": "11\/24\/2022",
-  "HORARIO": "01:30 - 3:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Arreglos PM ETLS",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "13\/01\/2023, 18\/01\/2023,19\/01\/2023"
- },
- {
-  "FECHA": "11\/24\/2022",
-  "HORARIO": "01:30 - 3:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Arreglos PM ETLS",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "16\/12\/2022 21\/12\/2022"
- },
- {
-  "FECHA": "11\/24\/2022",
-  "HORARIO": "01:30 - 2:30",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Arreglos PM ETLS",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/21\/2022"
- },
- {
-  "FECHA": "11\/24\/2022",
-  "HORARIO": "4:30 - 5:00  ",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Arreglos PM ETLS",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/19\/2023"
- },
- {
-  "FECHA": "11\/26\/2022",
-  "HORARIO": "23:00 - 0:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Conector (ajustes)",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/21\/2022"
- },
- {
-  "FECHA": "11\/26\/2022",
-  "HORARIO": "23:00 - 0:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Conector (ajustes)",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/12\/2023"
- },
- {
-  "FECHA": "11\/26\/2022",
-  "HORARIO": "23:00 - 0:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Conector (ajustes)",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/20\/2022"
- },
- {
-  "FECHA": "11\/26\/2022",
-  "HORARIO": "23:00 - 0:00",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Conector (ajustes)",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/22\/2022",
-  "COMENTARIO": "Fiesta de la guardería"
- },
- {
-  "FECHA": "12\/02\/2022",
-  "HORARIO": "00:00 - 01:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Guardia",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "25\/01\/2023,02\/02\/2023"
- },
- {
-  "FECHA": "12\/03\/2022",
-  "HORARIO": "23:00 - 0:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM API + Conector + Google",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/28\/2022"
- },
- {
-  "FECHA": "12\/03\/2022",
-  "HORARIO": "23:00 - 0:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM API + Conector + Google",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/12\/2023"
- },
- {
-  "FECHA": "12\/03\/2022",
-  "HORARIO": "23:00 - 0:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM API + Conector + Google",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/20\/2022"
- },
- {
-  "FECHA": "12\/03\/2022",
-  "HORARIO": "23:00 - 0:00",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM API + Conector + Google",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/22\/2022",
-  "COMENTARIO": "Fiesta de la guardería"
- },
- {
-  "FECHA": "12\/03\/2022",
-  "HORARIO": "23:00 - 0:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM API + Conector + Google",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "19\/01\/2023,25\/01\/2023"
- },
- {
-  "FECHA": "12\/07\/2022",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/02\/2023"
- },
- {
-  "FECHA": "12\/14\/2022",
-  "HORARIO": "-",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Tarde por guardia",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/21\/2022"
- },
- {
-  "FECHA": "12\/17\/2022",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Conector v18.3.0",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/13\/2023"
- },
- {
-  "FECHA": "12\/17\/2022",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Conector v18.3.0",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/12\/2023"
- },
- {
-  "FECHA": "12\/17\/2022",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Conector v18.3.0",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/28\/2022"
- },
- {
-  "FECHA": "12\/17\/2022",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Conector v18.3.0",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/24\/2023",
-  "COMENTARIO": "24\/02\/2023 - 1,5h tarde libre para ir al pueblo"
- },
- {
-  "FECHA": "12\/18\/2022",
-  "HORARIO": "8:45 - 11:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 2.25,
-  "TAREA": "Supervisión PM Conector Tavernes",
-  "HORAS DE COMPENSACIÓN": 4.5,
-  "HORAS COMPENSADAS": 4.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "13\/01\/2023 - 25\/01\/2023 "
- },
- {
-  "FECHA": "12\/18\/2022",
-  "HORARIO": "8:45 - 11:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 2.25,
-  "TAREA": "Supervisión PM Conector Tavernes",
-  "HORAS DE COMPENSACIÓN": 4.5,
-  "HORAS COMPENSADAS": 4.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "3h 24\/02\/2023"
- },
- {
-  "DIA DISFRUTADO": "1,5h 10\/03\/2023"
- },
- {
-  "FECHA": "12\/19\/2022",
-  "HORARIO": "07:00 - 08:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Soporte PM Conector Tavernes ",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/09\/2023"
- },
- {
-  "FECHA": "12\/29\/2022",
-  "HORARIO": "9:30 - 10:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Posible R con IR INDONA",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "0,5h 10\/03\/2023"
- },
- {
-  "FECHA": "12\/30\/2022",
-  "HORARIO": "9:30 - 10:30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "R con IR INDONA",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "1h 10\/03\/2023"
- },
- {
-  "FECHA": "01\/02\/2023",
-  "HORARIO": "03:00 - 04:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia ETL nuevo IVA tornillos",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/09\/2023"
- },
- {
-  "FECHA": "01\/02\/2023",
-  "HORARIO": "9:30 - 10:30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "R con IR INDONA",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "24\/04 (en total 3.5 horas esa mañana)"
- },
- {
-  "FECHA": "01\/02\/2023",
-  "HORARIO": "9:30 - 11:30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "R con IR + PF INDONA",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "24\/04 (en total 3.5 horas esa mañana)"
- },
- {
-  "FECHA": "01\/11\/2023",
-  "HORARIO": "23:30 - 01:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Migracion tareas conector antiguo",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/02\/2023, 14\/02\/2023"
- },
- {
-  "FECHA": "01\/11\/2023",
-  "HORARIO": "23:30 - 01:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Migracion tareas conector antiguo",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "25\/01\/2023 - 01\/02\/2023"
- },
- {
-  "FECHA": "01\/16\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia ☣",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/02\/2023 - 10\/02\/2023"
- },
- {
-  "FECHA": "01\/17\/2023",
-  "HORARIO": "01:30 - 03:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Intervencion carga precios",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/02\/2023 - 07\/02\/2023"
- },
- {
-  "FECHA": "01\/19\/2023",
-  "HORARIO": "23:30 - 00:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Intervencion thinkConnect 🦇",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/10\/2023"
- },
- {
-  "FECHA": "01\/19\/2023",
-  "HORARIO": "23:30 - 00:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Intervencion thinkConnect",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/14\/2023"
- },
- {
-  "FECHA": "01\/27\/2023",
-  "HORARIO": "01:45-3:15",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Guardia ☣ - Organigrama",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "10\/02\/2023 03\/03\/2023"
- },
- {
-  "FECHA": "01\/27\/2023",
-  "HORARIO": "01:45-3:15",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Guardia ☣ - Organigrama",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/27\/2023",
-  "COMENTARIO": "27\/02\/2023 - 0,5h médico de Mateu"
- },
- {
-  "DIA DISFRUTADO": "03\/16\/2023",
-  "COMENTARIO": "16\/03\/2023 - 1h Tarde libre"
- },
- {
-  "FECHA": "01\/28\/2023",
-  "HORARIO": "23:30 - 00:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Desmontar thinkConnect",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/15\/2023"
- },
- {
-  "FECHA": "01\/28\/2023",
-  "HORARIO": "23:30 - 00:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Desmontar thinkConnect",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/24\/2023"
- },
- {
-  "FECHA": "02\/03\/2023",
-  "HORARIO": "23:30 - 00:30 ",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v18.3.11",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/16\/2023",
-  "COMENTARIO": "16\/03\/2023 - 1h Tarde libre"
- },
- {
-  "FECHA": "02\/03\/2023",
-  "HORARIO": "23:30 - 00:30 ",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v18.3.11",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/16\/2023"
- },
- {
-  "FECHA": "02\/03\/2023",
-  "HORARIO": "22:30 - 00:30 ",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM v18.3.11 + Validación Comunicaciones pulse 1",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/15\/2023"
- },
- {
-  "FECHA": "02\/04\/2023",
-  "HORARIO": "23:30 - 01:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Actualizar llamadas antiguas",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/13\/2023"
- },
- {
-  "FECHA": "02\/04\/2023",
-  "HORARIO": "23:30 - 01:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Actualizar llamadas antiguas",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/03\/2023"
- },
- {
-  "FECHA": "02\/04\/2023",
-  "HORARIO": "2:00 - 3:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Intervencion guardia",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/16\/2023"
- },
- {
-  "DIA DISFRUTADO": "03\/01\/2023"
- },
- {
-  "FECHA": "02\/04\/2023",
-  "HORARIO": "2:00 - 3:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Intervencion guardia",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI"
- },
- {
-  "FECHA": "02\/15\/2023",
-  "HORARIO": "22:30 - 00-30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM v18.4.0",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/15\/2023",
-  "COMENTARIO": "Tarde libre por enfermedad"
- },
- {
-  "FECHA": "02\/15\/2023",
-  "HORARIO": "22:30 - 00-30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM v18.4.0",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI"
- },
- {
-  "FECHA": "02\/15\/2023",
-  "HORARIO": "22:30 - 00-30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM v18.4.0",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "05\/15\/2023"
- },
- {
-  "FECHA": "02\/27\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI"
- },
- {
-  "FECHA": "02\/28\/2023",
-  "HORARIO": "17:00 - 18:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM Conector correo",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/01\/2023"
- },
- {
-  "FECHA": "03\/08\/2023",
-  "HORARIO": "01:00-01:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Guardia - Grabadora",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/20\/2023",
-  "COMENTARIO": "0,5h salir antes"
- },
- {
-  "FECHA": "03\/10\/2023",
-  "HORARIO": "21:30 - 23:30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Incidencia Whatsapp Botslovers",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "13-Jun"
- },
- {
-  "FECHA": "03\/11\/2023",
-  "HORARIO": "08:30-09:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Guardia - Llamar a números extranjeros",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/22\/2023",
-  "COMENTARIO": "1h llevar a Mateu al médico"
- },
- {
-  "FECHA": "03\/25\/2023",
-  "HORARIO": "23:15 - 00:15",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v 18.4.5",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI"
- },
- {
-  "FECHA": "03\/25\/2023",
-  "HORARIO": "23:15 - 00:15",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v 18.4.5",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/28\/2023",
-  "COMENTARIO": "Salir antes para la jornada de puertas abiertas de cole de Mateu"
- },
- {
-  "FECHA": "04\/17\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (10\/04\/23 al 16\/04\/23)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "05\/09\/2023"
- },
- {
-  "FECHA": "04\/18\/2023",
-  "HORARIO": "17:00 - 19:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Ver tema PM jefe online",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "05\/12\/2023"
- },
- {
-  "FECHA": "04\/18\/2023",
-  "HORARIO": "19:30 - 20:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Intervención Guardia - Teléfono se desconecta",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "05\/19\/2023",
-  "COMENTARIO": "Salir antes para viaje"
- },
- {
-  "FECHA": "04\/29\/2023",
-  "HORARIO": "9:00 - 10:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Intervención Guardia - Problema extensión telefonía",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "19\/07\/2023 1h"
- },
- {
-  "FECHA": "05\/08\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (08\/05\/23 al 14\/05\/23)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "Previsto 26\/05"
- },
- {
-  "FECHA": "05\/09\/2023",
-  "HORARIO": "4:20 - 5:50",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Incidencia carga productos",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "Previsto 25\/05",
-  "COMENTARIO": "Presupuesto obra casa"
- },
- {
-  "FECHA": "05\/09\/2023",
-  "HORARIO": "4:20 - 5:50",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Incidencia carga productos",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "13\/06 (0,5 horas) + 1 Previsto 19\/06"
- },
- {
-  "FECHA": "05\/22\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (22\/05\/23 al 28\/05\/23)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08\/31\/2023"
- },
- {
-  "FECHA": "05\/28\/2023",
-  "HORARIO": "23:30 - 00:30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v19.0.0",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "Previsto 19\/06"
- },
- {
-  "FECHA": "05\/28\/2023",
-  "HORARIO": "23:30 - 00:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v19.0.0",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "29-May"
- },
- {
-  "FECHA": "05\/28\/2023",
-  "HORARIO": "23:30 - 00:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v19.0.0",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "19\/07\/2023 1h"
- },
- {
-  "DIA DISFRUTADO": "28\/07\/2023 0,5h"
- },
- {
-  "FECHA": "05\/28\/2023",
-  "HORARIO": "23:30 - 00:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v19.0.0",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/25\/2023",
-  "COMENTARIO": "Visita Hospital Monitores embarazo"
- },
- {
-  "DIA DISFRUTADO": "10\/25\/2023",
-  "COMENTARIO": "Reunión Colegio"
- },
- {
-  "FECHA": "05\/28\/2023",
-  "HORARIO": "23:30 - 00:30",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v19.0.0",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "06\/22\/2023"
- },
- {
-  "FECHA": "05\/28\/2023",
-  "HORARIO": "07:00 - 14:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 7,
-  "TAREA": "Trabajo en Tavernes (PM v19.0.0)",
-  "HORAS DE COMPENSACIÓN": 14,
-  "HORAS COMPENSADAS": 14,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "29\/05\/2023 21\/06\/23 23\/06\/23 28\/07\/2023"
- },
- {
-  "FECHA": "05\/28\/2023",
-  "HORARIO": "10:00 - 11:00",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v19.0.0",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "06\/08\/2023",
-  "COMENTARIO": "Tarde libre"
- },
- {
-  "FECHA": "05\/28\/2023",
-  "HORARIO": "12:00 - 13:00",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v19.0.0",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/20\/2023",
-  "COMENTARIO": "Médico Revisión Embarazo"
- },
- {
-  "FECHA": "06\/12\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (12\/06\/23 al 18\/06\/23)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08\/07\/2023"
- },
- {
-  "FECHA": "06\/17\/2023",
-  "HORARIO": "09:00 - 09:30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia' SALESFORCE Brillo pantalla gerentes",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08\/11\/2023"
- },
- {
-  "FECHA": "06\/22\/2023",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Intervención Guardia - ETL productos_centros_stock",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "22\/06\/2023 0,5h"
- },
- {
-  "DIA DISFRUTADO": "30\/06\/2023 1h"
- },
- {
-  "FECHA": "06\/22\/2023",
-  "HORARIO": "04:50 - 05:20",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Intervención Guardia - ETL productos_centros_stock",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/28\/2023"
- },
- {
-  "FECHA": "06\/23\/2023",
-  "HORARIO": "21:20 - 22:50",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM v19.1.3",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/28\/2023"
- },
- {
-  "FECHA": "06\/23\/2023",
-  "HORARIO": "21:20 - 22:50",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM v19.1.3",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/25\/2023"
- },
- {
-  "FECHA": "06\/27\/2023",
-  "HORARIO": "9:30 - 10:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia socialstudio",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08\/11\/2023",
-  "COMENTARIO": "Incidencia de SOCIALSTUDIO (vacaciones)"
- },
- {
-  "FECHA": "06\/27\/2023",
-  "HORARIO": "17:00 - 18:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Script insertar datos para pruebas API del GR",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "28\/07\/2023 1h"
- },
- {
-  "FECHA": "06\/28\/2023",
-  "HORARIO": "17:00 - 18:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Reunión pedir infra OCP del Plan B",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "28\/07\/2023 0,5h"
- },
- {
-  "DIA DISFRUTADO": "22\/09\/2023 0,5h"
- },
- {
-  "FECHA": "07\/03\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (03\/07\/2023 al 09\/07\/2023)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "09\/17\/2023"
- },
- {
-  "FECHA": "07\/05\/2023",
-  "HORARIO": "17:30 -18:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "PM automata",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/25\/2023"
- },
- {
-  "FECHA": "07\/12\/2023",
-  "HORARIO": "22:30 - 23:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v19.1.4",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "28\/07\/2023 24\/10\/2023"
- },
- {
-  "FECHA": "07\/12\/2023",
-  "HORARIO": "22:30 - 23:30",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v19.1.4",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "31\/07\/2023 1h"
- },
- {
-  "FECHA": "07\/12\/2023",
-  "HORARIO": "22:30 - 23:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v19.1.4",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/20\/2023",
-  "COMENTARIO": "Médico Revisión Embarazo"
- },
- {
-  "FECHA": "07\/12\/2023",
-  "HORARIO": "09:00 - 09:30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia botslovers código postal",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08\/11\/2023"
- },
- {
-  "FECHA": "07\/14\/2023",
-  "HORARIO": "09:00 - 10:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia botslovers imágenes",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "0,5 11\/08\/2023"
- },
- {
-  "DIA DISFRUTADO": "1 30\/08\/2023"
- },
- {
-  "DIA DISFRUTADO": "0,5 07\/09\/2023"
- },
- {
-  "FECHA": "07\/19\/2023",
-  "HORARIO": "1:30 - 2: 30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Intervención Guardia - ETL scs_run_etiquetallama_salesforce",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "29\/09\/2023 1h"
- },
- {
-  "FECHA": "07\/19\/2023",
-  "HORARIO": "2:00 - 2:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Intervención Guardia - ETL scs_run_etiquetallama_salesforce",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "09\/15\/2023"
- },
- {
-  "FECHA": "07\/22\/2023",
-  "HORARIO": "22:30 - 00:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM v19.1.6",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "09\/15\/2023"
- },
- {
-  "FECHA": "07\/22\/2023",
-  "HORARIO": "22:30 - 00:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM v19.1.6",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "09\/07\/2023"
- },
- {
-  "FECHA": "07\/22\/2023",
-  "HORARIO": "22:30 - 00:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM v19.1.6",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "31\/07\/2023 1h"
- },
- {
-  "DIA DISFRUTADO": "09\/08\/2023 0,5h"
- },
- {
-  "FECHA": "07\/22\/2023",
-  "HORARIO": "22:30 - 00:00",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM v19.1.6",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/25\/2023",
-  "COMENTARIO": "Visita Hospital Monitores embarazo"
- },
- {
-  "FECHA": "07\/26\/2023",
-  "HORARIO": "22:30 - 00:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Carga de llenado de piscina Producto-Proveedor-Ean",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/09\/2023,03\/10\/2023"
- },
- {
-  "FECHA": "07\/27\/2023",
-  "HORARIO": "18:00 - 19:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia conector correo",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "09\/08\/2023 1h"
- },
- {
-  "FECHA": "07\/31\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (31\/07\/2023 al 06\/08\/2023)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "10\/18\/2023"
- },
- {
-  "FECHA": "08\/05\/2023",
-  "HORARIO": "19:30 - 20:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Intervencion guardia adjuntos KO",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "10\/24\/2023"
- },
- {
-  "FECHA": "08\/07\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (07\/08\/23 al 13\/08\/23)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "09\/22\/2023"
- },
- {
-  "FECHA": "08\/09\/2023",
-  "HORARIO": "23:30 - 00:30",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v19.1.8.1",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "09\/08\/2023 0,5h"
- },
- {
-  "DIA DISFRUTADO": "08\/09\/2023 0,5h"
- },
- {
-  "FECHA": "08\/09\/2023",
-  "HORARIO": "23:30 - 00:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v19.1.8.1",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "29\/09\/2023 1h"
- },
- {
-  "FECHA": "08\/09\/2023",
-  "HORARIO": "23:30 - 00:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v19.1.8.1",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "09\/15\/2023"
- },
- {
-  "FECHA": "08\/11\/2023",
-  "HORARIO": "20:00 - 21:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia centros con horario mal para 15\/08",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "1 07\/09\/2023"
- },
- {
-  "FECHA": "08\/16\/2023",
-  "HORARIO": "11:00 - 13:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Rs en Vacas",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "10\/24\/2023"
- },
- {
-  "FECHA": "08\/16\/2023",
-  "HORARIO": "18:00 - 19:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Intervención guardia conector correo",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08\/09\/2023 1h"
- },
- {
-  "FECHA": "08\/20\/2023",
-  "HORARIO": "22:30 - 01:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Hyperforce",
-  "HORAS DE COMPENSACIÓN": 4.5,
-  "HORAS COMPENSADAS": 4.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/10\/2023,05\/10\/2023, 26\/10\/2023"
- },
- {
-  "FECHA": "08\/20\/2023",
-  "HORARIO": "22:30 - 01:30",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Hyperforce",
-  "HORAS DE COMPENSACIÓN": 4.5,
-  "HORAS COMPENSADAS": 4.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08\/09\/2023 0,5h"
- },
- {
-  "DIA DISFRUTADO": "19\/09\/2023 2h"
- },
- {
-  "DIA DISFRUTADO": "25\/09\/2023 2h"
- },
- {
-  "FECHA": "08\/20\/2023",
-  "HORARIO": "22:30 - 01:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Hyperforce",
-  "HORAS DE COMPENSACIÓN": 4.5,
-  "HORAS COMPENSADAS": 4.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "22\/09\/2023 1,5h"
- },
- {
-  "DIA DISFRUTADO": "06\/09\/2023 2h"
- },
- {
-  "DIA DISFRUTADO": "26\/10\/2023 1h"
- },
- {
-  "FECHA": "08\/20\/2023",
-  "HORARIO": "22:30 - 01:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Hyperforce",
-  "HORAS DE COMPENSACIÓN": 4.5,
-  "HORAS COMPENSADAS": 4.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "27\/10\/2023 07\/11\/23"
- },
- {
-  "FECHA": "08\/20\/2023",
-  "HORARIO": "22:30 - 01:30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Hyperforce",
-  "HORAS DE COMPENSACIÓN": 4.5,
-  "HORAS COMPENSADAS": 4.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "0,5 14\/09\/2023"
- },
- {
-  "DIA DISFRUTADO": "0,5 04\/10\/2023"
- },
- {
-  "DIA DISFRUTADO": "3 10\/10\/2023"
- },
- {
-  "DIA DISFRUTADO": "0,5 20\/20\/2023"
- },
- {
-  "FECHA": "08\/20\/2023",
-  "HORARIO": "07:00 - 9:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 2.5,
-  "TAREA": "Hyperforce Tavernes",
-  "HORAS DE COMPENSACIÓN": 5,
-  "HORAS COMPENSADAS": 5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "2,5 horas 20\/10\/23"
- },
- {
-  "DIA DISFRUTADO": "1 25\/10\/2023"
- },
- {
-  "DIA DISFRUTADO": "1,5 10\/11\/2023"
- },
- {
-  "FECHA": "08\/20\/2023",
-  "HORARIO": "10:00 - 12:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Hyperforce soporte Domingo incidencias",
-  "HORAS DE COMPENSACIÓN": 4,
-  "HORAS COMPENSADAS": 4,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/10\/2023 2h"
- },
- {
-  "DIA DISFRUTADO": "27\/10\/2023 2h"
- },
- {
-  "FECHA": "08\/20\/2023",
-  "HORARIO": "22:30 - 01:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Hyperforce soporte Domingo incidencias",
-  "HORAS DE COMPENSACIÓN": 4,
-  "HORAS COMPENSADAS": 4,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/11\/2023 + 16\/11\/2023"
- },
- {
-  "FECHA": "08\/20\/2023",
-  "HORARIO": "22:30 - 01:30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Hyperforce soporte Domingo incidencias",
-  "HORAS DE COMPENSACIÓN": 6,
-  "HORAS COMPENSADAS": 6,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "1,5 10\/11\/2023"
- },
- {
-  "DIA DISFRUTADO": "3 13\/11\/2023"
- },
- {
-  "DIA DISFRUTADO": "1,5 14\/11\/2023"
- },
- {
-  "FECHA": "08\/21\/2023",
-  "HORARIO": "6:45 - 7:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Soporte hyperforce Tavernes Lunes",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "1 14\/11\/2023"
- },
- {
-  "FECHA": "08\/21\/2023",
-  "HORARIO": "13:30 - 14:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Intervencion KO creacion jefe fras",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "16\/11\/2023 + 11\/12\/2023"
- },
- {
-  "FECHA": "08\/26\/2023",
-  "HORARIO": "22:30 - 23:30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Renovar ADFS Certificados",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "0,5 1\/12\/2023"
- },
- {
-  "FECHA": "08\/26\/2023",
-  "HORARIO": "22:30 - 23:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Renovar ADFS Certificados",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "26\/10\/2023, 04\/12\/2023(0,5)"
- },
- {
-  "FECHA": "08\/28\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (28\/08\/23 al 03\/09\/23)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "1 1\/12\/2023"
- },
- {
-  "DIA DISFRUTADO": "2 15\/12\/2023"
- },
- {
-  "FECHA": "09\/04\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (04\/09\/2023 al 10\/09\/2023)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "11\/21\/2023"
- },
- {
-  "FECHA": "09\/04\/2023",
-  "HORARIO": "17:00-19:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Cambio Organigrama",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "04\/12\/2023(1,5)"
- },
- {
-  "DIA DISFRUTADO": "05\/12\/2023 (0,5)"
- },
- {
-  "FECHA": "09\/04\/2023",
-  "HORARIO": "20:00-20:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Cambio Organigrama",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "05\/12\/2023 (0,5)"
- },
- {
-  "FECHA": "09\/11\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (11\/09\/23 al 17\/09\/23)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "1 15\/12\/2023"
- },
- {
-  "DIA DISFRUTADO": "2 20\/12\/2023"
- },
- {
-  "FECHA": "09\/16\/2023",
-  "HORARIO": "22:40 - 23:40",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM v19.1.9",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/11\/2023"
- },
- {
-  "FECHA": "09\/16\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Incidencias L900, Google e INTIE",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "1 20\/12\/2023",
-  "COMENTARIO": "Incidencia Ratoui L900 Telefonía, Incidencia local GMB, incidencias 2 centros INTIE Certificado."
- },
- {
-  "DIA DISFRUTADO": "0,5 21\/12\/2023"
- },
- {
-  "FECHA": "09\/16\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencias INTIE",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/11\/2023",
-  "COMENTARIO": "Incidencias 2 centros INTIE Certificado."
- },
- {
-  "FECHA": "09\/17\/2023",
-  "HORARIO": "09:00 - 09:45",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 0.75,
-  "TAREA": "Incidencia PM ",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "1,5 21\/12\/2023",
-  "COMENTARIO": "Incidencia tras PM (WS, ubicación LOPD, pantalla TV)"
- },
- {
-  "FECHA": "09\/17\/2023",
-  "HORARIO": "09:00 - 09:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 0.75,
-  "TAREA": "Incidencia PM ",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/20\/2023",
-  "COMENTARIO": "Incidencia tras PM (WS, ubicación LOPD, pantalla TV)"
- },
- {
-  "FECHA": "09\/18\/2023",
-  "HORARIO": "22:30 - 23:30",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Pruebas PM Telefonía ceros en prefijo",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "11\/02\/2023"
- },
- {
-  "FECHA": "09\/19\/2023",
-  "HORARIO": "19:30 - 20:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Petición eliminar expedientes de INTIE",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "26\/10\/2023 1h"
- },
- {
-  "FECHA": "09\/21\/2023",
-  "HORARIO": "6:15-6:45",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia conector de correo",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "11\/10\/2023",
-  "COMENTARIO": "Incidencia de 2 llamadas APIs, la de suscribirse y la de obtener las carpetas. El error ocurría en un mismo buzón."
- },
- {
-  "FECHA": "09\/24\/2023",
-  "HORARIO": "22:15 - 23:15",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia botslovers + actualización",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "1 21\/12\/2023"
- },
- {
-  "DIA DISFRUTADO": "1 10\/01\/2024"
- },
- {
-  "FECHA": "10\/05\/2023",
-  "HORARIO": "3:45-6:45",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia correo + proper",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "05\/12\/2023 (1), 14\/12\/2023(2)"
- },
- {
-  "FECHA": "10\/05\/2023",
-  "HORARIO": "3:45-6:45",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Indicencia PROPER",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "20\/12\/2023 28\/12\/2023 08\/03"
- },
- {
-  "FECHA": "10\/11\/2023",
-  "HORARIO": "1:30-2:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Indicencia Guardia - Error Job CENTROS",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/04\/2023",
-  "COMENTARIO": "Médico Marina revisión bronquiolitis"
- },
- {
-  "FECHA": "10\/11\/2023",
-  "HORARIO": "07:00-07:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Indicencia Guardia - CargarUBICA  - SEGAL",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/04\/2023",
-  "COMENTARIO": "Llaman del colegio para recoger a Mateu por malestar"
- },
- {
-  "FECHA": "10\/15\/2023",
-  "HORARIO": "01:00-01:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Indicencia ETL - salesforce-back-btc-signal_updat",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/04\/2023",
-  "COMENTARIO": "Llaman del colegio para recoger a Mateu por malestar"
- },
- {
-  "FECHA": "10\/17\/2023",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Validacion cambio cert PRO FED",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/28\/2023"
- },
- {
-  "FECHA": "10\/17\/2023",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Validacion cambio cert PRO FED",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "18\/12\/2023(1)"
- },
- {
-  "FECHA": "10\/20\/2023",
-  "HORARIO": "17:00 - 18:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Cambio MAGEO + ORG RRHH",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "18\/12\/2023(1), 15\/12\/2023(0,5)"
- },
- {
-  "FECHA": "10\/23\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (23\/10\/23 al 29\/10\/23)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "2 10\/01\/2024"
- },
- {
-  "DIA DISFRUTADO": "1 19\/01\/2024"
- },
- {
-  "FECHA": "10\/29\/2023",
-  "HORARIO": "04:00 - 04:30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia SALESFORCE",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "1 19\/01\/2024"
- },
- {
-  "FECHA": "10\/31\/2023",
-  "HORARIO": "22:45 - 00:15",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM v19.2.1",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/11\/2023 1h"
- },
- {
-  "DIA DISFRUTADO": "11\/12\/2023 0,5h"
- },
- {
-  "FECHA": "10\/31\/2023",
-  "HORARIO": "22:45 - 00:15",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM v19.2.1",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "28\/12\/2023 + 12\/01\/2023"
- },
- {
-  "FECHA": "10\/31\/2023",
-  "HORARIO": "17:00 - 18:30",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Pruebas INTIE Laboratorio",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "11\/12\/2023 1,5h"
- },
- {
-  "FECHA": "11\/05\/2023",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (30\/10\/23 al 05\/11\/23)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/01\/2023 + 18\/01\/2023"
- },
- {
-  "FECHA": "11\/06\/2023",
-  "HORARIO": "17:00 - 18:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Preparacion PM v19,2,3",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "11\/10\/2023"
- },
- {
-  "FECHA": "11\/06\/2023",
-  "HORARIO": "23:00 - 00:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM v19,2,3",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "11\/24\/2023"
- },
- {
-  "FECHA": "11\/06\/2023",
-  "HORARIO": "23:00 - 00:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Preparacion PM v19,2,3",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/18\/2023"
- },
- {
-  "FECHA": "11\/14\/2023",
-  "HORARIO": "23:00 - 00:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Pruebas de apps por renovación certificado serviciosgesdoc PRO",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "24\/11\/2023 0,5h"
- },
- {
-  "DIA DISFRUTADO": "28\/11\/2023 1h"
- },
- {
-  "FECHA": "11\/15\/2023",
-  "HORARIO": "2:00 - 3:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Pruebas de apps marcha atrás certificado serviciosgesdoc PRO",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "11\/28\/2023"
- },
- {
-  "FECHA": "11\/17\/2023",
-  "HORARIO": "17:00 - 18:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Pruebas INTIE Laboratorio",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/12\/2023 0,5h"
- },
- {
-  "DIA DISFRUTADO": "13\/12\/2023 0,5h"
- },
- {
-  "FECHA": "11\/17\/2023",
-  "HORARIO": "17:00 - 18:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Pruebas INTIE Laboratorio",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "18\/12\/2023 1h"
- },
- {
-  "FECHA": "11\/18\/2023",
-  "HORARIO": "5:00 - 6:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Incidencia en ETL scs_run_productoscentrosalmasec",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/12\/2023 1h"
- },
- {
-  "FECHA": "11\/22\/2023",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Prueba ActasSanidad renovación certificado serviciosgesdoc PRO",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/13\/2023"
- },
- {
-  "FECHA": "11\/22\/2023",
-  "HORARIO": "19:30 - 20:00",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia salesforce back correo",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/04\/2023",
-  "COMENTARIO": "Llaman del colegio para recoger a Mateu por malestar"
- },
- {
-  "FECHA": "11\/23\/2023",
-  "HORARIO": "17:30:19:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Jueves 23\/11 integración CGT",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "15\/12\/2023(1,5), 20\/12\/2023(0,5)"
- },
- {
-  "FECHA": "11\/23\/2023",
-  "HORARIO": "17:30:19:30",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 2.5,
-  "TAREA": "Jueves 23\/11 integración CGT",
-  "HORAS DE COMPENSACIÓN": 2.5,
-  "HORAS COMPENSADAS": 2.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "18\/12\/2023 1h"
- },
- {
-  "DIA DISFRUTADO": "19\/12\/2023 1,5h"
- },
- {
-  "FECHA": "11\/24\/2023",
-  "HORARIO": "18:30 - 20:00",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Incidencia telefonía. Versión del navegador",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/23\/2024",
-  "COMENTARIO": "Niño malo con fiebre"
- },
- {
-  "FECHA": "11\/26\/2023",
-  "HORARIO": "1:30 - 2:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia salesforce back correo",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/23\/2024"
- },
- {
-  "FECHA": "11\/29\/2023",
-  "HORARIO": "23:30 - 05:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 5.5,
-  "TAREA": "PM CGT",
-  "HORAS DE COMPENSACIÓN": 5.5,
-  "HORAS COMPENSADAS": 5.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "19\/12\/2023 0,5h"
- },
- {
-  "DIA DISFRUTADO": "26\/12\/2023 2h"
- },
- {
-  "DIA DISFRUTADO": "27\/12\/2023 2h"
- },
- {
-  "DIA DISFRUTADO": "28\/12\/2023 1h"
- },
- {
-  "FECHA": "11\/29\/2023",
-  "HORARIO": "23:30 - 06:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 6.5,
-  "TAREA": "PM CGT + incidencias",
-  "HORAS DE COMPENSACIÓN": 5.5,
-  "HORAS COMPENSADAS": 5.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "20\/12\/2023(1,5), 21\/12\/2023(2h), 05\/01\/2024(2h)"
- },
- {
-  "FECHA": "11\/29\/2023",
-  "HORARIO": "23:30 - 07:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 7.5,
-  "TAREA": "PM CGT + INTIE",
-  "HORAS DE COMPENSACIÓN": 5.5,
-  "HORAS COMPENSADAS": 5.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "18\/01\/2023 + 26\/01\/2024"
- },
- {
-  "FECHA": "11\/29\/2023",
-  "HORARIO": "7:00 - 8:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Acudir Albalat post PM CGT",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "13\/12\/2023 1h"
- },
- {
-  "FECHA": "11\/29\/2023",
-  "HORARIO": "7:00 - 8:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Acudir Albalat post PM CGT",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/22\/2024"
- },
- {
-  "FECHA": "11\/29\/2023",
-  "HORARIO": "7:00 - 8:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Acudir Albalat post PM CGT",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "28\/12\/2023 1h"
- },
- {
-  "FECHA": "11\/29\/2023",
-  "HORARIO": "7:00 - 8:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Acudir Albalat post PM CGT",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "1 19\/01\/2024"
- },
- {
-  "FECHA": "11\/29\/2023",
-  "HORARIO": "7:00 - 8:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Acudir Albalat post PM CGT",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/26\/2024"
- },
- {
-  "FECHA": "11\/30\/2023",
-  "HORARIO": "17:00 - 20:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 3.5,
-  "TAREA": "Cambios tras CGT",
-  "HORAS DE COMPENSACIÓN": 3.5,
-  "HORAS COMPENSADAS": 3.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "15\/12\/2023 2h"
- },
- {
-  "DIA DISFRUTADO": "21\/12\/2023 1,5h"
- },
- {
-  "FECHA": "11\/30\/2023",
-  "HORARIO": "17:00 - 20:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 3.5,
-  "TAREA": "Cambios tras CGT",
-  "HORAS DE COMPENSACIÓN": 3.5,
-  "HORAS COMPENSADAS": 3.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/22\/2024"
- },
- {
-  "FECHA": "11\/30\/2023",
-  "HORARIO": "17:00 - 20:30",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 3.5,
-  "TAREA": "Cambios tras CGT",
-  "HORAS DE COMPENSACIÓN": 3.5,
-  "HORAS COMPENSADAS": 3.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "22\/12\/2023 2h"
- },
- {
-  "DIA DISFRUTADO": "08\/01\/2024 1,5h"
- },
- {
-  "FECHA": "11\/30\/2023",
-  "HORARIO": "18:00 - 20:30",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 2.5,
-  "TAREA": "Cambios tras CGT",
-  "HORAS DE COMPENSACIÓN": 2.5,
-  "HORAS COMPENSADAS": 2.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "2,5 22\/01\/2024"
- },
- {
-  "FECHA": "11\/30\/2023",
-  "HORARIO": "18:00 - 20:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 2.5,
-  "TAREA": "Acudir Albalat post PM CGT",
-  "HORAS DE COMPENSACIÓN": 2.5,
-  "HORAS COMPENSADAS": 2.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/26\/2024"
- },
- {
-  "FECHA": "11\/30\/2023",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Revisar expedientes indicadores",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/22\/2024"
- },
- {
-  "FECHA": "11\/30\/2023",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Revisar expedientes indicadores",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "26\/01\/2024 31\/01"
- },
- {
-  "FECHA": "12\/01\/2023",
-  "HORARIO": "1:30 - 02:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "incidencia organigrama",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/19\/2024"
- },
- {
-  "FECHA": "12\/01\/2023",
-  "HORARIO": "17:00-19:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Preparar PM",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/11\/2024"
- },
- {
-  "FECHA": "12\/01\/2023",
-  "HORARIO": "23:30-01:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM CGT",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/22\/2024"
- },
- {
-  "FECHA": "12\/01\/2023",
-  "HORARIO": "17:00-19:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Preparar PM",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08\/01\/2024 0,5h"
- },
- {
-  "DIA DISFRUTADO": "10\/01\/2024 1,5h"
- },
- {
-  "FECHA": "12\/01\/2023",
-  "HORARIO": "23:30-01:30",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM CGT",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "10\/01\/2024 0,5h"
- },
- {
-  "DIA DISFRUTADO": "15\/01\/2024 1,5h"
- },
- {
-  "FECHA": "12\/01\/2023",
-  "HORARIO": "23:30-01:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM CGT",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "31-Jan"
- },
- {
-  "FECHA": "12\/07\/2023",
-  "HORARIO": "23:30 - 00:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia conector correo front peticiones 4xx",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/21\/2023"
- },
- {
-  "FECHA": "12\/11\/2023",
-  "HORARIO": "7:30 - 8:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Entrar antes oficina",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "12\/21\/2023"
- },
- {
-  "FECHA": "12\/17\/2023",
-  "HORARIO": "1:00 - 3:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM Intie",
-  "HORAS DE COMPENSACIÓN": 4,
-  "HORAS COMPENSADAS": 4,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "31\/01\/2024 02\/02 14\/02"
- },
- {
-  "FECHA": "12\/18\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (entre 4\/12\/23 7 17\/12\/23)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "0,5 22\/01\/2024"
- },
- {
-  "DIA DISFRUTADO": "2,5 02\/02\/2024"
- },
- {
-  "FECHA": "12\/18\/2023",
-  "HORARIO": "-",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (entre 4\/12\/23 7 17\/12\/23)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "23\/02\/2024 08\/03"
- },
- {
-  "FECHA": "12\/20\/2023",
-  "HORARIO": "23:30 - 00:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "PM v 19.3.4",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08-Mar"
- },
- {
-  "FECHA": "12\/20\/2023",
-  "HORARIO": "19:30 - 20:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia Guardia",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/22\/2024"
- },
- {
-  "FECHA": "12\/23\/2023",
-  "HORARIO": "02:00 - 02:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia Guardia",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/19\/2024"
- },
- {
-  "FECHA": "12\/23\/2023",
-  "HORARIO": "11:30-12:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Contactar con soporte maestra centros por incidencia",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/19\/2024"
- },
- {
-  "FECHA": "12\/28\/2023",
-  "HORARIO": "02:00 - 03:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Intervención guardia ETL centros",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "15\/01\/2024 1h"
- },
- {
-  "FECHA": "01\/02\/2024",
-  "HORARIO": "17:00 - 17:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia telefonía portugal. Versión del Chrome",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/23\/2024"
- },
- {
-  "FECHA": "01\/04\/2024",
-  "HORARIO": "19:30 - 20:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia telefonía portugal",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "01\/12\/2024"
- },
- {
-  "FECHA": "01\/15\/2024",
-  "HORARIO": "-",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Guardia (entre 15\/01\/24 y 21\/01\/24)",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08-Mar"
- },
- {
-  "FECHA": "01\/24\/2024",
-  "HORARIO": "22:30 - 01:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Interveción CGTs",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "08\/03\/2024 13\/08"
- },
- {
-  "FECHA": "01\/24\/2024",
-  "HORARIO": "22:30 - 01:30",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Interveción CGTs",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "26\/01\/2024 3h"
- },
- {
-  "FECHA": "01\/24\/2024",
-  "HORARIO": "22:30 - 01:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "Interveción CGTs",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "26\/01\/2024(1), 01\/02\/2024(2)"
- },
- {
-  "FECHA": "01\/31\/2024",
-  "HORARIO": "4:00 - 5:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Alarma Productos centros stock",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/02\/2024 1h"
- },
- {
-  "FECHA": "01\/31\/2024",
-  "HORARIO": "20:00 - 20:30",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia Telefonía usuaria Portugal",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/02\/2024 0,5h"
- },
- {
-  "FECHA": "02\/04\/2024",
-  "HORARIO": "20:50 - 21:50",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia Conector Correo",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "07\/02\/2024 1h"
- },
- {
-  "DIA DISFRUTADO": "09\/02\/2024 1h"
- },
- {
-  "FECHA": "02\/06\/2024",
-  "HORARIO": "14:00 - 14:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia INTIE: Permisos ACP",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/07\/2024",
-  "COMENTARIO": "Flexibilidad (Médico Marina)"
- },
- {
-  "FECHA": "02\/06\/2024",
-  "HORARIO": "04:00 - 04::30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Alarma Productos centros stock",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "04\/11\/2024",
-  "COMENTARIO": "Flexibilidad (Tarde libre)"
- },
- {
-  "FECHA": "02\/07\/2024",
-  "HORARIO": "23:30 - 01:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM v 19.3.7",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "25-Mar"
- },
- {
-  "FECHA": "02\/07\/2024",
-  "HORARIO": "23:30 - 01:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM v 19.3.7",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "09\/02\/2024 1,5h"
- },
- {
-  "FECHA": "02\/07\/2024",
-  "HORARIO": "23:30 - 01:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "PM v 19.3.7",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/13\/2024"
- },
- {
-  "FECHA": "02\/11\/2024",
-  "HORARIO": "20:00 - 20::30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia Emails_insertion_error",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/07\/2024",
-  "COMENTARIO": "Flexibilidad (Médico Marina)"
- },
- {
-  "FECHA": "02\/12\/2024",
-  "HORARIO": "17:00 - 19:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Incidencia http 400 salesforce-back-correo",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/16\/2024"
- },
- {
-  "FECHA": "02\/14\/2024",
-  "HORARIO": "23:30 - 00:30",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Certificados centralita",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/25\/2024"
- },
- {
-  "FECHA": "02\/14\/2024",
-  "HORARIO": "00:30 - 02:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Incidencia guardia filesin",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/01\/2024"
- },
- {
-  "FECHA": "02\/14\/2024",
-  "HORARIO": "23:30 - 00:30",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Certificados centralita",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "16\/02\/2024 1h"
- },
- {
-  "FECHA": "02\/15\/2024",
-  "HORARIO": "20:00 - 20:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia Conector Correo",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/06\/2024"
- },
- {
-  "FECHA": "02\/16\/2024",
-  "HORARIO": "13:30-14:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Salida más tarde",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/07\/2024",
-  "COMENTARIO": "Flexibilidad (Médico Marina)"
- },
- {
-  "FECHA": "02\/21\/2024",
-  "HORARIO": "2:00 - 3:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Incidencia organigrama y http 400 salesforce-back-correo",
-  "HORAS DE COMPENSACIÓN": 1.5,
-  "HORAS COMPENSADAS": 1.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "02\/23\/2024"
- },
- {
-  "FECHA": "02\/22\/2024",
-  "HORARIO": "17:00 - 17:30",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia telefonía Salesforce",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/05\/2024"
- },
- {
-  "FECHA": "02\/28\/2024",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Emplify",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/01\/2024"
- },
- {
-  "FECHA": "02\/28\/2024",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Emplify",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/01\/2024"
- },
- {
-  "FECHA": "02\/28\/2024",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Emplify",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/01\/2024"
- },
- {
-  "FECHA": "02\/28\/2024",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Emplify",
-  "HORAS DE COMPENSACIÓN": 1
- },
- {
-  "FECHA": "02\/28\/2024",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Emplify",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "21\/03\/24 (1)"
- },
- {
-  "FECHA": "02\/29\/2024",
-  "HORARIO": "07:00 - 07:30",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "PM Emplifi mañana",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/01\/2024"
- },
- {
-  "FECHA": "03\/01\/2024",
-  "HORARIO": "Semana 26\/02",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "Exceso Flexibilidad",
-  "HORAS DE COMPENSACIÓN": 2
- },
- {
-  "FECHA": "03\/01\/2024",
-  "HORARIO": "Semana 26\/02",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM Emplifi mañana",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 1,
-  "DIA DISFRUTADO": "21\/03\/24 (1)"
- },
- {
-  "FECHA": "02\/28\/2024",
-  "HORARIO": "17:00 - 20:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "PM Emplify. Viaje Portugal",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 3,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "06\/03\/2024(2),13\/03\/2024(0,5),15\/03\/2043(0,5)"
- },
- {
-  "FECHA": "02\/28\/2024",
-  "HORARIO": "23:00 - 00:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "PM Emplify",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/15\/2024"
- },
- {
-  "FECHA": "02\/29\/2024",
-  "HORARIO": "17:00 - 20:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 3,
-  "TAREA": "PM Emplify. Viaje Portugal",
-  "HORAS DE COMPENSACIÓN": 3,
-  "HORAS COMPENSADAS": 1.5,
-  "DIA DISFRUTADO": "15\/03\/2024(0,5),22\/03\/2024(1)"
- },
- {
-  "FECHA": "03\/18\/2024",
-  "HORARIO": "22:30 - 23:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia Guardia RM",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/26\/2024"
- },
- {
-  "FECHA": "03\/19\/2024",
-  "HORARIO": "10:00 - 10:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia Guardia RM",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/26\/2024"
- },
- {
-  "FECHA": "03\/20\/2024",
-  "HORARIO": "20:00 - 21:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Repasar Inputs nuevas familias(CGT)",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/27\/2024"
- },
- {
-  "FECHA": "03\/21\/2024",
-  "HORARIO": "23:00 - 1:00",
-  "COLABORADOR": "JRG",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM Procesos tienda + sfProxy",
-  "HORAS DE COMPENSACIÓN": 2
- },
- {
-  "FECHA": "03\/21\/2024",
-  "HORARIO": "23:00 - 1:01",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM Procesos tienda + sfProxy",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/28\/2024"
- },
- {
-  "FECHA": "03\/21\/2024",
-  "HORARIO": "23:00 - 1:02",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM Procesos tienda + sfProxy",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "03\/25\/2024"
- },
- {
-  "FECHA": "03\/21\/2024",
-  "HORARIO": "23:00 - 1:03",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 2,
-  "TAREA": "PM Procesos tienda + sfProxy",
-  "HORAS DE COMPENSACIÓN": 2,
-  "HORAS COMPENSADAS": 2,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "04\/05\/2024"
- },
- {
-  "FECHA": "03\/22\/2024",
-  "HORARIO": "19:30 - 20:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia Intie",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "04\/09\/2024"
- },
- {
-  "FECHA": "03\/23\/2024",
-  "HORARIO": "09:00 - 10:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia Intie",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "04\/09\/2024"
- },
- {
-  "FECHA": "03\/23\/2024",
-  "HORARIO": "15:00 - 16:00",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia Conector Correo",
-  "HORAS DE COMPENSACIÓN": 1
- },
- {
-  "FECHA": "03\/23\/2024",
-  "HORARIO": "21:00 - 21:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia Conector Correo",
-  "HORAS DE COMPENSACIÓN": 0.5
- },
- {
-  "FECHA": "03\/25\/2024",
-  "HORARIO": "17:00 - 19:00",
-  "COLABORADOR": "SGP",
-  "HORAS REALIZADAS": 2.5,
-  "TAREA": "Incidencia Google Cloud",
-  "HORAS DE COMPENSACIÓN": 2.5,
-  "HORAS COMPENSADAS": 2.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "26\/03\/2024 2h"
- },
- {
-  "DIA DISFRUTADO": "28\/03\/2024 0,5h"
- },
- {
-  "FECHA": "03\/25\/2024",
-  "HORARIO": "17:00 -19:00, 20:00 - 20:30",
-  "COLABORADOR": "AIE",
-  "HORAS REALIZADAS": 2.5,
-  "TAREA": "Incidencia Google Cloud",
-  "HORAS DE COMPENSACIÓN": 2.5
- },
- {
-  "FECHA": "03\/25\/2024",
-  "HORARIO": "18.00-19.00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia Google Cloud",
-  "HORAS DE COMPENSACIÓN": 1
- },
- {
-  "FECHA": "03\/26\/2024",
-  "HORARIO": "18.00-20.00; 20:30-21:00",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Incidencia emplifi",
-  "HORAS DE COMPENSACIÓN": 2.5
- },
- {
-  "FECHA": "03\/31\/2024",
-  "HORARIO": "Horas varias",
-  "COLABORADOR": "ARB",
-  "HORAS REALIZADAS": 1.5,
-  "TAREA": "Incidencia Yahoo",
-  "HORAS DE COMPENSACIÓN": 3
- },
- {
-  "FECHA": "04\/04\/2024",
-  "HORARIO": "00:40 - 01:40",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia ETL scs_run_etiquetallama_salesforce",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "DIA DISFRUTADO": "04\/12\/2024"
- },
- {
-  "FECHA": "04\/04\/2024",
-  "HORARIO": "4:00 - 5:00",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia ETL scs_run_productoscentrosstock_sa",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "DIA DISFRUTADO": "04\/12\/2024"
- },
- {
-  "FECHA": "04\/05\/2024",
-  "HORARIO": "00:40 - 1:10",
-  "COLABORADOR": "RDM",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia job salesforce-back-btc-masterdata",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "DIA DISFRUTADO": "04\/12\/2024"
- },
- {
-  "FECHA": "04\/05\/2024",
-  "HORARIO": "01:00 - 2:00",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 1,
-  "TAREA": "Incidencia job Organigrama",
-  "HORAS DE COMPENSACIÓN": 1,
-  "HORAS COMPENSADAS": 1,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "04\/11\/2024",
-  "COMENTARIO": "Flexibilidad (Tarde libre)"
- },
- {
-  "FECHA": "04\/05\/2024",
-  "HORARIO": "05:00 - 5:30",
-  "COLABORADOR": "ASE",
-  "HORAS REALIZADAS": 0.5,
-  "TAREA": "Incidencia job PROD_CENTRO_ALMACEN_SECOS",
-  "HORAS DE COMPENSACIÓN": 0.5,
-  "HORAS COMPENSADAS": 0.5,
-  "¿COMPENSADAS?": "SI",
-  "DIA DISFRUTADO": "04\/11\/2024",
-  "COMENTARIO": "Flexibilidad (Tarde libre)"
- },
- null,
- {
-  "HORARIO": "TOTALES",
-  "HORAS REALIZADAS": 173,
-  "HORAS DE COMPENSACIÓN": 609.5,
-  "HORAS COMPENSADAS": 591.5
- },
- null,
- {
-  "HORARIO": "Pendientes por gerente",
-  "HORAS DE COMPENSACIÓN": "A compensar",
-  "HORAS COMPENSADAS": "Compensadas",
-  "¿COMPENSADAS?": "Pendientes"
- },
- {
-  "COLABORADOR": "AIE",
-  "HORAS DE COMPENSACIÓN": 111.5,
-  "HORAS COMPENSADAS": 106,
-  "¿COMPENSADAS?": 5.5
- },
- {
-  "COLABORADOR": "SGP",
-  "HORAS DE COMPENSACIÓN": 88,
-  "HORAS COMPENSADAS": 88,
-  "¿COMPENSADAS?": 0
- },
- {
-  "COLABORADOR": "RDM",
-  "HORAS DE COMPENSACIÓN": 75,
-  "HORAS COMPENSADAS": 75,
-  "¿COMPENSADAS?": 0
- },
- {
-  "COLABORADOR": "ASE",
-  "HORAS DE COMPENSACIÓN": 55.5,
-  "HORAS COMPENSADAS": 55.5,
-  "¿COMPENSADAS?": 0
- },
- {
-  "COLABORADOR": "JRG",
-  "HORAS DE COMPENSACIÓN": 138,
-  "HORAS COMPENSADAS": 133,
-  "¿COMPENSADAS?": 5
- },
- {
-  "COLABORADOR": "ARB",
-  "HORAS DE COMPENSACIÓN": 141.5,
-  "HORAS COMPENSADAS": 134,
-  "¿COMPENSADAS?": 7.5
- },
- {
-  "COLABORADOR": "TOTAL",
-  "HORAS DE COMPENSACIÓN": 609.5,
-  "HORAS COMPENSADAS": 591.5,
-  "¿COMPENSADAS?": 18
- },
- null,
- null,
- {
-  "TAREA": "JRG debe 1 noche de guardia a AIE"
- }
-]
+{
+  "registro": [
+    {
+      "COLABORADOR": "ASE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "01/23/2024",
+      "FECHA": "01/02/2024",
+      "HORARIO": "17:00 - 17:30",
+      "HORAS_COMPENSACION": 0.5,
+      "HORAS_COMPENSADAS": 0.5,
+      "HORAS_REALIZADAS": 0.5,
+      "ID": "0",
+      "TAREA": "Incidencia telefonía portugal. Versión del Chrome"
+    },
+    {
+      "COLABORADOR": "RDM",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "01/12/2024",
+      "FECHA": "01/04/2024",
+      "HORARIO": "19:30 - 20:00",
+      "HORAS_COMPENSACION": 0.5,
+      "HORAS_COMPENSADAS": 0.5,
+      "HORAS_REALIZADAS": 0.5,
+      "ID": "1",
+      "TAREA": "Incidencia telefonía portugal"
+    },
+    {
+      "COLABORADOR": "JRG",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "08-Mar",
+      "FECHA": "01/15/2024",
+      "HORARIO": "-",
+      "HORAS_COMPENSACION": 3,
+      "HORAS_COMPENSADAS": 3,
+      "HORAS_REALIZADAS": 3,
+      "ID": "2",
+      "TAREA": "Guardia (entre 15/01/24 y 21/01/24)"
+    },
+    {
+      "COLABORADOR": "JRG",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "08/03/2024 13/08",
+      "FECHA": "01/24/2024",
+      "HORARIO": "22:30 - 01:30",
+      "HORAS_COMPENSACION": 3,
+      "HORAS_COMPENSADAS": 3,
+      "HORAS_REALIZADAS": 3,
+      "ID": "3",
+      "TAREA": "Interveción CGTs"
+    },
+    {
+      "COLABORADOR": "SGP",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "26/01/2024 3h",
+      "FECHA": "01/24/2024",
+      "HORARIO": "22:30 - 01:30",
+      "HORAS_COMPENSACION": 3,
+      "HORAS_COMPENSADAS": 3,
+      "HORAS_REALIZADAS": 3,
+      "ID": "4",
+      "TAREA": "Interveción CGTs"
+    },
+    {
+      "COLABORADOR": "AIE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "26/01/2024(1), 01/02/2024(2)",
+      "FECHA": "01/24/2024",
+      "HORARIO": "22:30 - 01:30",
+      "HORAS_COMPENSACION": 3,
+      "HORAS_COMPENSADAS": 3,
+      "HORAS_REALIZADAS": 3,
+      "ID": "5",
+      "TAREA": "Interveción CGTs"
+    },
+    {
+      "COLABORADOR": "SGP",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "07/02/2024 1h",
+      "FECHA": "01/31/2024",
+      "HORARIO": "4:00 - 5:00",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 1,
+      "ID": "6",
+      "TAREA": "Alarma Productos centros stock"
+    },
+    {
+      "COLABORADOR": "SGP",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "07/02/2024 0,5h",
+      "FECHA": "01/31/2024",
+      "HORARIO": "20:00 - 20:30",
+      "HORAS_COMPENSACION": 0.5,
+      "HORAS_COMPENSADAS": 0.5,
+      "HORAS_REALIZADAS": 0.5,
+      "ID": "7",
+      "TAREA": "Incidencia Telefonía usuaria Portugal"
+    },
+    {
+      "COLABORADOR": "SGP",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "07/02/2024 1h, 09/02/2024 1h",
+      "FECHA": "02/04/2024",
+      "HORARIO": "20:50 - 21:50",
+      "HORAS_COMPENSACION": 2,
+      "HORAS_COMPENSADAS": 2,
+      "HORAS_REALIZADAS": 1,
+      "ID": "8",
+      "TAREA": "Incidencia Conector Correo"
+    },
+    {
+      "COLABORADOR": "ASE",
+      "COMENTARIO": "Flexibilidad (Médico Marina)",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/07/2024",
+      "FECHA": "02/06/2024",
+      "HORARIO": "14:00 - 14:30",
+      "HORAS_COMPENSACION": 0.5,
+      "HORAS_COMPENSADAS": 0.5,
+      "HORAS_REALIZADAS": 0.5,
+      "ID": "9",
+      "TAREA": "Incidencia INTIE: Permisos ACP"
+    },
+    {
+      "COLABORADOR": "ASE",
+      "COMENTARIO": "Flexibilidad (Tarde libre)",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "04/11/2024",
+      "FECHA": "02/06/2024",
+      "HORARIO": "04:00 - 04::30",
+      "HORAS_COMPENSACION": 0.5,
+      "HORAS_COMPENSADAS": 0.5,
+      "HORAS_REALIZADAS": 0.5,
+      "ID": "10",
+      "TAREA": "Alarma Productos centros stock"
+    },
+    {
+      "COLABORADOR": "JRG",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "25-Mar",
+      "FECHA": "02/07/2024",
+      "HORARIO": "23:30 - 01:00",
+      "HORAS_COMPENSACION": 1.5,
+      "HORAS_COMPENSADAS": 1.5,
+      "HORAS_REALIZADAS": 1.5,
+      "ID": "11",
+      "TAREA": "PM v 19.3.7"
+    },
+    {
+      "COLABORADOR": "SGP",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "09/02/2024 1,5h",
+      "FECHA": "02/07/2024",
+      "HORARIO": "23:30 - 01:00",
+      "HORAS_COMPENSACION": 1.5,
+      "HORAS_COMPENSADAS": 1.5,
+      "HORAS_REALIZADAS": 1.5,
+      "ID": "12",
+      "TAREA": "PM v 19.3.7"
+    },
+    {
+      "COLABORADOR": "AIE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/13/2024",
+      "FECHA": "02/07/2024",
+      "HORARIO": "23:30 - 01:00",
+      "HORAS_COMPENSACION": 1.5,
+      "HORAS_COMPENSADAS": 1.5,
+      "HORAS_REALIZADAS": 1.5,
+      "ID": "13",
+      "TAREA": "PM v 19.3.7"
+    },
+    {
+      "COLABORADOR": "ASE",
+      "COMENTARIO": "Flexibilidad (Médico Marina)",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/07/2024",
+      "FECHA": "02/11/2024",
+      "HORARIO": "20:00 - 20::30",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 0.5,
+      "ID": "14",
+      "TAREA": "Incidencia Emails_insertion_error"
+    },
+    {
+      "COLABORADOR": "RDM",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "02/16/2024",
+      "FECHA": "02/12/2024",
+      "HORARIO": "17:00 - 19:00",
+      "HORAS_COMPENSACION": 2,
+      "HORAS_COMPENSADAS": 2,
+      "HORAS_REALIZADAS": 2,
+      "ID": "15",
+      "TAREA": "Incidencia http 400 salesforce-back-correo"
+    },
+    {
+      "COLABORADOR": "JRG",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/25/2024",
+      "FECHA": "02/14/2024",
+      "HORARIO": "23:30 - 00:30",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 1,
+      "ID": "16",
+      "TAREA": "Certificados centralita"
+    },
+    {
+      "COLABORADOR": "SGP",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/01/2024",
+      "FECHA": "02/14/2024",
+      "HORARIO": "00:30 - 02:00",
+      "HORAS_COMPENSACION": 1.5,
+      "HORAS_COMPENSADAS": 1.5,
+      "HORAS_REALIZADAS": 1.5,
+      "ID": "17",
+      "TAREA": "Incidencia guardia filesin"
+    },
+    {
+      "COLABORADOR": "SGP",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "16/02/2024 1h",
+      "FECHA": "02/14/2024",
+      "HORARIO": "23:30 - 00:30",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 1,
+      "ID": "18",
+      "TAREA": "Certificados centralita"
+    },
+    {
+      "COLABORADOR": "AIE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/06/2024",
+      "FECHA": "02/15/2024",
+      "HORARIO": "20:00 - 20:30",
+      "HORAS_COMPENSACION": 0.5,
+      "HORAS_COMPENSADAS": 0.5,
+      "HORAS_REALIZADAS": 0.5,
+      "ID": "19",
+      "TAREA": "Incidencia Conector Correo"
+    },
+    {
+      "COLABORADOR": "ASE",
+      "COMENTARIO": "Flexibilidad (Médico Marina)",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/07/2024",
+      "FECHA": "02/16/2024",
+      "HORARIO": "13:30-14:30",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 1,
+      "ID": "20",
+      "TAREA": "Salida más tarde"
+    },
+    {
+      "COLABORADOR": "RDM",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "02/23/2024",
+      "FECHA": "02/21/2024",
+      "HORARIO": "2:00 - 3:30",
+      "HORAS_COMPENSACION": 1.5,
+      "HORAS_COMPENSADAS": 1.5,
+      "HORAS_REALIZADAS": 1.5,
+      "ID": "21",
+      "TAREA": "Incidencia organigrama y http 400 salesforce-back-correo"
+    },
+    {
+      "COLABORADOR": "RDM",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/05/2024",
+      "FECHA": "02/22/2024",
+      "HORARIO": "17:00 - 17:30",
+      "HORAS_COMPENSACION": 0.5,
+      "HORAS_COMPENSADAS": 0.5,
+      "HORAS_REALIZADAS": 0.5,
+      "ID": "22",
+      "TAREA": "Incidencia telefonía Salesforce"
+    },
+    {
+      "COLABORADOR": "RDM",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/01/2024",
+      "FECHA": "02/28/2024",
+      "HORARIO": "23:00 - 00:00",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 1,
+      "ID": "23",
+      "TAREA": "PM Emplify"
+    },
+    {
+      "COLABORADOR": "SGP",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/01/2024",
+      "FECHA": "02/28/2024",
+      "HORARIO": "23:00 - 00:00",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 1,
+      "ID": "24",
+      "TAREA": "PM Emplify"
+    },
+    {
+      "COLABORADOR": "AIE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/01/2024",
+      "FECHA": "02/28/2024",
+      "HORARIO": "23:00 - 00:00",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 1,
+      "ID": "25",
+      "TAREA": "PM Emplify"
+    },
+    {
+      "COLABORADOR": "JRG",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "NO",
+      "FECHA": "02/28/2024",
+      "HORARIO": "23:00 - 00:00",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 0,
+      "HORAS_REALIZADAS": 1,
+      "ID": "26",
+      "TAREA": "PM Emplify"
+    },
+    {
+      "COLABORADOR": "ARB",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "21/03/24 (1)",
+      "FECHA": "02/28/2024",
+      "HORARIO": "23:00 - 00:00",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 1,
+      "ID": "27",
+      "TAREA": "PM Emplify"
+    },
+    {
+      "COLABORADOR": "SGP",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/01/2024",
+      "FECHA": "02/29/2024",
+      "HORARIO": "07:00 - 07:30",
+      "HORAS_COMPENSACION": 0.5,
+      "HORAS_COMPENSADAS": 0.5,
+      "HORAS_REALIZADAS": 0.5,
+      "ID": "28",
+      "TAREA": "PM Emplifi mañana"
+    },
+    {
+      "COLABORADOR": "JRG",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "NO",
+      "DIAS_DISFRUTADOS": " ",
+      "FECHA": "03/01/2024",
+      "HORARIO": "Semana 26/02",
+      "HORAS_COMPENSACION": 2,
+      "HORAS_COMPENSADAS": 0,
+      "HORAS_REALIZADAS": 2,
+      "ID": "29",
+      "TAREA": "Exceso Flexibilidad"
+    },
+    {
+      "COLABORADOR": "ARB",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "NO",
+      "DIAS_DISFRUTADOS": "21/03/24 (1)",
+      "FECHA": "03/01/2024",
+      "HORARIO": "Semana 26/02",
+      "HORAS_COMPENSACION": 2,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 2,
+      "ID": "30",
+      "TAREA": "PM Emplifi mañana"
+    },
+    {
+      "COLABORADOR": "AIE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "06/03/2024(2),13/03/2024(0,5),15/03/2043(0,5)",
+      "FECHA": "02/28/2024",
+      "HORARIO": "17:00 - 20:00",
+      "HORAS_COMPENSACION": 3,
+      "HORAS_COMPENSADAS": 3,
+      "HORAS_REALIZADAS": 3,
+      "ID": "31",
+      "TAREA": "PM Emplify. Viaje Portugal"
+    },
+    {
+      "COLABORADOR": "AIE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/15/2024",
+      "FECHA": "02/28/2024",
+      "HORARIO": "23:00 - 00:00",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 1,
+      "ID": "32",
+      "TAREA": "PM Emplify"
+    },
+    {
+      "COLABORADOR": "AIE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "NO",
+      "DIAS_DISFRUTADOS": "15/03/2024(0,5),22/03/2024(1)",
+      "FECHA": "02/29/2024",
+      "HORARIO": "17:00 - 20:00",
+      "HORAS_COMPENSACION": 3,
+      "HORAS_COMPENSADAS": 1.5,
+      "HORAS_REALIZADAS": 3,
+      "ID": "33",
+      "TAREA": "PM Emplify. Viaje Portugal"
+    },
+    {
+      "COLABORADOR": "AIE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/26/2024",
+      "FECHA": "03/18/2024",
+      "HORARIO": "22:30 - 23:30",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 1,
+      "ID": "34",
+      "TAREA": "Incidencia Guardia RM"
+    },
+    {
+      "COLABORADOR": "AIE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/26/2024",
+      "FECHA": "03/19/2024",
+      "HORARIO": "10:00 - 10:30",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 0.5,
+      "ID": "35",
+      "TAREA": "Incidencia Guardia RM"
+    },
+    {
+      "COLABORADOR": "AIE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/27/2024",
+      "FECHA": "03/20/2024",
+      "HORARIO": "20:00 - 21:00",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 1,
+      "ID": "36",
+      "TAREA": "Repasar Inputs nuevas familias(CGT)"
+    },
+    {
+      "COLABORADOR": "JRG",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "NO",
+      "FECHA": "03/21/2024",
+      "HORARIO": "23:00 - 1:00",
+      "HORAS_COMPENSACION": 2,
+      "HORAS_COMPENSADAS": 0,
+      "HORAS_REALIZADAS": 2,
+      "ID": "37",
+      "TAREA": "PM Procesos tienda + sfProxy"
+    },
+    {
+      "COLABORADOR": "RDM",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/28/2024",
+      "FECHA": "03/21/2024",
+      "HORARIO": "23:00 - 1:01",
+      "HORAS_COMPENSACION": 2,
+      "HORAS_COMPENSADAS": 2,
+      "HORAS_REALIZADAS": 2,
+      "ID": "38",
+      "TAREA": "PM Procesos tienda + sfProxy"
+    },
+    {
+      "COLABORADOR": "ASE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "03/25/2024",
+      "FECHA": "03/21/2024",
+      "HORARIO": "23:00 - 1:02",
+      "HORAS_COMPENSACION": 2,
+      "HORAS_COMPENSADAS": 2,
+      "HORAS_REALIZADAS": 2,
+      "ID": "39",
+      "TAREA": "PM Procesos tienda + sfProxy"
+    },
+    {
+      "COLABORADOR": "AIE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "04/05/2024",
+      "FECHA": "03/21/2024",
+      "HORARIO": "23:00 - 1:03",
+      "HORAS_COMPENSACION": 2,
+      "HORAS_COMPENSADAS": 2,
+      "HORAS_REALIZADAS": 2,
+      "ID": "40",
+      "TAREA": "PM Procesos tienda + sfProxy"
+    },
+    {
+      "COLABORADOR": "AIE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "04/09/2024",
+      "FECHA": "03/22/2024",
+      "HORARIO": "19:30 - 20:30",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 1,
+      "ID": "41",
+      "TAREA": "Incidencia Intie"
+    },
+    {
+      "COLABORADOR": "AIE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "04/09/2024",
+      "FECHA": "03/23/2024",
+      "HORARIO": "09:00 - 10:00",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 1,
+      "ID": "42",
+      "TAREA": "Incidencia Intie"
+    },
+    {
+      "COLABORADOR": "AIE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "NO",
+      "DIAS_DISFRUTADOS": " ",
+      "FECHA": "03/23/2024",
+      "HORARIO": "15:00 - 16:00",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 0,
+      "HORAS_REALIZADAS": 1,
+      "ID": "43",
+      "TAREA": "Incidencia Conector Correo"
+    },
+    {
+      "COLABORADOR": "AIE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "NO",
+      "DIAS_DISFRUTADOS": " ",
+      "FECHA": "03/23/2024",
+      "HORARIO": "21:00 - 21:30",
+      "HORAS_COMPENSACION": 0.5,
+      "HORAS_COMPENSADAS": 0,
+      "HORAS_REALIZADAS": 0.5,
+      "ID": "44",
+      "TAREA": "Incidencia Conector Correo"
+    },
+    {
+      "COLABORADOR": "SGP",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "26/03/2024 2h, 28/03/2024 0,5h",
+      "FECHA": "03/25/2024",
+      "HORARIO": "17:00 - 19:00",
+      "HORAS_COMPENSACION": 2.5,
+      "HORAS_COMPENSADAS": 2.5,
+      "HORAS_REALIZADAS": 2.5,
+      "ID": "45",
+      "TAREA": "Incidencia Google Cloud"
+    },
+    {
+      "COLABORADOR": "AIE",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "NO",
+      "DIAS_DISFRUTADOS": " ",
+      "FECHA": "03/25/2024",
+      "HORARIO": "17:00 -19:00, 20:00 - 20:30",
+      "HORAS_COMPENSACION": 2.5,
+      "HORAS_COMPENSADAS": 0,
+      "HORAS_REALIZADAS": 2.5,
+      "ID": "46",
+      "TAREA": "Incidencia Google Cloud"
+    },
+    {
+      "COLABORADOR": "ARB",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "NO",
+      "DIAS_DISFRUTADOS": " ",
+      "FECHA": "03/25/2024",
+      "HORARIO": "18.00-19.00",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 0,
+      "HORAS_REALIZADAS": 1,
+      "ID": "47",
+      "TAREA": "Incidencia Google Cloud"
+    },
+    {
+      "COLABORADOR": "ARB",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "NO",
+      "DIAS_DISFRUTADOS": " ",
+      "FECHA": "03/26/2024",
+      "HORARIO": "18.00-20.00; 20:30-21:00",
+      "HORAS_COMPENSACION": 2.5,
+      "HORAS_COMPENSADAS": 0,
+      "HORAS_REALIZADAS": 1.5,
+      "ID": "48",
+      "TAREA": "Incidencia emplifi"
+    },
+    {
+      "COLABORADOR": "ARB",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "NO",
+      "DIAS_DISFRUTADOS": " ",
+      "FECHA": "03/31/2024",
+      "HORARIO": "Horas varias",
+      "HORAS_COMPENSACION": 3,
+      "HORAS_COMPENSADAS": 0,
+      "HORAS_REALIZADAS": 1.5,
+      "ID": "49",
+      "TAREA": "Incidencia Yahoo"
+    },
+    {
+      "COLABORADOR": "RDM",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "04/12/2024",
+      "FECHA": "04/04/2024",
+      "HORARIO": "00:40 - 01:40",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 1,
+      "ID": "50",
+      "TAREA": "Incidencia ETL scs_run_etiquetallama_salesforce"
+    },
+    {
+      "COLABORADOR": "RDM",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "04/12/2024",
+      "FECHA": "04/04/2024",
+      "HORARIO": "4:00 - 5:00",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 1,
+      "ID": "51",
+      "TAREA": "Incidencia ETL scs_run_productoscentrosstock_sa"
+    },
+    {
+      "COLABORADOR": "RDM",
+      "COMENTARIO": " ",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "04/12/2024",
+      "FECHA": "04/05/2024",
+      "HORARIO": "00:40 - 1:10",
+      "HORAS_COMPENSACION": 0.5,
+      "HORAS_COMPENSADAS": 0.5,
+      "HORAS_REALIZADAS": 0.5,
+      "ID": "52",
+      "TAREA": "Incidencia job salesforce-back-btc-masterdata"
+    },
+    {
+      "COLABORADOR": "ASE",
+      "COMENTARIO": "Flexibilidad (Tarde libre)",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "04/11/2024",
+      "FECHA": "04/09/2024",
+      "HORARIO": "01:00 - 2:00",
+      "HORAS_COMPENSACION": 1,
+      "HORAS_COMPENSADAS": 1,
+      "HORAS_REALIZADAS": 1,
+      "ID": "53",
+      "TAREA": "Incidencia job Organigrama"
+    },
+    {
+      "COLABORADOR": "ASE",
+      "COMENTARIO": "Flexibilidad (Tarde libre)",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "04/11/2024",
+      "FECHA": "04/09/2024",
+      "HORARIO": "05:00 - 5:30",
+      "HORAS_COMPENSACION": 0.5,
+      "HORAS_COMPENSADAS": 0.5,
+      "HORAS_REALIZADAS": 0.5,
+      "ID": "54",
+      "TAREA": "Incidencia job PROD_CENTRO_ALMACEN_SECOS"
+    },
+    {
+      "COLABORADOR": "ASE",
+      "COMENTARIO": " Salida antes a las 17:00",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": " 18/04/2024",
+      "FECHA": "04/13/2024",
+      "HORARIO": "16:30 - 17:00",
+      "HORAS_COMPENSACION": 0.5,
+      "HORAS_COMPENSADAS": "0.5",
+      "HORAS_REALIZADAS": 0.5,
+      "ID": "55",
+      "TAREA": "Incidencia emails_insertion_error"
+    },
+    {
+      "COLABORADOR": "ASE",
+      "COMENTARIO": "Flexibilidad (Mañana entrar más tarde)",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "19/04/2024",
+      "FECHA": "04/15/2024",
+      "HORARIO": "05:00-05:30",
+      "HORAS_COMPENSACION": 0.5,
+      "HORAS_COMPENSADAS": "0.5",
+      "HORAS_REALIZADAS": 0.5,
+      "ID": "56",
+      "TAREA": "Incidencia job PROD_CENTRO_ALMACEN_SECOS"
+    },
+    {
+      "COLABORADOR": "ASE",
+      "COMENTARIO": "Flexibilidad (Mañana entrar más tarde)",
+      "COMPENSADAS": "SI",
+      "DIAS_DISFRUTADOS": "19/04/2024",
+      "FECHA": "04/15/2024",
+      "HORARIO": "01:30-02:00",
+      "HORAS_COMPENSACION": 0.5,
+      "HORAS_COMPENSADAS": "0.5",
+      "HORAS_REALIZADAS": 0.5,
+      "ID": 57,
+      "TAREA": "Incidencia job Organigrama"
+    }
+  ]
+}
