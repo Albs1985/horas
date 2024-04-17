@@ -23,8 +23,8 @@ export class HorasComponent implements OnInit {
   datoSelec : number = -1;
   filaSeleccionada : number = -1;
   horasCalculadas: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
-  verNocturnidad: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
-  horasNocturnasPorColaborador = new Map<string, number>();
+  // verNocturnidad: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
+
 
 
   constructor(public horasService: HorasService) {
@@ -348,49 +348,15 @@ export class HorasComponent implements OnInit {
     console.log(this.formulario.value)
   }
 
-  seleccionarMes(event: Event){
-    const mesSelec = (event.target as HTMLSelectElement).value;
-    if (mesSelec){
-      this.mesSeleccionado = mesSelec;
-      this.verNocturnidad.next(false);
-      this.horasNocturnasPorColaborador.clear();
-    }
-  }
+  // seleccionarMes(event: Event){
+  //   const mesSelec = (event.target as HTMLSelectElement).value;
+  //   if (mesSelec){
+  //     this.mesSeleccionado = mesSelec;
+  //     this.verNocturnidad.next(false);
+  //     this.horasNocturnasPorColaborador.clear();
+  //   }
+  // }
 
-  extraerNocturnidades(): void {
-    this.verNocturnidad.next(true);
-    this.horasNocturnasPorColaborador.clear();
 
-    // Filtrar los datos del mes en concreto
-    const datosFiltrados = this.datos.filter(dato => {
-
-      const partes = dato.FECHA.split('/');
-      const fecha = new Date(parseInt(partes[2]), parseInt(partes[1]) - 1, parseInt(partes[0]));
-      return fecha.getMonth() === this.mesesNom.indexOf(this.mesSeleccionado);
-    });
-
-    datosFiltrados.forEach(dato => {
-
-      const horario = dato.HORARIO;
-      const horasRealizadas = dato.HORAS_REALIZADAS;
-
-      if (this.esHorarioNocturno(horario)) {
-
-        const colaborador = dato.COLABORADOR;
-        const horasNocturnas = this.horasNocturnasPorColaborador.get(colaborador) || 0;
-        this.horasNocturnasPorColaborador.set(colaborador, parseFloat(horasNocturnas+horasRealizadas));
-      }
-    });
-    // console.log(this.horasNocturnasPorColaborador);
-  }
-
-  private esHorarioNocturno(horario: string): boolean {
-
-    const horaInicioNocturna = 22;
-    const horaFinNocturna = 6;
-
-    const hora = parseInt(horario.split(':')[0]);
-    return hora >= horaInicioNocturna || hora < horaFinNocturna;
-  }
 
 }

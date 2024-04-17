@@ -1,0 +1,73 @@
+<div class="table-container">
+
+  <div class="totalesYForm">
+    <table class="tablaTotales">
+      <thead>
+        <tr>
+          <th>Colaborador</th>
+          <th>Horas Nocturnidad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let dato of horasNocturnasPorColaborador | keyvalue">
+          <td><b>{{ dato.key }}</b></td>
+          <td><b>{{ horasNocturnasPorColaborador.get(dato.key) }}</b></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="espacio"></div>
+
+    <div class="form">
+      <form [formGroup]="formulario">
+        <div class="row">
+          <div class="col">
+            <label for="fechaIni">Fecha Inicio</label>
+            <input type="date" formControlName="fechaIni" id="fechaIni" class="form-control" placeholder="Fecha Inicio">
+          </div>
+          <div class="col">
+            <label for="fechaFin">Fecha Fin</label>
+            <input type="date" formControlName="fechaFin" id="fechaFin" class="form-control" placeholder="Fecha Fin">
+          </div>
+        </div>
+        <div class="buttonYtext">
+          <button type="submit" [ngClass]="{'deshabilitado': formulario.invalid}" [disabled]="formulario.invalid" class="btn btn-success mt-3 boton" (click)="extraerNocturnidades()">Obtener Nocturnidades</button>
+          <p class="horarioText">Horario nocturnidad: 22:00-06:00</p>
+        </div>
+      </form>
+    </div>
+
+
+    </div>
+    <table class="tablaDatos">
+      <thead>
+        <tr>
+          <th>Fecha</th>
+          <th>Horario</th>
+          <th>Colaborador</th>
+          <th>Horas Realizadas</th>
+          <th>Tarea</th>
+          <th>Horas de Compensación</th>
+          <th>Horas Compensadas</th>
+          <th>¿Compensadas?</th>
+          <th>Día Disfrutado</th>
+          <th>Comentario</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of datosFiltrados; let i = index">
+          <td>{{ item.FECHA }}</td>
+          <td>{{ item.HORARIO }}</td>
+          <td>{{ item.COLABORADOR }}</td>
+          <td>{{ item.HORAS_REALIZADAS }}</td>
+          <td>{{ item.TAREA }}</td>
+          <td>{{ item.HORAS_COMPENSACION }}</td>
+          <td>{{ item.HORAS_COMPENSADAS }}</td>
+          <td>{{ item.COMPENSADA }}</td>
+          <td>{{ item.DIAS_DISFRUTADOS }}</td>
+          <td>{{ item.COMENTARIO }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+

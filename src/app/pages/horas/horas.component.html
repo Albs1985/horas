@@ -5,7 +5,6 @@
       <thead>
         <tr>
           <th>Colaborador</th>
-          <th *ngIf="(verNocturnidad |async) === true">Nocturnidad en {{mesSeleccionado}}</th>
           <th>Horas Compensación</th>
           <th>Horas Compensadas</th>
           <th>Pendientes</th>
@@ -14,7 +13,6 @@
       <tbody>
         <tr *ngFor="let dato of horasService.horasTotalesPorColaborador | keyvalue" [ngClass]="{'tienesHoras': dato.value.horasCompensacion - dato.value.horasCompensadas > 0}">
           <td><b>{{ dato.key }}</b></td>
-          <td *ngIf="(verNocturnidad |async) === true"><b>{{ horasNocturnasPorColaborador.get(dato.key) }}</b></td>
           <td>{{ dato.value.horasCompensacion }}</td>
           <td>{{ dato.value.horasCompensadas }}</td>
           <td><b [ngClass]="{'horasPendientes': (dato.value.horasCompensacion - dato.value.horasCompensadas) > 0}">{{ dato.value.horasCompensacion - dato.value.horasCompensadas }}</b></td>
@@ -96,13 +94,13 @@
       <!-- <a target="_blank" href="https://www.salesforce.com/"><img class="imagenSCS" src="assets/images/SCS.png" alt=""></a> -->
     <div>
       <img class="imagenSCS" src="assets/images/grafica-de-barras.png" alt="" routerLink="/grafica">
-      <div class="nocturnidad">
+      <!-- <div class="nocturnidad">
         <button type="submit" class="btn btn-success mt-3 boton" (click)="extraerNocturnidades()">Extraer Nocturnidad</button>
         <div class="espacio"></div>
         <select id="selectMeses" class="form-control" [(ngModel)]="mesSeleccionado" (change)="seleccionarMes($event)">
           <option *ngFor="let mes of mesesNom" [value]="mes">{{ mes }}</option>
         </select>
-      </div>
+      </div> -->
       <!-- <app-grafica></app-grafica> -->
     </div>
   </div>

@@ -34,6 +34,16 @@
                 Horas
               </a>
             </li>
+            <li [ngClass]="{'active': commonService.selecPag === 'Nocturnidad'}">
+              <a (click)="cambiaSelec('Nocturnidad')" routerLink="/nocturnidad">
+                Nocturnidad
+              </a>
+            </li>
+            <li [ngClass]="{'active': commonService.selecPag === 'Guardias'}">
+              <a (click)="cambiaSelec('Guardias')" routerLink="/guardias">
+                Guardias
+              </a>
+            </li>
             <!-- <li>
               <a href="contact.html">
                 Contact Us

@@ -1,0 +1,144 @@
+.espacio {
+  height: 10px;
+}
+
+.horarioText {
+  margin-top: 1.5rem;
+  color: rgb(47, 0, 255);
+  font-size: small;
+}
+
+.nocturnidad {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.form {
+  margin: 25px;
+}
+
+.buttonYtext {
+  justify-content: space-between;
+  display: flex;
+}
+
+.boton {
+  border-color: black;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.filaSeleccionada {
+  background-color: #a9a9a9;
+  color: rgb(54, 54, 54);
+}
+.deshabilitado {
+  background-color: rgb(140, 140, 140);
+  border-color: rgb(140, 140, 140);
+  cursor: not-allowed;
+}
+
+.borde {
+  border-color: rgb(200, 200, 200);
+}
+
+.margen {
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.totalesYForm {
+  display: flex;
+  margin: 25px;
+  border: #888;
+  border-radius: 15px 0px;
+  background-color: #cccccc;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.tablaTotales {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table-container {
+  overflow-x: auto;
+  width: 100%;
+  /* max-height: 800px; */
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+}
+
+/* tbody tr:first-child td {
+  font-weight: bold;
+} */
+
+.tablaDatos {
+  margin: 25px;
+  width: 97%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  cursor: pointer;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd; /* Línea en el lado derecho de las celdas */
+  cursor: pointer;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #a9a9a9;
+  cursor: pointer;
+}
+
+/* Estilos adicionales para resaltar celdas específicas, si lo deseas */
+tbody tr td:nth-child(2),
+tbody tr td:nth-child(4),
+tbody tr td:nth-child(6) {
+  font-style: italic;
+  color: #888;
+}
+
+.tablaTotales,
+.tablaDatos {
+  width: 97%;
+  border-collapse: collapse; /* Fusionar bordes de celdas */
+}
+
+.form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 1rem; /* Ajustar el margen inferior de los elementos del formulario */
+}
+
+@media screen and (max-width: 768px) {
+  .tablaTotales,
+  .tablaDatos,
+  .totalesYForm,
+  .form {
+    font-size: 0.4rem;
+  }
+  .form-control {
+    font-size: 0.5rem;
+  }
+
+  .form-group {
+    margin-bottom: 0.2rem;
+  }
+}

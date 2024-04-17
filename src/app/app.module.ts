@@ -13,6 +13,8 @@ import { HorasService } from './services/horas.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { GraficaComponent } from './pages/grafica/grafica.component';
 import { DatePipe } from '@angular/common';
+import { NocturnidadComponent } from './pages/nocturnidad/nocturnidad.component';
+import { GuardiasComponent } from './pages/guardias/guardias.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { DatePipe } from '@angular/common';
     HomeComponent,
     AboutComponent,
     HorasComponent,
-    GraficaComponent
+    GraficaComponent,
+    NocturnidadComponent,
+    GuardiasComponent
   ],
   imports: [
     BrowserModule,
