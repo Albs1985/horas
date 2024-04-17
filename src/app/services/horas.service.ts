@@ -59,7 +59,6 @@ export class HorasService {
     let fecha = reg.FECHA;
     if (fecha.includes('-')){
       fecha = this.datePipe.transform(fecha, 'MM/dd/yyyy')!;
-      // fecha = new Date(fecha).toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric' });
     }
     let insertar = false;
     let idReg = reg.ID;

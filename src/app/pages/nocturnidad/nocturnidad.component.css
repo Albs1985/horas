@@ -8,6 +8,16 @@
   font-size: small;
 }
 
+.error {
+  margin-top: 1.5rem;
+  color: rgb(171, 0, 0);
+}
+
+.sinDatos {
+  margin-top: 1.5rem;
+  color: rgb(72, 0, 255);
+}
+
 .nocturnidad {
   margin-top: 15px;
   margin-bottom: 15px;

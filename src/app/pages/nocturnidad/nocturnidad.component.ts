@@ -15,15 +15,14 @@ export class NocturnidadComponent implements OnInit {
   datosFiltrados: Registro[] = [];
   formulario: FormGroup;
   horasNocturnasPorColaborador = new Map<string, number>();
+  fechasIncorrectas: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
+  sinRegistros: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
 
   constructor(public horasService: HorasService){
 
     this.formulario = new FormGroup({
       fechaIni: new FormControl(null, [Validators.required, Validators.pattern(/[\S]/)]),
-      // horaIni: new FormControl(null, [Validators.required, Validators.pattern(/[\S]/)]),
-      fechaFin: new FormControl(null, [Validators.required, Validators.pattern(/[\S]/)]),
-      // horaFin: new FormControl(null, [Validators.required, Validators.pattern(/[\S]/)]),
-
+      fechaFin: new FormControl(null, [Validators.required, Validators.pattern(/[\S]/)])
     });
   }
   ngOnInit(): void {
@@ -50,84 +49,44 @@ export class NocturnidadComponent implements OnInit {
         COMENTARIO: item.COMENTARIO
       }));
       console.log(this.datos);
-      // this.calculaHorasColaboradores();
     });
   }
 
-
-  // calculaHorasColaboradores(): BehaviorSubject<boolean>{
-
-  //   this.horasService.horasTotalesPorColaborador.clear();
-
-  //   // Calcular las horas totales por colaborador
-  //   this.datos.forEach(item => {
-
-  //     const colaborador = item.COLABORADOR;
-  //     if (!this.horasService.horasTotalesPorColaborador.has(colaborador) && colaborador!= undefined) {
-  //       this.horasService.horasTotalesPorColaborador.set(colaborador, { horasCompensacion: 0, horasCompensadas: 0 });
-  //     }
-  //     const horasColaborador = this.horasService.horasTotalesPorColaborador.get(colaborador);
-
-  //     if (horasColaborador){
-  //       if (item.HORAS_COMPENSACION != undefined && item.HORAS_COMPENSACION != null && item.HORAS_COMPENSACION != ''){
-  //         horasColaborador.horasCompensacion += parseFloat(item.HORAS_COMPENSACION);
-  //       }
-  //       if (item.HORAS_COMPENSADAS != undefined && item.HORAS_COMPENSADAS != null && item.HORAS_COMPENSADAS != ''){
-  //         horasColaborador.horasCompensadas += parseFloat(item.HORAS_COMPENSADAS);
-  //       }
-  //     }
-
-  //   });
-
-  //   const finCalculo = new BehaviorSubject<boolean>(true);
-  //   return finCalculo;
-  // }
-
-
-
-
   extraerNocturnidades(): void {
-    // this.verNocturnidad.next(true);
+
     this.horasNocturnasPorColaborador.clear();
 
     const fecIniFiltro = new Date(this.formulario.controls['fechaIni'].value);
     const fecFinFiltro = new Date(this.formulario.controls['fechaFin'].value);
-    this.datosFiltrados = this.datos.filter(dato => {
 
-      const fechaString = dato.FECHA; // "dd/mm/yyyy"
-      const partes = fechaString.split("/"); // Dividir la cadena en partes usando "/"
-      const fecha = new Date(parseInt(partes[2]), parseInt(partes[1])-1, parseInt(partes[0])); // Crear el objeto Date
-      return fecha >= fecIniFiltro && fecha <= fecFinFiltro;
-    });
-    // console.log(this.datosFiltrados)
-    // this.datosFiltrados.forEach(dato => {
-    //   const horario = dato.HORARIO;
-    //   const horasRealizadas = dato.HORAS_REALIZADAS;
+    if (fecIniFiltro < fecFinFiltro){
+      this.fechasIncorrectas.next(false);
+      this.datosFiltrados = this.datos.filter(dato => {
+        const fechaString = dato.FECHA; // "dd/mm/yyyy"
+        const partes = fechaString.split("/"); // Dividir la cadena en partes usando "/"
+        const fecha = new Date(parseInt(partes[2]), parseInt(partes[1])-1, parseInt(partes[0])); // Crear el objeto Date
+        const horario = dato.HORARIO;
+        const horasRealizadas = dato.HORAS_REALIZADAS;
 
-    //   if (this.esHorarioNocturno(horario)) {
-    //     const colaborador = dato.COLABORADOR;
-    //     const horasNocturnas = this.horasNocturnasPorColaborador.get(colaborador) || 0;
-    //     this.horasNocturnasPorColaborador.set(colaborador, parseFloat(horasNocturnas+horasRealizadas));
-    //   }else{
-    //     this.datosFiltrados.filter((datoNoNocturno)=>{
-    //       return datoNoNocturno === dato;
-    //     })
-    //   }
-    // });
+        if (fecha >= fecIniFiltro && fecha <= fecFinFiltro && this.esHorarioNocturno(horario)) {
+            const colaborador = dato.COLABORADOR;
+            const horasNocturnas = this.horasNocturnasPorColaborador.get(colaborador) || 0;
+            this.horasNocturnasPorColaborador.set(colaborador, parseFloat(horasNocturnas + horasRealizadas));
+            return true; // Mantenemos el dato en datosFiltrados
+        } else {
+            return false; // Descartamos el dato de datosFiltrados
+        }
+      });
+    }else{
+      this.fechasIncorrectas.next(true);
+      this.datosFiltrados = [];
+    }
 
-    this.datosFiltrados = this.datosFiltrados.filter(dato => {
-      const horario = dato.HORARIO;
-      const horasRealizadas = dato.HORAS_REALIZADAS;
-
-      if (this.esHorarioNocturno(horario)) {
-          const colaborador = dato.COLABORADOR;
-          const horasNocturnas = this.horasNocturnasPorColaborador.get(colaborador) || 0;
-          this.horasNocturnasPorColaborador.set(colaborador, parseFloat(horasNocturnas + horasRealizadas));
-          return true; // Mantenemos el dato en datosFiltrados
-      } else {
-          return false; // Descartamos el dato de datosFiltrados
-      }
-  });
+    if (this.horasNocturnasPorColaborador.size === 0){
+      this.sinRegistros.next(true);
+    }else{
+      this.sinRegistros.next(false);
+    }
 
     console.log(this.horasNocturnasPorColaborador);
   }

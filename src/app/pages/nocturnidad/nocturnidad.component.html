@@ -1,5 +1,4 @@
 <div class="table-container">
-
   <div class="totalesYForm">
     <table class="tablaTotales">
       <thead>
@@ -32,42 +31,44 @@
         </div>
         <div class="buttonYtext">
           <button type="submit" [ngClass]="{'deshabilitado': formulario.invalid}" [disabled]="formulario.invalid" class="btn btn-success mt-3 boton" (click)="extraerNocturnidades()">Obtener Nocturnidades</button>
+          <p *ngIf="(fechasIncorrectas |async) === true" class="error">Error, fechas incorrectas</p>
+          <p *ngIf="(sinRegistros |async) === true" class="sinDatos">No hay datos para esas fechas</p>
           <p class="horarioText">Horario nocturnidad: 22:00-06:00</p>
+
         </div>
       </form>
     </div>
 
-
-    </div>
-    <table class="tablaDatos">
-      <thead>
-        <tr>
-          <th>Fecha</th>
-          <th>Horario</th>
-          <th>Colaborador</th>
-          <th>Horas Realizadas</th>
-          <th>Tarea</th>
-          <th>Horas de Compensación</th>
-          <th>Horas Compensadas</th>
-          <th>¿Compensadas?</th>
-          <th>Día Disfrutado</th>
-          <th>Comentario</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let item of datosFiltrados; let i = index">
-          <td>{{ item.FECHA }}</td>
-          <td>{{ item.HORARIO }}</td>
-          <td>{{ item.COLABORADOR }}</td>
-          <td>{{ item.HORAS_REALIZADAS }}</td>
-          <td>{{ item.TAREA }}</td>
-          <td>{{ item.HORAS_COMPENSACION }}</td>
-          <td>{{ item.HORAS_COMPENSADAS }}</td>
-          <td>{{ item.COMPENSADAS }}</td>
-          <td>{{ item.DIAS_DISFRUTADOS }}</td>
-          <td>{{ item.COMENTARIO }}</td>
-        </tr>
-      </tbody>
-    </table>
   </div>
+  <table class="tablaDatos">
+    <thead>
+      <tr>
+        <th>Fecha</th>
+        <th>Horario</th>
+        <th>Colaborador</th>
+        <th>Horas Realizadas</th>
+        <th>Tarea</th>
+        <th>Horas de Compensación</th>
+        <th>Horas Compensadas</th>
+        <th>¿Compensadas?</th>
+        <th>Día Disfrutado</th>
+        <th>Comentario</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of datosFiltrados; let i = index">
+        <td>{{ item.FECHA }}</td>
+        <td>{{ item.HORARIO }}</td>
+        <td>{{ item.COLABORADOR }}</td>
+        <td>{{ item.HORAS_REALIZADAS }}</td>
+        <td>{{ item.TAREA }}</td>
+        <td>{{ item.HORAS_COMPENSACION }}</td>
+        <td>{{ item.HORAS_COMPENSADAS }}</td>
+        <td>{{ item.COMPENSADAS }}</td>
+        <td>{{ item.DIAS_DISFRUTADOS }}</td>
+        <td>{{ item.COMENTARIO }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
