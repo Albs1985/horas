@@ -51,7 +51,7 @@ export class HorasService {
       TAREA: dato.tarea,
       HORAS_COMPENSACION: dato.horasCompensacion,
       HORAS_COMPENSADAS: dato.horasCompensadas,
-      COMPENSADA: dato.compensada,
+      COMPENSADAS: dato.compensada,
       DIAS_DISFRUTADOS: dato.diaDisfrutado,
       COMENTARIO: dato.comentario
     }
@@ -76,7 +76,7 @@ export class HorasService {
       "HORAS_REALIZADAS": reg.HORAS_REALIZADAS,
       "HORAS_COMPENSACION": reg.HORAS_COMPENSACION,
       "HORAS_COMPENSADAS": reg.HORAS_COMPENSADAS,
-      "COMPENSADAS": reg.COMPENSADA,
+      "COMPENSADAS": reg.COMPENSADAS,
       "DIAS_DISFRUTADOS": reg.DIAS_DISFRUTADOS,
       "TAREA": reg.TAREA,
       "COMENTARIO": reg.COMENTARIO

@@ -68,7 +68,7 @@ export class HorasComponent implements OnInit {
         TAREA: item.TAREA,
         HORAS_COMPENSACION: item.HORAS_COMPENSACION,
         HORAS_COMPENSADAS: item.HORAS_COMPENSADAS,
-        COMPENSADA: item.COMPENSADA,
+        COMPENSADAS: item.COMPENSADAS,
         DIAS_DISFRUTADOS: item.DIAS_DISFRUTADOS,
         COMENTARIO: item.COMENTARIO
       }));
@@ -185,9 +185,9 @@ export class HorasComponent implements OnInit {
         if (compensadaFiltrado !== null && compensadaFiltrado !== '') {
           if (compensadaFiltrado == 'NO'){
             compensadaOK = false;
-            compensadaOK = (registro.COMPENSADA==null || registro.COMPENSADA==undefined || registro.COMPENSADA=='' || registro.COMPENSADA == compensadaFiltrado);
+            compensadaOK = (registro.COMPENSADAS==null || registro.COMPENSADAS==undefined || registro.COMPENSADAS=='' || registro.COMPENSADAS == compensadaFiltrado);
           }else{//SI
-            compensadaOK = (registro.COMPENSADA!=null && registro.COMPENSADA!=undefined && registro.COMPENSADA!='' && registro.COMPENSADA == compensadaFiltrado);
+            compensadaOK = (registro.COMPENSADAS!=null && registro.COMPENSADAS!=undefined && registro.COMPENSADAS!='' && registro.COMPENSADAS == compensadaFiltrado);
           }
 
         }
@@ -341,7 +341,7 @@ export class HorasComponent implements OnInit {
       tarea: item.TAREA,
       horasCompensacion: item.HORAS_COMPENSACION,
       horasCompensadas: item.HORAS_COMPENSADAS,
-      compensada: item.COMPENSADA || 'NO',
+      compensada: item.COMPENSADAS || 'NO',
       diaDisfrutado: item.DIAS_DISFRUTADOS,
       comentario: item.COMENTARIO
     });

@@ -7,7 +7,7 @@ export interface Registro{
     TAREA: string;
     HORAS_COMPENSACION: string;
     HORAS_COMPENSADAS: string;
-    COMPENSADA: string;
+    COMPENSADAS: string;
     DIAS_DISFRUTADOS: string;
     COMENTARIO: string;
 

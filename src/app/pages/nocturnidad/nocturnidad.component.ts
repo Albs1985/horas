@@ -45,7 +45,7 @@ export class NocturnidadComponent implements OnInit {
         TAREA: item.TAREA,
         HORAS_COMPENSACION: item.HORAS_COMPENSACION,
         HORAS_COMPENSADAS: item.HORAS_COMPENSADAS,
-        COMPENSADA: item.COMPENSADA,
+        COMPENSADAS: item.COMPENSADAS,
         DIAS_DISFRUTADOS: item.DIAS_DISFRUTADOS,
         COMENTARIO: item.COMENTARIO
       }));
