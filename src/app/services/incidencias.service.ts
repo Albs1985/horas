@@ -25,8 +25,8 @@ export class IncidenciasService {
   // jsonDatos = "assets/data/incidencias.json";
 
   // BBDD EN NODE SERVER:
-  rutaApi = "http://localhost:3000/nodeServer/api/";
-  // rutaApi = "http://iv1io0003.itg.mercadona.com:3000/nodeServer/api/";
+  // rutaApi = "http://localhost:3000/nodeServer/api/";
+  rutaApi = "http://iv1io0003.itg.mercadona.com:3000/nodeServer/api/";
   // getRegistros = "registros";
   // tabla = "registro";
   tablaIncidencias = 'incidencias';
