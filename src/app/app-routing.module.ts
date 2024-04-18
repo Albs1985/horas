@@ -6,6 +6,7 @@ import { HorasComponent } from './pages/horas/horas.component';
 import { GraficaComponent } from './pages/grafica/grafica.component';
 import { NocturnidadComponent } from './pages/nocturnidad/nocturnidad.component';
 import { GuardiasComponent } from './pages/guardias/guardias.component';
+import { IncidenciasComponent } from './pages/incidencias/incidencias.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'grafica', component: GraficaComponent },
   { path: 'nocturnidad', component: NocturnidadComponent },
   { path: 'guardias', component: GuardiasComponent },
+  { path: 'incidencias', component: IncidenciasComponent },
   { path: '**', pathMatch: 'full', redirectTo : 'home'},
 ];
 

@@ -1,0 +1,191 @@
+.espacio {
+  height: 10px;
+}
+
+.form {
+  margin: 25px;
+}
+
+.formFiltrado {
+  margin: 5px;
+  position: fixed;
+  top: auto;
+  margin-right: 25px;
+  border: #888;
+  border-radius: 15px;
+  background-color: #cccccc;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.boton {
+  border-color: black;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.buttonYtext {
+  justify-content: space-between;
+  display: flex;
+}
+
+.filaSeleccionada {
+  background-color: #a1a1a1;
+  color: rgb(54, 54, 54);
+}
+
+.borde {
+  border-color: rgb(200, 200, 200);
+}
+
+.margen {
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.table-container {
+  overflow-x: auto;
+  width: 100%;
+  max-height: 900px;
+  /* max-width: 2200px; */
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+}
+
+textarea.form-control {
+  width: 750px;
+}
+
+.tablaDatos {
+  margin: 25px;
+  margin-top: 150px;
+  width: 97%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  cursor: pointer;
+  /* max-width: 2200px; */
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd; /* Línea en el lado derecho de las celdas */
+  cursor: pointer;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #c8c8c8;
+  cursor: pointer;
+}
+
+/* Estilos adicionales para resaltar celdas específicas, si lo deseas */
+tbody tr td:nth-child(2),
+tbody tr td:nth-child(4),
+tbody tr td:nth-child(6) {
+  font-style: italic;
+  color: #888;
+}
+
+.tablaDatos {
+  width: 97%;
+  border-collapse: collapse; /* Fusionar bordes de celdas */
+}
+
+.form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 1rem; /* Ajustar el margen inferior de los elementos del formulario */
+}
+
+@media screen and (max-width: 768px) {
+  .tablaDatos,
+  .form {
+    font-size: 0.4rem;
+  }
+  .form-control {
+    font-size: 0.5rem;
+  }
+
+  .form-group {
+    margin-bottom: 0.2rem;
+  }
+}
+
+.buttonYtext {
+  justify-content: space-between;
+  display: flex;
+}
+
+.divButtonFiltrar {
+  justify-content: space-between;
+  display: flex;
+}
+
+.boton {
+  border-color: black;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.margen {
+  margin: 25px;
+  margin-top: -10px;
+  /* overflow-y: auto; */
+}
+
+.fila1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .dialog {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dialog-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} */
+.mostrarDialog {
+  display: block;
+}
+
+.ocultarDialog {
+  display: none;
+}

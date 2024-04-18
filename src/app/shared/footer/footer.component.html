@@ -44,6 +44,11 @@
                 Guardias
               </a>
             </li> -->
+            <li [ngClass]="{'active': commonService.selecPag === 'Incidencias'}">
+              <a (click)="cambiaSelec('Incidencias')" routerLink="/incidencias">
+                Incidencias
+              </a>
+            </li>
           </ul>
         </div>
       </div>

@@ -1,0 +1,158 @@
+<div class="table-container">
+
+  <!-- <div class="espacio"></div> -->
+
+  <div class="formFiltrado fixed-top">
+    <form [formGroup]="formularioFiltrado">
+      <div class="row">
+        <div class="col ml-3 mb-3 mt-3">
+          <!-- <label for="appFiltrado">Aplicación</label>
+          <input type="text" formControlName="appFiltrado" id="appFiltrado" class="form-control" placeholder="Aplicación"> -->
+          <label for="appFiltrado">Aplicación</label>
+          <select formControlName="appFiltrado" id="appFiltrado" class="form-control">
+            <option>--Vacío--</option>
+            <option *ngFor="let app of apps" [value]="app">{{ app }}</option>
+          </select>
+        </div>
+        <div class="col ml-3 mb-3 mt-3">
+          <label for="procesoFiltrado">Proceso</label>
+          <input type="text" formControlName="procesoFiltrado" id="procesoFiltrado" class="form-control" placeholder="Proceso">
+        </div>
+        <div class="col ml-3 mb-3 mt-3">
+          <label for="textoFiltrado">Solución / Observaciones / Trazas</label>
+          <input type="text" formControlName="textoFiltrado" id="textoFiltrado" class="form-control" placeholder="Solución / Observaciones / Trazas">
+        </div>
+        <div class="col ml-3 mb-3 mt-4 divButtonFiltrar">
+          <button type="submit" class="btn btn-success mt-3 boton" (click)="mostrarDialog()">Nuevo</button>
+          <button *ngIf="filaSeleccionada != - 1" type="submit" class="btn btn-success mt-3 boton" (click)="mostrarDialog()">Modificar</button>
+          <button *ngIf="filaSeleccionada != - 1" type="submit" class="btn btn-success mt-3 boton" (click)="confirmarBorrado()">Borrar</button>
+          <button type="submit" class="btn btn-success mt-3 boton" (click)="filtrar()">Filtrar</button>
+          <button type="submit" class="btn btn-info mt-3 boton" (click)="limpiarFiltros()">Limpiar Filtros</button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+  <table class="tablaDatos">
+    <thead>
+      <tr>
+        <th>APP</th>
+        <th>FECHA</th>
+        <th>PROCESO</th>
+        <th>RELANZABLE</th>
+        <th>COLABORADOR</th>
+        <th>RESUELTO</th>
+        <th>SOLUCION</th>
+        <th>OBSERVACIONES</th>
+        <th>TRAZAS</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of datosFiltrado; let i = index" [ngClass]="{'filaSeleccionada': i === filaSeleccionada}" (click)="seleccionarRegistro(item)">
+        <td>{{ item.APP }}</td>
+        <td>{{ item.FECHA }}</td>
+        <td>{{ item.PROCESO }}</td>
+        <td>{{ item.RELANZABLE }}</td>
+        <td>{{ item.COLABORADOR }}</td>
+        <td>{{ item.RESUELTO }}</td>
+        <td>{{ item.SOLUCION }}</td>
+        <td>{{ item.OBSERVACIONES }}</td>
+        <td>{{ item.TRAZAS }}</td>
+      </tr>
+    </tbody>
+
+  </table>
+
+  <div class="espacio"></div>
+</div>
+
+
+<div *ngIf="(mostrarAltaModif |async) === true" id="dialog" [ngClass]="{'mostrarDialog modal': (mostrarAltaModif |async) === true}">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Insertar Incidencia</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="cerrarDialog()">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body margen">
+              <form [formGroup]="formularioDato" id="formularioDato">
+                <div class="row fila1">
+                  <div class="form-group">
+                      <label for="fecha">FECHA:</label>
+                      <input formControlName="fecha" type="date" class="form-control" id="fecha" name="fecha">
+                  </div>
+                  <div class="form-group">
+                      <label for="app">APLICACIÓN:</label>
+                      <select formControlName="app" id="app" class="form-control">
+                        <option *ngFor="let app of apps" [value]="app">{{ app }}</option>
+                      </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="colaborador">COLABORADOR:</label>
+                    <input formControlName="colaborador" type="text" class="form-control" id="colaborador" name="colaborador">
+                  </div>
+                  <div class="form-group">
+                    <label for="relanzable">RELANZABLE:</label>
+                    <input formControlName="relanzable" type="text" class="form-control" id="relanzable" name="relanzable">
+                  </div>
+                  <div class="form-group">
+                    <label for="resuelto">RESUELTO:</label>
+                    <input formControlName="resuelto" type="text" class="form-control" id="resuelto" name="resuelto">
+                  </div>
+                  <div class="form-group">
+                    <label for="proceso">PROCESO:</label>
+                    <input formControlName="proceso" style="width: 525px;" type="text" class="form-control" id="proceso" name="proceso">
+                </div>
+                </div>
+                <div class="row">
+                  <div class="form-group">
+                    <label for="solucion">SOLUCION:</label>
+                    <textarea formControlName="solucion" class="form-control" id="solucion" name="solucion"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-group">
+                    <label for="observaciones">OBSERVACIONES:</label>
+                    <textarea formControlName="observaciones" class="form-control" id="observaciones" name="observaciones"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-group">
+                    <label for="trazas">TRAZAS:</label>
+                    <textarea formControlName="trazas" class="form-control" id="trazas" name="trazas"></textarea>
+                  </div>
+                </div>
+                <div class="buttonYtext">
+                  <button type="submit" class="btn btn-success boton" (click)="guardar()">Guardar</button>
+                  <button type="submit" class="btn btn-info boton" (click)="guardar()">Cancelar</button>
+                </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+<div class="modal fade" id="confirmacionBorrado" tabindex="-1" role="dialog" aria-labelledby="confirmacionBorradoLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="confirmacionBorradoLabel">Confirmar Borrado</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ¿Estás seguro de que quieres borrar este registro?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="cancelaBorrado()" data-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-danger" (click)="borrar()">Borrar</button>
+      </div>
+    </div>
+  </div>
+</div>

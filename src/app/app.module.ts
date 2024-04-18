@@ -15,6 +15,8 @@ import { GraficaComponent } from './pages/grafica/grafica.component';
 import { DatePipe } from '@angular/common';
 import { NocturnidadComponent } from './pages/nocturnidad/nocturnidad.component';
 import { GuardiasComponent } from './pages/guardias/guardias.component';
+import { IncidenciasComponent } from './pages/incidencias/incidencias.component';
+import { IncidenciasService } from './services/incidencias.service';
 
 
 @NgModule({
@@ -27,7 +29,8 @@ import { GuardiasComponent } from './pages/guardias/guardias.component';
     HorasComponent,
     GraficaComponent,
     NocturnidadComponent,
-    GuardiasComponent
+    GuardiasComponent,
+    IncidenciasComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,7 @@ import { GuardiasComponent } from './pages/guardias/guardias.component';
     ReactiveFormsModule,
     FormsModule
   ],
-  providers: [HorasService, DatePipe],
+  providers: [HorasService, IncidenciasService, DatePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
