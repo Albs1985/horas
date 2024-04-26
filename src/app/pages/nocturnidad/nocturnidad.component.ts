@@ -70,7 +70,7 @@ export class NocturnidadComponent implements OnInit {
     const fecIniFiltro = new Date(this.formulario.controls['fechaIni'].value);
     const fecFinFiltro = new Date(this.formulario.controls['fechaFin'].value);
 
-    if (fecIniFiltro < fecFinFiltro){
+    if (fecIniFiltro <= fecFinFiltro){
       this.fechasIncorrectas.next(false);
       this.datosFiltrados = this.datos.filter(dato => {
         const fechaString = dato.FECHA; // "dd/mm/yyyy"
@@ -78,16 +78,15 @@ export class NocturnidadComponent implements OnInit {
         const fecha = new Date(parseInt(partes[2]), parseInt(partes[1])-1, parseInt(partes[0])); // Crear el objeto Date
         const horario = dato.HORARIO;
         const horasRealizadas = parseFloat(dato.HORAS_REALIZADAS);
+        console.log(this.horasNocturnasPorColaborador);
 
         if (fecha >= fecIniFiltro && fecha <= fecFinFiltro && this.esHorarioNocturno(horario)) {
             const colaborador = dato.COLABORADOR;
             const horasNocturnas = this.horasNocturnasPorColaborador.get(colaborador) || 0;
             let horasCalculadas = 0;
-            //Si la hora de fin es mayor que la de inicio de la nocturnidad
 
-            if (parseFloat(horario.split('-')[1].split(':')[0]) >= 22){
-              horasCalculadas = this.calcularHorasNocturnas(horario);
-            }else{
+            horasCalculadas = this.calcularHorasNocturnas(horario);
+            if (horasCalculadas > horasRealizadas || horasCalculadas <= 0){
               horasCalculadas = horasRealizadas;
             }
 
@@ -121,42 +120,46 @@ export class NocturnidadComponent implements OnInit {
     return horaIni >= horaInicioNocturna || horaIni < horaFinNocturna || horaFin >= horaInicioNocturna || horaFin <= horaFinNocturna;
   }
 
-  calcularHorasNocturnas(horario:string) {
 
-    const horari = horario.split('-');
-    const horaInicioParts = horari[0].split(':');
-    const horaFinParts = horari[1].split(':');
+  calcularHorasNocturnas(horario: string): number {
 
-    let horaInicio = parseInt(horaInicioParts[0], 10);
-    let minutoInicio = parseInt(horaInicioParts[1], 10);
-    let horaFin = parseInt(horaFinParts[0], 10);
-    let minutoFin = parseInt(horaFinParts[1], 10);
+    const horarios = horario.split('-');
+    let horasNocturnas = 0;
+    let horasNocturnas1 = 0;
+    let horasNocturnas2 = 0;
+    let horaIniNocturna = "22:00";
+    let horaFinNocturna = "06:00";
+    const horaInicioParts = horarios[0].split(':')[0];
+    const horaFinParts = horarios[1];
 
-    if (horaFin < horaInicio || (horaFin === horaInicio && minutoFin <= minutoInicio)) {
-      // Si la hora de fin es antes de la hora de inicio, significa que la hora de fin es del día siguiente
-      horaFin += 24; // Sumamos 24 horas
+    console.log(horaFinParts)
+    if (parseInt(horaFinParts.split(':')[0]) >= 22 && parseInt(horaFinParts.split(':')[0]) <= 0){
+      horasNocturnas1 = this.calcularDiferenciaHoras(horaFinParts, horaIniNocturna);
     }
 
-    if (horaFin < 6) {
-      // Si la hora de fin es antes de las 6 AM, ajustamos la hora de inicio para calcular correctamente
-      horaInicio -= 24;
+    if (parseInt(horaInicioParts) < 24 && parseInt(horaFinParts.split(':')[0]) < 24){
+      horasNocturnas2 = this.calcularDiferenciaHoras(horaIniNocturna, horaFinParts);
     }
 
-    let totalMinutosNocturnos = 0;
-
-    if (horaInicio < 22) {
-      // Si la hora de inicio es antes de las 22:00, calculamos las horas entre la hora de inicio y las 22:00
-      totalMinutosNocturnos += (22 - horaInicio) * 60 - minutoInicio;
-      horaInicio = 22;
-      minutoInicio = 0;
+    console.log(horasNocturnas1)
+    if ( (parseInt(horaInicioParts) < 24 || parseInt(horaInicioParts) > 6)
+      && parseInt(horaFinParts.split(':')[0]) >= 0 && parseInt(horaFinParts.split(':')[0]) <= 6){
+      horasNocturnas2 = this.calcularDiferenciaHoras(horaFinParts, horaFinNocturna);
     }
 
-    if (horaFin >= 6) {
-      // Si la hora de fin es después de las 6:00, calculamos las horas entre las 6:00 y la hora de fin
-      totalMinutosNocturnos += horaFin * 60 + minutoFin;
-    }
+    horasNocturnas = horasNocturnas1+horasNocturnas2;
 
-    // Convertir los minutos nocturnos a horas
-    return (totalMinutosNocturnos / 60) - 24;
+    return horasNocturnas;
   }
+
+  calcularDiferenciaHoras(horaInicio: string, horaFin: string): number {
+    const horaInicioParts = horaInicio.split(':').map(Number);
+    const horaFinParts = horaFin.split(':').map(Number);
+
+    const minutosInicio = horaInicioParts[0] * 60 + horaInicioParts[1];
+    const minutosFin = horaFinParts[0] * 60 + horaFinParts[1];
+
+    return (minutosFin - minutosInicio) / 60;
+}
+
 }
