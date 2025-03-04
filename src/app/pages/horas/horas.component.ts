@@ -17,7 +17,7 @@ export class HorasComponent implements OnInit {
   totales: any = {};
   formulario: FormGroup;
   formularioFiltrado: FormGroup;
-  usuarios = ['AIE', 'ARB', 'ASE', 'JRG', 'RDM', 'SGP'];
+  usuarios = ['AIE', 'ARB', 'ASE', 'JRG', 'RDM', 'SGP', 'SBN'];
   // meses = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'];
   mesesNom = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
   datoSelec : number = -1;

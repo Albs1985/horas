@@ -18,6 +18,7 @@ export class AboutComponent implements OnInit {
   imagenAIE: string = '';
   imagenJRG: string = '';
   imagenARB: string = '';
+  imagenSBN: string = '';
 
   imagenASE_M: string = 'assets/images/ase.jpg';
   imagenSGP_M: string = 'assets/images/sgp.jpg';
@@ -25,6 +26,7 @@ export class AboutComponent implements OnInit {
   imagenAIE_M: string = 'assets/images/aie.jpg';
   imagenJRG_M: string = 'assets/images/jrg.jpg';
   imagenARB_M: string = 'assets/images/arb.jpg';
+  imagenSBN_M: string = 'assets/images/sbn.jpg';
 
   imagenASE_W: string = 'assets/images/ASE_W.jpg';
   imagenSGP_W: string = 'assets/images/SGP_W.jpg';
@@ -32,6 +34,7 @@ export class AboutComponent implements OnInit {
   imagenAIE_W: string = 'assets/images/AIE_W.jpg';
   imagenJRG_W: string = 'assets/images/JRG_W.jpg';
   imagenARB_W: string = 'assets/images/ARB_W.jpg';
+  imagenSBN_W: string = 'assets/images/SBN_W.jpg';
 
   nomASE: string = '';
   nomSGP: string = '';
@@ -39,6 +42,7 @@ export class AboutComponent implements OnInit {
   nomAIE: string = '';
   nomJRG: string = '';
   nomARB: string = '';
+  nomSBN: string = '';
 
   nomASE_M: string = 'Albert Serrador Sánchez';
   nomSGP_M: string = 'Salva Gómez Pérez';
@@ -46,6 +50,7 @@ export class AboutComponent implements OnInit {
   nomAIE_M: string = 'Adolfo Tomás Iglesias Expósito';
   nomJRG_M: string = 'José Ramón Gabaldón López';
   nomARB_M: string = 'Alberto Ruiz Beneyto';
+  nomSBN_M: string = 'Sergio Bellido Nieto';
 
   nomASE_W: string = 'Alberta Serradora Sánchez';
   nomSGP_W: string = 'Salvadora Gómez Pérez';
@@ -53,6 +58,7 @@ export class AboutComponent implements OnInit {
   nomAIE_W: string = 'Adelfa Tomasa Iglesias Expósito';
   nomJRG_W: string = 'Josefa Ramona Gabaldón López';
   nomARB_W: string = 'Albertina Ruiz Beneyto';
+  nomSBN_W: string = 'Sergia Bellido Nieto';
 
   constructor(){
     this.cambioFotos.subscribe((hayQUeCambiarFoto)=>{
@@ -63,6 +69,7 @@ export class AboutComponent implements OnInit {
         this.imagenAIE = this.imagenAIE_W;
         this.imagenJRG = this.imagenJRG_W;
         this.imagenARB = this.imagenARB_W;
+        this.imagenSBN = this.imagenSBN_W;
 
         this.nomASE = this.nomASE_W;
         this.nomSGP = this.nomSGP_W;
@@ -70,6 +77,7 @@ export class AboutComponent implements OnInit {
         this.nomAIE = this.nomAIE_W;
         this.nomJRG = this.nomJRG_W;
         this.nomARB = this.nomARB_W;
+        this.nomSBN = this.nomSBN_W;
       }else{
         this.imagenASE = this.imagenASE_M;
         this.imagenSGP = this.imagenSGP_M;
@@ -77,6 +85,7 @@ export class AboutComponent implements OnInit {
         this.imagenAIE = this.imagenAIE_M;
         this.imagenJRG = this.imagenJRG_M;
         this.imagenARB = this.imagenARB_M;
+        this.imagenSBN = this.imagenSBN_M;
 
         this.nomASE = this.nomASE_M;
         this.nomSGP = this.nomSGP_M;
@@ -84,6 +93,7 @@ export class AboutComponent implements OnInit {
         this.nomAIE = this.nomAIE_M;
         this.nomJRG = this.nomJRG_M;
         this.nomARB = this.nomARB_M;
+        this.nomSBN = this.nomSBN_M;
       }
     });
   }
